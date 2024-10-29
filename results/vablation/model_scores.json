@@ -1,0 +1,22 @@
+{
+  "llama3.1": {
+    "average_answer_score": 0.30257588621492004,
+    "average_citation_score": 0.2055498321123321
+  },
+  "mistral": {
+    "average_answer_score": 0.24194929068986626,
+    "average_citation_score": 0.09439293345543345
+  },
+  "qwen2.5": {
+    "average_answer_score": 0.39382190347861,
+    "average_citation_score": 0.18835026980188269
+  },
+  "gemma2": {
+    "average_answer_score": 0.372952096316954,
+    "average_citation_score": 0.2010216346153846
+  },
+  "glm4": {
+    "average_answer_score": 0.35333456962755344,
+    "average_citation_score": 0.20112338010888733
+  }
+}

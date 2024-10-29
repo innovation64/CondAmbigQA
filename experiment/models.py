@@ -7,17 +7,46 @@ import requests
 from typing import Dict
 from dotenv import load_dotenv
 from openai import OpenAI
-
-# 加载环境变量
+# Load environment variables
 load_dotenv()
 
 def clean_response(text: str) -> str:
     """
-    移除响应中的代码块标记（如 ```json 和 ```）。
+    Clean and fix the JSON response.
     """
-    text = re.sub(r'^```json\s*', '', text, flags=re.MULTILINE)
-    text = re.sub(r'^```', '', text, flags=re.MULTILINE)
-    text = text.strip()
+    # 1. Extract JSON content
+    start = text.find('{')
+    end = text.rfind('}')
+    if start != -1 and end != -1:
+        text = text[start:end+1]
+
+    # 2. Handle condition array format
+    def fix_condition(match):
+        content = match.group(1)
+        # Remove quotes, brackets and spaces
+        content = content.strip()
+        content = content.strip('"[]\'')
+        return f'"condition": "{content}"'
+
+    text = re.sub(
+        r'"condition":\s*\[(.*?)\]',
+        fix_condition,
+        text,
+        flags=re.DOTALL
+    )
+
+    # 3. Fix missing commas
+    # Add commas between properties
+    text = re.sub(r'"\s*"', '","', text)
+    # Add commas between objects
+    text = re.sub(r'}\s*"', '},"', text)
+    text = re.sub(r']\s*"', '],"', text)
+    # Fix missing commas between brackets
+    text = re.sub(r'}\s*{', '},{', text)
+
+    # 4. Remove extra commas
+    text = re.sub(r',(\s*[}\]])', r'\1', text)
+
     return text
 
 class LLM:
@@ -50,20 +79,20 @@ class LLM:
                 max_tokens=1024,
                 temperature=0.7
             )
-            # 获取响应内容
+            # Get the response content
             message_content = response.choices[0].message.content.strip()
             
-            # 移除代码块标记
+            # Remove code block markers
             message_content = clean_response(message_content)
             
-            # 解析 JSON
+            # Parse JSON
             return json.loads(message_content)
         except json.JSONDecodeError as jde:
-            print(f"JSON 解码错误: {jde}")
-            print(f"原始响应内容: {response.choices[0].message.content}")
+            print(f"JSON decoding error: {jde}")
+            print(f"Original response content: {response.choices[0].message.content}")
             return {}
         except Exception as e:
-            print(f"OpenAI API 错误: {e}")
+            print(f"OpenAI API error: {e}")
             return {}
 
     def _call_ollama(self, prompt: str) -> Dict:
@@ -78,17 +107,17 @@ class LLM:
             response_json = response.json()
             message_content = response_json.get('response', '').strip()
             
-            # 移除代码块标记
+            # Remove code block markers
             message_content = clean_response(message_content)
             
-            # 解析 JSON
+            # Parse JSON
             return json.loads(message_content)
         except json.JSONDecodeError as jde:
-            print(f"JSON 解码错误: {jde}")
-            print(f"原始响应内容: {response_json.get('response', '')}")
+            print(f"JSON decoding error: {jde}")
+            print(f"Original response content: {response_json.get('response', '')}")
             return {}
         except Exception as e:
-            print(f"Ollama API 错误: {e}")
+            print(f"Ollama API error: {e}")
             return {}
 
 def get_models() -> list:

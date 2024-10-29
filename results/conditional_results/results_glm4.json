@@ -1,0 +1,4149 @@
+{
+  "0232e2a2-8f14-4c95-8fc7-ac1f4ae5ced4": {
+    "id": "0232e2a2-8f14-4c95-8fc7-ac1f4ae5ced4",
+    "question": "How long is a rainbow six siege game?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "027a6d98-ab00-47fc-b623-6ef17eb1593a": {
+    "id": "027a6d98-ab00-47fc-b623-6ef17eb1593a",
+    "question": "Where is the tv show the ranch located?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "028e3999-7ad0-4e41-9e3b-f8ac8824b313": {
+    "id": "028e3999-7ad0-4e41-9e3b-f8ac8824b313",
+    "question": "Who did francis ouimet beat in the us open?",
+    "conditions": [
+      {
+        "condition": "Francis Ouimet was a 20-year-old American amateur and not widely known in the golf world  \nThe 1913 U.S. Open was a significant event in American sports history, attracting many top players and receiving wide media coverage  \nFrancis Ouimet had never won a major event before this  ",
+        "answer": "Francis Ouimet was indeed a 20-year-old American amateur who was not widely known in the golf world at the time. The 1913 U.S. Open was a significant event that attracted many top players and received extensive media coverage, making it a landmark moment for American sports history. Prior to this event, Ouimet had never won a major event.",
+        "citations": [
+          "Fragment X",
+          "Fragment Y"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.19946511780414816,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "0428ac89-33f9-4501-b1a2-6245fd0d8200": {
+    "id": "0428ac89-33f9-4501-b1a2-6245fd0d8200",
+    "question": "Who set the fire in one tree hill?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "056f969c-97fc-42fd-947b-4c796e098ce7": {
+    "id": "056f969c-97fc-42fd-947b-4c796e098ce7",
+    "question": "When did spain win their first world cup?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "05a27185-5448-423a-a915-475f3733b1c7": {
+    "id": "05a27185-5448-423a-a915-475f3733b1c7",
+    "question": "When did the show last man standing start?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "0678fd07-b42e-43f3-93ea-ef50c1b615c2": {
+    "id": "0678fd07-b42e-43f3-93ea-ef50c1b615c2",
+    "question": "Who plays the superintendent in doctor blake mysteries?",
+    "conditions": [
+      {
+        "condition": "“The Doctor Blake Mysteries” is an Australian television series, with Craig McLachlan starring as Dr. Lucien Blake  .The series focuses on Dr. Lucien Blake returning home in the late 1950s to take over his father’s medical practice and role as police surgeon  .",
+        "answer": "John Stanton plays the role of retired, then acting, Superintendent Douglas Ashby in The Doctor Blake Mysteries.",
+        "citations": [
+          "Fragment 2"
+        ]
+      },
+      {
+        "condition": "“The Doctor Blake Mysteries” is broadcast by ABC Television in Australia and produced by Melbourne-based December Media  .The series has five seasons, with a telemovie airing at the end of the fifth season as a conclusion  .",
+        "answer": "",
+        "citations": []
+      },
+      {
+        "condition": "The series is set in the late 1950s in Ballarat, Australia  .The question does not specify the season or episode in which the “superintendent” appears, leading to different interpretations  .",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6699944182723016,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0,
+        "citation_score": 0
+      },
+      {
+        "answer_score": 0,
+        "citation_score": 0
+      }
+    ]
+  },
+  "091a2897-56b1-4efb-bbc8-9c1d575d9c46": {
+    "id": "091a2897-56b1-4efb-bbc8-9c1d575d9c46",
+    "question": "Who plays quill in guardians of the galaxy?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "09768e2a-462e-4e6d-bf2c-5e641ef4cf18": {
+    "id": "09768e2a-462e-4e6d-bf2c-5e641ef4cf18",
+    "question": "What is the tallest ride at six flags over texas?",
+    "conditions": [
+      {
+        "condition": "The “Superman Tower of Power” was once the tallest ride in Six Flags Over Texas  ",
+        "answer": "The 'Superman Tower of Power' was once the tallest ride in Six Flags Over Texas.",
+        "citations": [
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "The Oil Derrick is an observation tower, and although it has a significant height, its experience as an attraction differs from roller coasters and tower rides  ",
+        "answer": "The Oil Derrick is an observation tower and its experience as an attraction differs from roller coasters and tower rides.",
+        "citations": [
+          "Fragment 2"
+        ]
+      },
+      {
+        "condition": "Titan is one of the tallest roller coasters in Texas and is the tallest steel roller coaster at Six Flags Over Texas  ",
+        "answer": "Titan is one of the tallest roller coasters in Texas and is the tallest steel roller coaster at Six Flags Over Texas.",
+        "citations": [
+          "Fragment 16",
+          "Fragment 17"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.2069564286840591,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.3878335618357123,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.5668210198516205,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "0a252ae4-2262-4200-8f2c-78d78ee2ad0e": {
+    "id": "0a252ae4-2262-4200-8f2c-78d78ee2ad0e",
+    "question": "What would need to happen to change a lead atom into a gold atom?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "0a879dca-441f-495e-bd41-679f48103745": {
+    "id": "0a879dca-441f-495e-bd41-679f48103745",
+    "question": "When was the first tesla electric car made?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "0af866ac-d7c0-4d95-a5b5-29e939909f21": {
+    "id": "0af866ac-d7c0-4d95-a5b5-29e939909f21",
+    "question": "Who played cowboy curtis on pee wee herman?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "0b67f651-08b4-4e83-ad78-44771028f542": {
+    "id": "0b67f651-08b4-4e83-ad78-44771028f542",
+    "question": "Who wrote the music for how to train your dragon?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "0e66c977-1dd2-40e9-a1fe-07e2d3cd3bf4": {
+    "id": "0e66c977-1dd2-40e9-a1fe-07e2d3cd3bf4",
+    "question": "Where does the ophthalmic nerve exit the skull?",
+    "conditions": [
+      {
+        "condition": "The ophthalmic nerve is the first branch of the trigeminal nerve and is a sensory nerve of the head  .The ophthalmic nerve primarily provides sensory innervation, including to the eyes, forehead, and nose  .The superior orbital fissure is a channel connecting the orbit to the cranial cavity  .The cavernous sinus is a critical structure through which arteries and nerves pass  .",
+        "answer": {
+          "Ophthalmic nerve": "The ophthalmic nerve exits the skull through the superior orbital fissure."
+        },
+        "citations": [
+          "Fragment 3",
+          "Fragment 6"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.3958019891539777,
+        "citation_score": 0.33333333333333326
+      }
+    ]
+  },
+  "0f544ffa-917b-4f14-ad7c-cd39a011c8a3": {
+    "id": "0f544ffa-917b-4f14-ad7c-cd39a011c8a3",
+    "question": "What was the name of the frat in animal house?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "0fb2772d-9432-4363-882f-d81cc48e0110": {
+    "id": "0fb2772d-9432-4363-882f-d81cc48e0110",
+    "question": "What is the name of bangalore city railway station?",
+    "conditions": [
+      {
+        "condition": "The name of Bangalore City Railway Station has multiple versions, primarily due to its historical background, usage habits, and regional cultural differences. The evolution of these names reflects the station's role and significance over time. In 2015, several stations in Bangalore had 'Bangaluru' in their names, leading to a need to differentiate these stations. To honor a historical figure, the Bangalore City Railway Station was officially renamed. The station is known by both its formal and informal names, highlighting its special position in the urban transport network of Bangalore.",
+        "answer": "The name of Bangalore City Railway Station has evolved over time due to historical background, usage habits, and regional cultural differences. In 2015, it was renamed to honor a historical figure, leading to the station being known by both formal (Krantiveera Sangolli Rayanna) and informal (Bangalore City) names.",
+        "citations": [
+          "Fragment 15"
+        ]
+      },
+      {
+        "condition": "Bangalore has several major railway stations that together form the city's railway network, serving both the city center and suburban areas as well as connecting to other regions. Each station has a specific function and serves different areas, supporting the entire Bangalore metropolitan railway system.",
+        "answer": "Bangalore has several major railway stations, each with specific functions and serving different areas within the city center, suburban regions, and connecting to other regions. These stations support the entire Bangalore metropolitan railway system.",
+        "citations": [
+          "Fragment 14",
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.3495121303203446,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.19186050146281688,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "0fc93e32-f930-4288-9b4c-3a4402824ef4": {
+    "id": "0fc93e32-f930-4288-9b4c-3a4402824ef4",
+    "question": "In the dream of the rood what is the rood eventually drenched in?",
+    "conditions": [
+      {
+        "condition": "In the poem 'The Dream of the Rood,' the rood (Cross) plays a central role in the crucifixion of Jesus Christ. Initially, the Cross appears adorned with precious gems, symbolizing its glory. However, as the poem progresses, the Cross becomes intimately linked to the suffering and sacrifice of Christ. Both Christ and the Cross are pierced by nails and endure immense pain together. The Cross is stained with Jesus' blood during the crucifixion, representing its role in the salvation of mankind. Throughout the poem, the Cross is not only a passive object but an active participant in Christ's Passion, symbolizing both suffering and victory. Ultimately, the Cross is resurrected alongside Christ and adorned with gold and silver, becoming a revered symbol of redemption.",
+        "answer": "The rood (Cross) in 'The Dream of the Rood' is central to the crucifixion of Jesus Christ, initially adorned with gems symbolizing its glory. The poem portrays both Christ and the Cross as actively participating in the Passion, enduring pain together. The Cross becomes stained with blood during crucifixion, representing its role in human salvation. It is resurrected alongside Christ, ultimately becoming a revered symbol of redemption.",
+        "citations": [
+          "Fragment 15",
+          "Fragment 16",
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5958019893764426,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "10c46c99-c6bf-4dd2-a0a4-9542bc8ef49b": {
+    "id": "10c46c99-c6bf-4dd2-a0a4-9542bc8ef49b",
+    "question": "Who sang the original do you love me?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "118d01ad-63cb-48b3-bcfd-372a69b57edb": {
+    "id": "118d01ad-63cb-48b3-bcfd-372a69b57edb",
+    "question": "Where does peanut butter jelly time come from?",
+    "conditions": [
+      {
+        "condition": "“Peanut Butter Jelly Time” is a popular internet meme, indicating that it might be related to certain elements of popular culture or music  .",
+        "answer": "The 'Peanut Butter Jelly Time' meme is derived from the Buckwheat Boyz, who have been credited with forming the basis of this popular internet meme.",
+        "citations": [
+          "Fragment 1"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.8415776489216725,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "138068c9-db39-4817-ad89-32c7ae68ba9c": {
+    "id": "138068c9-db39-4817-ad89-32c7ae68ba9c",
+    "question": "Who gets fired on grey's anatomy season 6?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "145ab302-b92e-44fb-8c22-758f4af1d844": {
+    "id": "145ab302-b92e-44fb-8c22-758f4af1d844",
+    "question": "Who do you play as in resident evil 7?",
+    "conditions": [
+      {
+        "condition": "Resident Evil 7: Biohazard is a survival horror game where the player typically controls the main character.  The game is the seventh main installment in the series and uses a first-person perspective.  ",
+        "answer": "Resident Evil 7: Biohazard is a survival horror game where the player typically controls the main character, providing an immersive experience.",
+        "citations": [
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "Resident Evil 7: Biohazard includes not only the main storyline but also DLC content that allows the player to control different characters.  The DLC content extends the original story, providing additional playable characters.  ",
+        "answer": "In Resident Evil 7: Biohazard, along with the main storyline, players can also engage in DLC content that offers control over different characters, extending the game's narrative.",
+        "citations": [
+          "Fragment 19",
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.23208213095404068,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.37411152380087853,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "151c4a82-74a0-49eb-9ba6-b74bd7c804ac": {
+    "id": "151c4a82-74a0-49eb-9ba6-b74bd7c804ac",
+    "question": "What season is the plane crash greys anatomy?",
+    "conditions": [
+      {
+        "condition": "“Flight” is the season finale of Grey’s Anatomy’s eighth season, which is the last episode of the season.  \nThis episode depicts a plane crash that leads to several injuries and deaths among the characters.  \n",
+        "answer": [
+          "Flight is the season finale of Grey’s Anatomy's eighth season, depicting a plane crash with several injuries and deaths among the characters. This information is confirmed in Fragment 17 and Fragment 19."
+        ],
+        "citations": [
+          "Fragment 17",
+          "Fragment 19"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.585898000680576,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "15f2f114-13f6-4a04-a52f-2ce0bf51e31e": {
+    "id": "15f2f114-13f6-4a04-a52f-2ce0bf51e31e",
+    "question": "When did the us enter the second world war in europe?",
+    "conditions": [
+      {
+        "condition": "World War II began on September 1, 1939, with Nazi Germany's invasion of Poland. The United Kingdom and France declared war on Germany on September 3, but due to geographical constraints, the Allies were unable to intervene directly. Although the United States remained neutral in the early stages of the war, tensions with the Axis powers (Germany, Italy, and Japan) grew, especially after Japan attacked Pearl Harbor on December 7, 1941. The U.S. declared war on Japan on December 8, 1941, and on December 11, Nazi Germany and Fascist Italy declared war on the U.S., formally bringing the United States into the European theater diplomatically. In terms of military action, the U.S. launched Operation Torch on November 8, 1942, in North Africa as part of opening a second front against Germany, with the goal of eventually advancing into Europe.",
+        "answer": "The United States entered the war in Europe on December 8, 1941, after declaring war on Japan following the attack on Pearl Harbor.",
+        "citations": [
+          "Fragment 3",
+          "Fragment 4",
+          "Fragment 9"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.4000000000000001,
+        "citation_score": 0.375
+      }
+    ]
+  },
+  "174ea738-c831-4247-bb57-1aaaeff72a4d": {
+    "id": "174ea738-c831-4247-bb57-1aaaeff72a4d",
+    "question": "When did all eyez on me come out album?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "1988f476-a177-4e31-a9c7-ea2e1108ab0e": {
+    "id": "1988f476-a177-4e31-a9c7-ea2e1108ab0e",
+    "question": "Who was the mother of dragons married to?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "1e408e88-764a-45fd-aaa6-01504c7731ae": {
+    "id": "1e408e88-764a-45fd-aaa6-01504c7731ae",
+    "question": "When did the haves and have nots start?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "1ff03d05-b200-4601-a278-590d5331c65d": {
+    "id": "1ff03d05-b200-4601-a278-590d5331c65d",
+    "question": "What is the oldest company in the dow jones index?",
+    "conditions": [
+      {
+        "condition": "The Dow Jones Industrial Average (DJIA) was established in 1896  \nGE was one of the original 12 companies listed in the DJIA and the only one to remain until 2018  ",
+        "answer": "The Dow Jones Industrial Average (DJIA) is the oldest company in the Dow Jones Index.",
+        "citations": [
+          "Fragment 2"
+        ]
+      },
+      {
+        "condition": "The Dow Jones Transportation Average is the oldest Dow Jones index, predating the DJIA  \nWestern Union was one of the original components of the 1884 Dow Jones Railroad Average  ",
+        "answer": "The Dow Jones Transportation Average is the oldest index among the Dow Jones indices.",
+        "citations": [
+          "Fragment 4"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.11208721624926507,
+        "citation_score": 0.25
+      },
+      {
+        "answer_score": 0.23506733018687412,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "203ee029-242e-423b-a88b-4c9aad7cc812": {
+    "id": "203ee029-242e-423b-a88b-4c9aad7cc812",
+    "question": "Who played the role of luv kush in ramayan?",
+    "conditions": [
+      {
+        "condition": "“Luv Kush” is a sequel to the 1987 “Ramayan,” produced by Ramanand Sagar. The fragments do not explicitly mention the actors who played Luv and Kush. \n",
+        "answer": "[Detailed answer]",
+        "citations": [
+          "Fragment X",
+          "Fragment Y"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.058169223283428016,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "20a122a6-e57e-4297-b1ec-323aa5310cc5": {
+    "id": "20a122a6-e57e-4297-b1ec-323aa5310cc5",
+    "question": "Who does the voice of darth vader in star wars?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "21dc4870-6026-42ba-b1c2-fd3e00579276": {
+    "id": "21dc4870-6026-42ba-b1c2-fd3e00579276",
+    "question": "When did the federal student loan program start?",
+    "conditions": [
+      {
+        "condition": "The earliest form of the federal student loan program was driven by the National Defense Education Act (NDEA) and was limited to specific categories of students, such as those in engineering, science, or education.  ",
+        "answer": "Federal student loans were first established in the United States through the National Defense Education Act (NDEA) and were limited to specific categories of students such as those in engineering, science, or education.",
+        "citations": [
+          "Fragment 1"
+        ]
+      },
+      {
+        "condition": "The first major government loan program in the United States was established in 1973 with the creation of the Student Loan Marketing Association (Sallie Mae), marking the beginning of the institutionalization of student loans.  ",
+        "answer": "The first major government loan program in the United States was established with the creation of the Student Loan Marketing Association (Sallie Mae) in 1973.",
+        "citations": [
+          "Fragment 2"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.4701940395299828,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.5674976994528198,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "23f53d95-6405-4953-b58e-d6a9f59e7455": {
+    "id": "23f53d95-6405-4953-b58e-d6a9f59e7455",
+    "question": "What does the d stand for in tv ratings?",
+    "conditions": [
+      {
+        "condition": "Nielsen TV ratings are used to determine audience size and composition of television programs in the United States.  ",
+        "answer": "The 'd' in TV ratings stands for 'rating,' which represents the percentage of U.S. households that watched a program.",
+        "citations": [
+          "Fragment 7"
+        ]
+      },
+      {
+        "condition": "The rating system provides insights into television audience demographics by measuring the percentage of households tuned in to a program.  ",
+        "answer": "TV ratings provide insights into television audience demographics by measuring the percentage of households tuned in to a program, such as adults aged 18-34 or women 18-34.",
+        "citations": [
+          "Fragment 3",
+          "Fragment 4",
+          "Fragment 5",
+          "Fragment 6"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.30236771858786354,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.2167003742922054,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "24010a7a-9efd-4687-85ba-98e6b289fb06": {
+    "id": "24010a7a-9efd-4687-85ba-98e6b289fb06",
+    "question": "When is fortnite battle royale being released on android?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "28fc395a-dabd-4b7e-8764-8177c4777aa2": {
+    "id": "28fc395a-dabd-4b7e-8764-8177c4777aa2",
+    "question": "What is the genre of holes by louis sachar?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "297ff84e-0e1b-43f1-a35d-13e8bbe671b5": {
+    "id": "297ff84e-0e1b-43f1-a35d-13e8bbe671b5",
+    "question": "Who wrote the song forever and ever amen?",
+    "conditions": [
+      {
+        "condition": "\"Forever and Ever, Amen\" is a highly acclaimed country music song that has won several awards in the country music community. Paul Overstreet and Don Schlitz are well-known Nashville songwriters with a strong background in songwriting.[Fragment 2, 4]",
+        "answer": "is a highly acclaimed country music song that has won several awards in the country music community. Paul Overstreet and Don Schlitz are well-known Nashville songwriters with a strong background in songwriting.",
+        "citations": [
+          "Fragment 2",
+          "Fragment 4"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.21014341834829856,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "2b37d77f-5a4e-43fd-8b5a-c93ffea75e7f": {
+    "id": "2b37d77f-5a4e-43fd-8b5a-c93ffea75e7f",
+    "question": "When did us currency leave the gold standard?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "2ed3fa9c-8d3b-42bc-bc3b-0169b0cf5af0": {
+    "id": "2ed3fa9c-8d3b-42bc-bc3b-0169b0cf5af0",
+    "question": "When did the lion king debut on broadway?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "2fd0fc58-d829-4396-bd67-112b209ba265": {
+    "id": "2fd0fc58-d829-4396-bd67-112b209ba265",
+    "question": "When did england last make the quarter final of the world cup?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "2fde57ea-2475-48cb-8204-a815140c9445": {
+    "id": "2fde57ea-2475-48cb-8204-a815140c9445",
+    "question": "Who played zordon in the original power rangers?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "31102121-ddb9-485a-9b90-2a083a67b266": {
+    "id": "31102121-ddb9-485a-9b90-2a083a67b266",
+    "question": "Who wrote if you've got the money?",
+    "conditions": [
+      {
+        "condition": "\"If You've Got the Money (I've Got the Time)\" is Lefty Frizzell’s debut single  .The song was recorded by Frizzell in 1950 and released by Columbia Records  .",
+        "answer": "[Frizzell's debut single, recorded in 1950, released by Columbia Records]",
+        "citations": [
+          "Fragment 14"
+        ]
+      },
+      {
+        "condition": "The wording of the question might refer to the modern song \"If You Got the Money\"  .Jamie T is the creator of this song, and it is the second single from his album \"Panic Prevention\"  .",
+        "answer": "[Jamie T is the creator of the song, second single from 'Panic Prevention' album]",
+        "citations": [
+          "Fragment 15"
+        ]
+      },
+      {
+        "condition": "Lefty Frizzell and Jim Beck co-wrote several songs in 1950, including \"If You've Got the Money (I've Got the Time)\"  .Jim Beck was Lefty Frizzell's manager and played a significant role in the song's creation  .",
+        "answer": "[Frizzell and Beck co-wrote several songs in 1950, including 'If You've Got the Money (I've Got the Time)']",
+        "citations": [
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.22227001388253093,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.5211080328673598,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.5064436809039533,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "32e95cbc-f503-4974-97a8-ba173e73d07d": {
+    "id": "32e95cbc-f503-4974-97a8-ba173e73d07d",
+    "question": "When is the releasing date of avengers infinity war?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "33b7a042-c7d2-4eb6-97ae-b38ce0b5c161": {
+    "id": "33b7a042-c7d2-4eb6-97ae-b38ce0b5c161",
+    "question": "Who sings with meatloaf in anything for love?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "346e398e-7c2d-4984-94da-20a06dbfd96a": {
+    "id": "346e398e-7c2d-4984-94da-20a06dbfd96a",
+    "question": "How many sacks does clay matthews have in his career?",
+    "conditions": [
+      {
+        "condition": "Clay Matthews had an outstanding performance, especially in the early part of his career.  Clay Matthews' sack data might come from unofficial statistics, covering multiple seasons.  Clay Matthews' career records are based on official data, focusing mainly on his NFL performance.  \n",
+        "answer": "Clay Matthews had an outstanding performance, especially in the early part of his career. His sack data might come from unofficial statistics, covering multiple seasons.",
+        "citations": [
+          "Fragment 16",
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "Clay Matthews' career spanned multiple seasons, with records set early in his career.  His sack record might include performances outside the NFL season, but the main data comes from the NFL.  ",
+        "answer": "Clay Matthews' career spanned multiple seasons, with records set early in his career. His sack record might include performances outside the NFL season, but the main data comes from the NFL.",
+        "citations": [
+          "Fragment 18",
+          "Fragment 19"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.20285349628676488,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.22227001388253087,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "355fa229-6d4d-44f6-bc53-a9949267efc1": {
+    "id": "355fa229-6d4d-44f6-bc53-a9949267efc1",
+    "question": "The repetition of phrases or sentences with similar structures or meanings is called?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "360d2dba-139b-4329-8f6f-4c07a69bca81": {
+    "id": "360d2dba-139b-4329-8f6f-4c07a69bca81",
+    "question": "When can a player be substituted in soccer?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "37c7c8f6-7600-4a06-b949-e242b169c3af": {
+    "id": "37c7c8f6-7600-4a06-b949-e242b169c3af",
+    "question": "When did new york become a free state?",
+    "conditions": [
+      {
+        "condition": "New York declared independence in 1776 and subsequently established its government structure through a state constitution.  \nAfter the Revolutionary War, New York's political and legal status was further solidified.  ",
+        "answer": [
+          "After declaring independence in 1776, New York established its government structure through the adoption of a state constitution in 1777. This was followed by further solidification of its political and legal status post-Revolutionary War."
+        ],
+        "citations": [
+          "Fragment 17",
+          "Fragment 20"
+        ]
+      },
+      {
+        "condition": "After gaining independence, New York became one of the original thirteen states and adopted its state constitution in 1777.  \nThe state established a strong government and guaranteed citizens' basic rights after the constitution was passed.  ",
+        "answer": [
+          "New York became one of the original thirteen states after gaining independence, and it adopted its state constitution in 1777. The constitution provided for a strong government and guaranteed citizens' basic rights."
+        ],
+        "citations": [
+          "Fragment 18",
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.2458207724857227,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.55,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "381d7b11-6cb4-496c-88b0-fd6d3557f1e0": {
+    "id": "381d7b11-6cb4-496c-88b0-fd6d3557f1e0",
+    "question": "Who got rid of the romans in britain?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "38bee3e7-a2c6-4640-8fc5-4adf84615f4a": {
+    "id": "38bee3e7-a2c6-4640-8fc5-4adf84615f4a",
+    "question": "Who came up with a cure for tuberculosis?",
+    "conditions": [
+      {
+        "condition": "Robert Koch was a prominent scientist in tuberculosis research and was awarded the Nobel Prize for discovering the tuberculosis bacillus  In the late 19th century, tuberculosis was a widespread infectious disease, and there was an urgent search for a cure  ",
+        "answer": [
+          "Robert Koch was a prominent scientist in tuberculosis research and was awarded the Nobel Prize for discovering the tuberculosis bacillus. In the late 19th century, tuberculosis was a widespread infectious disease, and there was an urgent search for a cure."
+        ],
+        "citations": [
+          "Fragment 19"
+        ]
+      },
+      {
+        "condition": "In the early 20th century, scientists were actively seeking effective treatments for tuberculosis  ",
+        "answer": [
+          "In the early 20th century, scientists were actively seeking effective treatments for tuberculosis. This is evident from the development of BCG vaccine by Guérin and Calmette, as well as the research on streptomycin and para-aminosalicylic acid."
+        ],
+        "citations": [
+          "Fragment 18",
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "The discovery of antibiotics greatly advanced the treatment of tuberculosis  ",
+        "answer": [
+          "The discovery of antibiotics greatly advanced the treatment of tuberculosis. This can be seen with the development of streptomycin and para-aminosalicylic acid in the mid-1940s and their combination with isoniazid, which provided a more effective cure for TB."
+        ],
+        "citations": [
+          "Fragment 18"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.35142259571361917,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.2633625020958729,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.40353325751167224,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "3ab1280c-faee-4610-8977-25c20659e865": {
+    "id": "3ab1280c-faee-4610-8977-25c20659e865",
+    "question": "Who was the programmer of ms-dos operating system?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "3c478f25-610d-47a2-8447-165a0698cc19": {
+    "id": "3c478f25-610d-47a2-8447-165a0698cc19",
+    "question": "What is the name of the time zone for london?",
+    "conditions": [
+      {
+        "condition": "London's time zone is based on Coordinated Universal Time (UTC)  The UK uses different time standards depending on the season  ",
+        "answer": "London's time zone is based on Coordinated Universal Time (UTC) and it uses different time standards depending on the season.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 3"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.3519724013370976,
+        "citation_score": 0.2222222222222222
+      }
+    ]
+  },
+  "3c724c01-328c-4e71-afd9-3ff0a1b052d1": {
+    "id": "3c724c01-328c-4e71-afd9-3ff0a1b052d1",
+    "question": "Who sings the song you got to keep your head up?",
+    "conditions": [
+      {
+        "condition": "\"Keep Your Head Up\" is a song title used in different contexts and versions  The song title has been used by multiple artists  ",
+        "answer": "The song title 'Keep Your Head Up' has been used by multiple artists, including Andy Grammer, Ben Howard, Girls Can't Catch, Argent, Tupac Shakur, Earth, Wind & Fire, Alabama, Dee Clark, and others.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 4",
+          "Fragment 6",
+          "Fragment 5",
+          "Fragment 13",
+          "Fragment 11",
+          "Fragment 18",
+          "Fragment 20"
+        ]
+      },
+      {
+        "condition": "Ben Howard also has a song titled \"Keep Your Head Up\"  There is potential confusion between Ben Howard's and Andy Grammer's songs  ",
+        "answer": "There is potential confusion between Ben Howard's and Andy Grammer's songs titled 'Keep Your Head Up', as both artists released their own versions of the song.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 4"
+        ]
+      },
+      {
+        "condition": "The British girl group Girls Can't Catch also has a song titled \"Keep Your Head Up\"  This song was their debut single and achieved a peak position within the top 26 on the UK Singles Chart  ",
+        "answer": "The British girl group Girls Can't Catch also has a song titled 'Keep Your Head Up', which was their debut single and achieved a peak position within the top 26 on the UK Singles Chart.",
+        "citations": [
+          "Fragment 6"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.3265859658080072,
+        "citation_score": 0.75
+      },
+      {
+        "answer_score": 0.30554218867514427,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0.36346548412927837,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "3c791d7f-5204-4176-a179-608a0fbfa5b3": {
+    "id": "3c791d7f-5204-4176-a179-608a0fbfa5b3",
+    "question": "When did the song country roads come out?",
+    "conditions": [
+      {
+        "condition": "“Country Roads” might refer to John Denver’s song “Take Me Home, Country Roads,” which is often shortened to “Country Roads”  ",
+        "answer": "John Denver’s song 'Take Me Home, Country Roads' is widely known as 'Country Roads'.",
+        "citations": [
+          "Fragment 15"
+        ]
+      },
+      {
+        "condition": "“Country Roads” could also refer to James Taylor’s song “Country Road,” which was released earlier in 1971  ",
+        "answer": "James Taylor's song 'Country Road,' which was released earlier in 1971, is another notable work with a similar title.",
+        "citations": []
+      },
+      {
+        "condition": "The questioner might be interested in when the song became widely known or popular rather than the exact release date  ",
+        "answer": "'Take Me Home, Country Roads' became widely known after John Denver's version reached No. 2 on the Billboard pop charts in 1971 and was officially recognized as West Virginia's state song on March 8, 2014.",
+        "citations": [
+          "Fragment 15",
+          "Fragment 18"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.22689414115393988,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.28907408534274837,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.3734140352378964,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "3e233780-bbee-4bef-8507-9aef792bbbb1": {
+    "id": "3e233780-bbee-4bef-8507-9aef792bbbb1",
+    "question": "When was the last episode of i love lucy?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "3ef4ba9e-0700-40db-9f99-9f6276c09b7b": {
+    "id": "3ef4ba9e-0700-40db-9f99-9f6276c09b7b",
+    "question": "Who was the first act on live aid?",
+    "conditions": [
+      {
+        "condition": "Live Aid took place simultaneously in London and Philadelphia  The Philadelphia performance was hosted by actor Jack Nicholson  ",
+        "answer": [
+          "Live Aid took place simultaneously in London and Philadelphia, with the Philadelphia performance hosted by actor Jack Nicholson"
+        ],
+        "citations": [
+          "Fragment 13",
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "The Oz for Africa concert started 12 hours before the London event due to time zone differences  ",
+        "answer": [
+          "The Oz for Africa concert started 12 hours before the London event due to time zone differences"
+        ],
+        "citations": [
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "Live Aid was a global concert event  The concerts in London and Philadelphia had different opening acts  ",
+        "answer": [
+          "Live Aid was a global concert event with two separate concerts in London and Philadelphia, each featuring different opening acts"
+        ],
+        "citations": [
+          "Fragment 13",
+          "Fragment 16",
+          "Fragment 18"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.11259073535317435,
+        "citation_score": 0.25
+      },
+      {
+        "answer_score": 0.2095398094783189,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.08530009463239337,
+        "citation_score": 0.33333333333333326
+      }
+    ]
+  },
+  "3f0dec94-bcf1-49e1-b1d8-94a0bedf34fe": {
+    "id": "3f0dec94-bcf1-49e1-b1d8-94a0bedf34fe",
+    "question": "Who has the highest goals in world football?",
+    "conditions": [
+      {
+        "condition": "The player with the highest total number of goals in World Cup history can be considered to have the highest goals in world football.  The player with the most goals in all World Cup matches is Miroslav Klose.  ",
+        "answer": "Miroslav Klose holds the record for the highest total number of goals in World Cup history with a total of 16 goals.",
+        "citations": [
+          "Fragment 19"
+        ]
+      },
+      {
+        "condition": "The player with the most goals in a single World Cup tournament can be considered to have the highest goals in world football.  ",
+        "answer": "Miroslav Klose also scored his 16th World Cup goal in the semi-final match against Brazil, making him the top scorer in a single World Cup tournament.",
+        "citations": [
+          "Fragment 19"
+        ]
+      },
+      {
+        "condition": "The player with the highest number of goals at the national team level can be considered to have the highest goals in world football.  ",
+        "answer": "Olivier Giroud is the national team's record goal-scorer with 54 goals for France, making him one of the highest goal scorers in world football at the national level.",
+        "citations": [
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "The player with the highest total number of goals in club competitions can be considered to have the highest goals in world football.  ",
+        "answer": "Miroslav Klose also holds a significant number of goals in club competitions, including his record goals after the age of 30, which contribute to him being considered one of the highest goal scorers in world football.",
+        "citations": [
+          "Fragment 18"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.7274689391646596,
+        "citation_score": 0.25
+      },
+      {
+        "answer_score": 0.07303630685593018,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.21703802780058737,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.19337776737289514,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "41f121ac-5900-4e45-9d3e-81947c875ccf": {
+    "id": "41f121ac-5900-4e45-9d3e-81947c875ccf",
+    "question": "Who the female singer on gimme shelter?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "4373b8f0-2fc9-4246-9c89-69d590b9cab0": {
+    "id": "4373b8f0-2fc9-4246-9c89-69d590b9cab0",
+    "question": "When was the niv version of the bible written?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "466c494a-e54f-491f-8d6b-2c592af26e70": {
+    "id": "466c494a-e54f-491f-8d6b-2c592af26e70",
+    "question": "What is the botanical name of lady finger?",
+    "conditions": [
+      {
+        "condition": "“Lady finger” is a common name for an edible plant in some English-speaking countries.  \n",
+        "answer": "The botanical name of lady finger is Abelmoschus esculentus.",
+        "citations": [
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "“Lady finger” might also refer to an ornamental plant.  ",
+        "answer": "The botanical name for the banana cultivar known as lady finger is Musa acuminata.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 3",
+          "Fragment 4",
+          "Fragment 20"
+        ]
+      },
+      {
+        "condition": "In some regions, “Lady finger” is associated with a specific banana cultivar.  ",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6327636959609871,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.008641861537920707,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0,
+        "citation_score": 0
+      }
+    ]
+  },
+  "472ee854-fe82-491e-89a7-8d14e29fc809": {
+    "id": "472ee854-fe82-491e-89a7-8d14e29fc809",
+    "question": "Where did the idea of representative government first develop?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "48b79573-63cf-4bee-9171-7278abb4c073": {
+    "id": "48b79573-63cf-4bee-9171-7278abb4c073",
+    "question": "Hertfordshire fire and rescue service chief fire officer?",
+    "conditions": [
+      {
+        "condition": "\"Chief fire officer\" is the highest rank in the fire and rescue services of the United Kingdom, responsible for overall operational, strategic, and command work.  The responsibilities of a Chief Fire Officer may vary across different fire services, but the core role remains leading and managing the entire organization.  ",
+        "answer": "[In the United Kingdom, Chief Fire Officer (CFO) is the highest rank in fire and rescue services. They are responsible for overall operational, strategic, and command work, leading and managing the entire organization.]",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2"
+        ]
+      },
+      {
+        "condition": "Most Chief Fire Officers are former frontline firefighters who have risen through the ranks, though some have come from other career backgrounds.  A Chief Fire Officer is typically assisted by one Deputy Chief Fire Officer and several Assistant Chief Fire Officers, each responsible for overseeing multiple areas of fire and rescue operations.  ",
+        "answer": "[Most Chief Fire Officers are former frontline firefighters who have risen through the ranks. They are typically assisted by Deputy Chief Fire Officer and several Assistant Chief Fire Officers, each responsible for overseeing multiple areas of fire and rescue operations.]",
+        "citations": [
+          "Fragment 14",
+          "Fragment 2"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.1575210374126818,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.19571201804692867,
+        "citation_score": 0.6666666666666665
+      }
+    ]
+  },
+  "49af6bf6-7bd4-437a-9d32-0c39f525ffc0": {
+    "id": "49af6bf6-7bd4-437a-9d32-0c39f525ffc0",
+    "question": "Who played the baby in baby's day out?",
+    "conditions": [
+      {
+        "condition": "The movie “Baby’s Day Out” is a 1994 American adventure comedy film where the baby character is central to the plot.  Film critic Roger Ebert noted that the audience reacted very positively to the baby character.  The baby character was not only portrayed by actors but also involved other elements in the film’s production, such as CGI technology.  ",
+        "answer": "[The baby character in 'Baby’s Day Out' was portrayed by actors and involved elements like CGI technology, which contributed to its popularity.]",
+        "citations": [
+          "Fragment 14"
+        ]
+      },
+      {
+        "condition": "The success of the baby character in the film was not solely due to the actors’ performance but also related to the character’s symbolic meaning and cultural impact.  Audience emotional responses sometimes go beyond simple character portrayal, reflecting deeper cultural resonance.  ",
+        "answer": "[The success of the baby character goes beyond simple portrayal, reflecting deeper cultural resonance that impacts audience emotional responses.]",
+        "citations": [
+          "Fragment 18",
+          "Fragment 19"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.2845302102115583,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.0029312235332293506,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "49e5d007-1061-478a-ac96-30d775b49557": {
+    "id": "49e5d007-1061-478a-ac96-30d775b49557",
+    "question": "When did the teenage mutant ninja turtles cartoon come out?",
+    "conditions": [
+      {
+        "condition": "Teenage Mutant Ninja Turtles was originally created by Kevin Eastman and Peter Laird as a comic series, later adapted into animation  The cartoon first aired as a miniseries  ",
+        "answer": "Teenage Mutant Ninja Turtles was originally created by Kevin Eastman and Peter Laird as a comic series, later adapted into animation. The cartoon first aired as a miniseries.",
+        "citations": [
+          "Fragment 19"
+        ]
+      },
+      {
+        "condition": "The regular broadcast time of the animation may differ from its initial debut  The cartoon series is an adaptation of the original comic, later becoming a regularly scheduled program  ",
+        "answer": "The regular broadcast time of the animation may differ from its initial debut. The cartoon series is an adaptation of the original comic, later becoming a regularly scheduled program.",
+        "citations": [
+          "Fragment 20"
+        ]
+      },
+      {
+        "condition": "The broadcast format and schedule of a TV cartoon may change over time   The animated series was not only broadcast domestically but also promoted globally through various channels  ",
+        "answer": "The broadcast format and schedule of a TV cartoon may change over time. The animated series was not only broadcast domestically but also promoted globally through various channels.",
+        "citations": [
+          "Fragment 14",
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.4358961564166031,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.17772998680988822,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.1197104442597682,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "4b508b4f-c135-416d-b2bc-3afa059447f2": {
+    "id": "4b508b4f-c135-416d-b2bc-3afa059447f2",
+    "question": "When will they finish building the sagrada familia?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "4b933be8-f1e8-4b47-9d83-7bdcc2cf6660": {
+    "id": "4b933be8-f1e8-4b47-9d83-7bdcc2cf6660",
+    "question": "When did the treaty of guadalupe hidalgo happen?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "4ba928ea-00af-4f61-a6cb-f22377e0b244": {
+    "id": "4ba928ea-00af-4f61-a6cb-f22377e0b244",
+    "question": "What are the two most successful teams in spains soccer clubs?",
+    "conditions": [
+      {
+        "condition": "La Liga is considered one of the top football leagues in the world, with Real Madrid and Barcelona historically dominating the competition  \nReal Madrid is regarded by many as the most successful club globally, having won numerous European titles  ",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.0,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "4db76ac1-55e1-440d-99fa-d051970b0b3a": {
+    "id": "4db76ac1-55e1-440d-99fa-d051970b0b3a",
+    "question": "Who signed the treaty of versailles from germany?",
+    "conditions": [
+      {
+        "condition": "The Treaty of Versailles was signed in 1919, ending World War I and requiring Germany to accept responsibility for the war and pay reparations.  Germany was forced to sign the Treaty of Versailles under the threat of resumed hostilities by the Allies.  \n",
+        "answer": "The Treaty of Versailles was signed in 1919, ending World War I and requiring Germany to accept responsibility for the war and pay reparations. Germany was forced to sign the treaty under the threat of resumed hostilities by the Allies.",
+        "citations": [
+          "Fragment 13",
+          "Fragment 14",
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "The signing on June 28, 1919, ended the state of war between Germany and the Allied Powers.  The signing ceremony took place at the Paris Peace Conference, marking the formal end of World War I.  ",
+        "answer": "The signing on June 28, 1919, ended the state of war between Germany and the Allied Powers. The signing ceremony took place at the Paris Peace Conference, marking the formal end of World War I.",
+        "citations": [
+          "Fragment 16",
+          "Fragment 17",
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "The signing process of the treaty involved not just the final signing but also the preparation and negotiation stages.  Multiple levels of the government might have been involved in the signing process.  \n",
+        "answer": "The signing process involved not just the final signing but also the preparation and negotiation stages. Multiple levels of the government were likely involved in the signing process.",
+        "citations": [
+          "Fragment 13",
+          "Fragment 14",
+          "Fragment 17"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.39646674145331584,
+        "citation_score": 0.25
+      },
+      {
+        "answer_score": 0.29227617871338396,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.24009489317814764,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "4dbfdac9-9896-4b04-ab04-03e9734a89ce": {
+    "id": "4dbfdac9-9896-4b04-ab04-03e9734a89ce",
+    "question": "When did the seljuk empire begin and end?",
+    "conditions": [
+      {
+        "condition": "The Seljuk Empire was founded by the Qiniq branch of the Oghuz Turks and rapidly expanded in the early 11th century  .The core period of the empire is typically defined by its rule over Iran and Iraq  .",
+        "answer": [
+          "The Seljuk Empire was founded by the Qiniq branch of the Oghuz Turks and rapidly expanded in the early 11th century. The core period of the empire is typically defined by its rule over Iran and Iraq."
+        ],
+        "citations": [
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "The Seljuk Empire at its peak controlled a vast area from Anatolia to the Persian Gulf, with its legacy in Anatolia enduring longer  .The Mongol invasions in the 1260s had a decisive impact on Seljuk rule in Anatolia  .",
+        "answer": [
+          "The Seljuk Empire at its peak controlled a vast area from Anatolia to the Persian Gulf, with its legacy in Anatolia enduring longer. The Mongol invasions in the 1260s had a decisive impact on Seljuk rule in Anatolia."
+        ],
+        "citations": [
+          "Fragment 16",
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "The Seljuk Empire was divided into eastern and western parts, with the western part known as the Sultanate of Iraq and the eastern part centered in Marv, Persia  .\tThe empire began to decline in the mid-12th century and was eventually supplanted by the Khwarazmian Empire  .",
+        "answer": [
+          "The Seljuk Empire was divided into eastern and western parts, with the western part known as the Sultanate of Iraq and the eastern part centered in Marv, Persia. The empire began to decline in the mid-12th century and was eventually supplanted by the Khwarazmian Empire."
+        ],
+        "citations": [
+          "Fragment 17",
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.25197240104512775,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.26255999205857844,
+        "citation_score": 0.25
+      },
+      {
+        "answer_score": 0.3197104435840522,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "4dc64745-f03f-43c3-8cc4-16e64780d428": {
+    "id": "4dc64745-f03f-43c3-8cc4-16e64780d428",
+    "question": "When did the first cassette tape come out?",
+    "conditions": [
+      {
+        "condition": "The cassette tape is an analog tape format primarily used for audio recording and playback. Philips introduced the Compact Cassette prototype in 1963 as a convenient alternative to reel-to-reel tapes. The format was designed to make audio recording and playback more accessible to the general public, and it was later widely used for pre-recorded music and home recordings.",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.0,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "4dd77ff7-1a73-4db8-9dab-0b5fae693ac9": {
+    "id": "4dd77ff7-1a73-4db8-9dab-0b5fae693ac9",
+    "question": "What is the dog called in midsomer murders?",
+    "conditions": [
+      {
+        "condition": "Sykes was John Barnaby’s family pet dog, appearing in the “Midsomer Murders” series from seasons 14 to 18, and was sometimes referred to as “Sykesie”  .\nSykes retired at the end of season 18 and passed away in season 19, with the Barnaby family erecting a grave for him  .\nAfter Sykes’s death, the Barnaby family adopted a new rescue dog named Paddy  .",
+        "answer": "Sykes was John Barnaby’s family pet dog, appearing in the 'Midsomer Murders' series from seasons 14 to 18. After his death at the end of season 18, he passed away in season 19 and the Barnaby family erected a grave for him. Following Sykes's death, they adopted a new rescue dog named Paddy.",
+        "citations": [
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6977617059135628,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "4de3ef5d-871c-4bfd-b40f-3a178d1ecbf6": {
+    "id": "4de3ef5d-871c-4bfd-b40f-3a178d1ecbf6",
+    "question": "When was the first fast and furious film made?",
+    "conditions": [
+      {
+        "condition": "The development of 'The Fast and the Furious' began in 1998, marking the start of the film's concept and planning phase. Filming took place from July to October 2000, and the movie premiered in Los Angeles on June 18, 2001, before being officially released in the United States on June 22, 2001.",
+        "answer": "[The development of 'The Fast and the Furious' began in 1998, marking the start of the film's concept and planning phase. Filming took place from July to October 2000, and the movie premiered in Los Angeles on June 18, 2001, before being officially released in the United States on June 22, 2001.]",
+        "citations": [
+          "Fragment 1"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6706639744804165,
+        "citation_score": 0.25
+      }
+    ]
+  },
+  "4df5126f-6e5a-435a-8f5e-f7fe0c20629c": {
+    "id": "4df5126f-6e5a-435a-8f5e-f7fe0c20629c",
+    "question": "Who plays the daughter in garage sale mysteries?",
+    "conditions": [
+      {
+        "condition": "Lori Loughlin plays the main character, Jennifer Shannon, in Garage Sale Mystery, indicating her significant role in the series  .Jennifer and Jason Shannon’s daughter, Hannah, is one of the main characters in the series  .",
+        "answer": "[Lori Loughlin plays the main character, Jennifer Shannon, in Garage Sale Mystery, indicating her significant role in the series. Jennifer and Jason Shannon’s daughter, Hannah, is one of the main characters in the series.]",
+        "citations": [
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.31546979020008725,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "4dfab4c7-5424-46c6-b268-ecd9cd84699c": {
+    "id": "4dfab4c7-5424-46c6-b268-ecd9cd84699c",
+    "question": "When did west germany win the world cup?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "4e0b637c-d900-40ed-a2fd-e1810996aa35": {
+    "id": "4e0b637c-d900-40ed-a2fd-e1810996aa35",
+    "question": "What is the statue in piccadilly circus called?",
+    "conditions": [
+      {
+        "condition": "The statue at Piccadilly Circus is part of the Shaftesbury Memorial Fountain  This statue was erected to commemorate the philanthropic work of the Earl of Shaftesbury  ",
+        "answer": "The statue at Piccadilly Circus is part of the Shaftesbury Memorial Fountain and was erected to commemorate the philanthropic work of the Earl of Shaftesbury",
+        "citations": [
+          "Fragment 15",
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.37782801479051165,
+        "citation_score": 0.33333333333333326
+      }
+    ]
+  },
+  "509d8ee7-e23f-4be1-9bba-3b9f3f022f8f": {
+    "id": "509d8ee7-e23f-4be1-9bba-3b9f3f022f8f",
+    "question": "Who played lead guitar for the rolling stones?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "52fa31c1-4010-4619-a368-3058ed663cc9": {
+    "id": "52fa31c1-4010-4619-a368-3058ed663cc9",
+    "question": "Where did they film the movie in the heat of the night?",
+    "conditions": [
+      {
+        "condition": "The movie is set in Sparta, Mississippi  The Sparta in the movie is a fictional town  ",
+        "answer": "The movie is set in Sparta, Mississippi, which is a fictional town.",
+        "citations": [
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "The director chose multiple states for filming due to concerns about the South  Filming locations included actual places outside the movie’s setting  ",
+        "answer": "The director chose multiple states for filming due to concerns about the South. Filming locations included actual places outside the movie’s setting.",
+        "citations": [
+          "Fragment 14",
+          "Fragment 18",
+          "Fragment 19"
+        ]
+      },
+      {
+        "condition": "The movie was filmed in several towns across Illinois  The Sparta in the movie is a composite of multiple real locations  ",
+        "answer": "The movie was filmed in several towns across Illinois, creating a composite of multiple real locations for the fictional Sparta.",
+        "citations": [
+          "Fragment 17",
+          "Fragment 18",
+          "Fragment 19"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.2170380278378954,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.28329561028099665,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.446481786591001,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "545d7717-19f8-4195-bee9-9948cf2e58c5": {
+    "id": "545d7717-19f8-4195-bee9-9948cf2e58c5",
+    "question": "Who wrote the song don't give up on me?",
+    "conditions": [
+      {
+        "condition": "Multiple songs with the same name might cause confusion  ",
+        "answer": "The song 'Don't Give Up on Me' by Andy Grammer was written by Andy Grammer with Bram Inscore, Jake Torrey, and Sam Farrar. This is one of the multiple songs with the same name that might cause confusion.",
+        "citations": [
+          "Fragment 1"
+        ]
+      },
+      {
+        "condition": "Different artists may have collaborated on songs with the same name  ",
+        "answer": "Different artists have collaborated on songs with the same title, including collaborations between van Buuren and Lucas & Steve, as well as between Andy Grammer and R3hab.",
+        "citations": [
+          "Fragment 2",
+          "Fragment 1"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5871889340495858,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0.19225038403597478,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "54aa6fc7-5214-404a-934b-40929918107a": {
+    "id": "54aa6fc7-5214-404a-934b-40929918107a",
+    "question": "Who voices rocket raccoon in guardians of the galaxy?",
+    "conditions": [
+      {
+        "condition": "Rocket Raccoon is a fictional character in the MCU, appearing in multiple MCU films.  Characters in films are typically voiced by professional actors and portrayed using motion capture technology.  \n",
+        "answer": "",
+        "citations": []
+      },
+      {
+        "condition": "Rocket Raccoon appears not only in films but also in video games and animations.  The voice actors for characters might differ across various media.  ",
+        "answer": "",
+        "citations": []
+      },
+      {
+        "condition": "Rocket Raccoon appears in non-film projects such as theme park attractions.  The voice actors in these special projects might differ from those in the films.  ",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.01221060983070227,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.01994779457066802,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.08055397625735479,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "55d94ca5-0982-4929-9692-4067c0344770": {
+    "id": "55d94ca5-0982-4929-9692-4067c0344770",
+    "question": "Japanese hotel run by same family for 1300 years?",
+    "conditions": [
+      {
+        "condition": "Japan has many historic inns, some of which have been in operation for over a thousand years  These inns are typically passed down through generations within the same family, preserving tradition and history  ",
+        "answer": "[Japan is home to many historic inns, with some, like Shirasagiyu Tawaraya, operating for over eight centuries. These establishments are often family-run, preserving tradition and history.]",
+        "citations": [
+          "Fragment 14"
+        ]
+      },
+      {
+        "condition": "Another inn considered one of the oldest is Koman, founded in 717  Most of these inns were established around the 7th century A.D.  ",
+        "answer": "[Koman, established in 717, represents one of the oldest businesses in Japan, and many such historic inns were founded around the 7th century A.D.]",
+        "citations": [
+          "Fragment 20"
+        ]
+      },
+      {
+        "condition": "Japan’s historic hotels are not only found in major cities but also in various hot spring areas  These hotels are often located in areas with natural hot springs and serve as rest stops for travelers  ",
+        "answer": "[Japan's historic hotels, like Koman, are found not just in major cities but also in various hot spring areas. These locations serve as rest stops for travelers and often feature natural hot springs.]",
+        "citations": [
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.2377540668798145,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.4442506242524429,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0.20090143013633305,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "55fb8b65-be1b-4b26-bd9c-eb9f530f651d": {
+    "id": "55fb8b65-be1b-4b26-bd9c-eb9f530f651d",
+    "question": "Who thought atoms and the void comprised all of reality?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "57a9778d-4c22-4e25-9bbf-c6b24eaf0c37": {
+    "id": "57a9778d-4c22-4e25-9bbf-c6b24eaf0c37",
+    "question": "Who was the ruler of france in 1830?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "5a5000f5-af10-4500-8c72-869815ab3169": {
+    "id": "5a5000f5-af10-4500-8c72-869815ab3169",
+    "question": "Who played the parents in the parent trap?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "5a92b45f-325b-44f1-846e-1ac1ebab3c3c": {
+    "id": "5a92b45f-325b-44f1-846e-1ac1ebab3c3c",
+    "question": "What is the os of samsung smart tv?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "5afb3eb8-b224-4e94-a6a6-7845a8a67834": {
+    "id": "5afb3eb8-b224-4e94-a6a6-7845a8a67834",
+    "question": "Who was considered the father of the blues?",
+    "conditions": [
+      {
+        "condition": "W. C. Handy referred to himself as the \"Father of the Blues,\" and his contributions significantly influenced the widespread popularity of blues  .Handy's works played a key role in transforming blues into a mainstream music form  .",
+        "answer": "W. C. Handy's contributions significantly influenced the widespread popularity of blues, as he was the 'Father of the Blues' and played a key role in transforming blues into a mainstream music form.",
+        "citations": [
+          "Fragment 15",
+          "Fragment 19"
+        ]
+      },
+      {
+        "condition": "Charley Patton is considered the \"Father of the Delta Blues,\" with a profound impact on the development of this specific style  .Patton made significant contributions to the creation and spread of Delta blues, making him a key figure in this area  .",
+        "answer": "Charley Patton is known as the 'Father of the Delta Blues', making significant contributions to its creation and spread, thereby becoming a key figure in this specific style.",
+        "citations": [
+          "Fragment X",
+          "Fragment Y"
+        ]
+      },
+      {
+        "condition": "Muddy Waters is referred to as the \"Father of Modern Chicago Blues,\" and he played a significant role in the post-war development of blues  .",
+        "answer": "Muddy Waters was referred to as the 'Father of Modern Chicago Blues', significantly impacting the post-war development of blues music.",
+        "citations": [
+          "Fragment X",
+          "Fragment Y"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6978130169146517,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0.6070980749803127,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.4969482228058638,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "5c64f3ca-18dd-4a9e-af59-79beab0a9277": {
+    "id": "5c64f3ca-18dd-4a9e-af59-79beab0a9277",
+    "question": "Who landed the first quad jump in figure skating?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "5e7d6d65-1244-4444-bb81-f8dad100d8c3": {
+    "id": "5e7d6d65-1244-4444-bb81-f8dad100d8c3",
+    "question": "When did the ancient chinese civilization begin and end?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "5fa6dbc8-dab2-4e92-a519-21c8a3fa6047": {
+    "id": "5fa6dbc8-dab2-4e92-a519-21c8a3fa6047",
+    "question": "Who wrote brown eyes by destiny's child?",
+    "conditions": [
+      {
+        "condition": "There are multiple songs with titles related to 'Brown Eyes' or similar, but they are not related to Destiny's Child. The songwriting credits for Destiny's Child often include Beyoncé Knowles, especially for songs where she leads the vocals.",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.19351057311494374,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "6261f329-b8df-4019-afb5-4057cead2baa": {
+    "id": "6261f329-b8df-4019-afb5-4057cead2baa",
+    "question": "Who is playing parvati role in mahadev serial?",
+    "conditions": [
+      {
+        "condition": "\"Devon Ke Dev...Mahadev\" is a long-running series, and multiple actresses played the role of Parvati at different times.  Sonarika Bhadoria was one of the earliest actresses to play Parvati in this series.  ",
+        "answer": "[Multiple actresses played Parvati in 'Devon Ke Dev...Mahadev', including Sonarika Bhadoria, Puja Bannerjee, and Suhasi Dhami.]",
+        "citations": [
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "Mouni Roy mainly portrayed the role of Sati in \"Devon Ke Dev...Mahadev.\"  Viewers might confuse the roles of Sati and Parvati.  ",
+        "answer": "[Mouni Roy portrayed the role of Sati in 'Devon Ke Dev...Mahadev', which is distinct from Parvati's character.]",
+        "citations": [
+          "Fragment 18",
+          "Fragment 2"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5257157761858686,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0.2642606131425644,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "63ab08f5-5987-4ad8-8b3f-262989a6aff7": {
+    "id": "63ab08f5-5987-4ad8-8b3f-262989a6aff7",
+    "question": "What was the first literature of the anglo-saxons?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "66880c7a-0588-4b0f-b5db-2e549e86c7c3": {
+    "id": "66880c7a-0588-4b0f-b5db-2e549e86c7c3",
+    "question": "The guy who tries to kill bugs bunny?",
+    "conditions": [
+      {
+        "condition": "Yosemite Sam repeatedly confronts Bugs Bunny in various shorts.  Yosemite Sam typically uses violent means to solve problems but always ends up failing.  ",
+        "answer": "Yosemite Sam constantly confronts Bugs Bunny, employing violent methods but ultimately failing due to his own overconfidence.",
+        "citations": [
+          "Fragment 16",
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "Casbah is a secondary antagonist in \"Hare Splitter.\"  Casbah's hostility towards Bugs Bunny is driven by anger.  ",
+        "answer": "Casbah's anger towards Bugs Bunny in 'Hare Splitter' leads him to repeatedly fail in his attempts to harm the rabbit.",
+        "citations": [
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "Charles is a wolf who chases Bugs Bunny in \"Hare-Less Wolf.\"  Charles' clumsiness causes him to fail repeatedly in his attempts to shoot Bugs Bunny.  ",
+        "answer": "Charles, the wolf in 'Hare-Less Wolf', fails to shoot Bugs Bunny due to his own clumsiness and unsuccessful strategies.",
+        "citations": [
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.47114918793963884,
+        "citation_score": 0.6666666666666665
+      },
+      {
+        "answer_score": 0.5975145378471527,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.6311755267464548,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "66c94f02-408f-4bee-9005-7eb05e35f790": {
+    "id": "66c94f02-408f-4bee-9005-7eb05e35f790",
+    "question": "Who played alan turner's son in emmerdale?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "66e88299-1e35-441a-b9b4-0b0be39a942d": {
+    "id": "66e88299-1e35-441a-b9b4-0b0be39a942d",
+    "question": "When is episode 113 of dragon ball super coming out?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "698ad8db-bdfb-4bcb-a0ad-3d0589531ffa": {
+    "id": "698ad8db-bdfb-4bcb-a0ad-3d0589531ffa",
+    "question": "4. which latitudes experience the greatest annual change in daylight hours?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "6ad4aba6-173f-4b21-9383-e4cd55ba0d0e": {
+    "id": "6ad4aba6-173f-4b21-9383-e4cd55ba0d0e",
+    "question": "Who plays football on new years day 2018?",
+    "conditions": [
+      {
+        "condition": "The English Premier League traditionally holds matches on New Year’s Day.  ",
+        "answer": "The English Premier League traditionally holds matches on New Year’s Day.",
+        "citations": [
+          "Fragment 19"
+        ]
+      },
+      {
+        "condition": "In the United States, several major college football bowl games are traditionally held on New Year’s Day.  If New Year’s Day falls on a Sunday, all related sporting events and festivities are deferred to Monday.  ",
+        "answer": "If New Year’s Day falls on a Sunday, all related sporting events and festivities in the United States are deferred to Monday for major college football bowl games.",
+        "citations": [
+          "Fragment 14",
+          "Fragment 15",
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "The NFL typically does not stage games on New Year’s Day unless it falls on a Sunday.  ",
+        "answer": "The National Football League (NFL) typically does not stage games on New Year’s Day unless it falls on a Sunday.",
+        "citations": [
+          "Fragment 16",
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.4675230236288013,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.1904650540276367,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.3453039675340649,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "6c86e15a-f1c9-479a-81dc-099ec16a5555": {
+    "id": "6c86e15a-f1c9-479a-81dc-099ec16a5555",
+    "question": "Where did they film the witches of eastwick?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "6fd70e21-8003-475d-ad7b-f6db5d7c4240": {
+    "id": "6fd70e21-8003-475d-ad7b-f6db5d7c4240",
+    "question": "Who sang i can't let maggie go?",
+    "conditions": [
+      {
+        "condition": "[“I Can't Let Maggie Go” is a song originally performed by Honeybus]  \n[The song was written by Pete Dello and became a signature hit for Honeybus]  ",
+        "answer": [
+          "I Can't Let Maggie Go is a song originally performed by Honeybus. The song was written by Pete Dello and became a signature hit for the band."
+        ],
+        "citations": [
+          "Fragment 1",
+          "Fragment 8"
+        ]
+      },
+      {
+        "condition": "[Jonathan King released a cover version in 1991]  \n[This version was released as a tribute to Margaret Thatcher]  ",
+        "answer": [
+          "Jonathan King released a cover version of 'I Can't Let Maggie Go' in 1991, which was dedicated as a tribute to outgoing prime minister Margaret Thatcher."
+        ],
+        "citations": [
+          "Fragment 2",
+          "Fragment 3"
+        ]
+      },
+      {
+        "condition": "[“I Can't Let Maggie Go” has been covered by several other artists]  \n[These covers include versions by David Essex and J. Vincent Edwards]  ",
+        "answer": [
+          "The song 'I Can't Let Maggie Go' has been covered by several artists including David Essex and J. Vincent Edwards."
+        ],
+        "citations": [
+          "Fragment 3",
+          "Fragment 5"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.50567788858626,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0.5193804605747993,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.4330379613190323,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "70077152-3455-4b10-b429-51801631f8dd": {
+    "id": "70077152-3455-4b10-b429-51801631f8dd",
+    "question": "Who played warden hodges in dad's army?",
+    "conditions": [
+      {
+        "condition": "Dad's Army is a British television sitcom about the UK's Home Guard during World War II  Bill Pertwee was a British comedy actor known for his roles in various film and TV productions  ",
+        "answer": "[British television sitcom about UK's Home Guard during World War II] [Bill Pertwee was a British comedy actor known for his roles in various film and TV productions]",
+        "citations": [
+          "Fragment 12",
+          "Fragment 14"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.1829619724751718,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "7054349b-1009-4485-817c-9eebecc10019": {
+    "id": "7054349b-1009-4485-817c-9eebecc10019",
+    "question": "Who sings dont you wish your girlfriend was hot like me?",
+    "conditions": [
+      {
+        "condition": "The song “Don’t Cha” is performed by The Pussycat Dolls, featuring Busta Rhymes.  \n",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.252785716266383,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "71a3ec60-783d-4238-95b3-336b18e7d349": {
+    "id": "71a3ec60-783d-4238-95b3-336b18e7d349",
+    "question": "Who was the first pharaoh to be buried in a pyramid?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "71fdd773-88bd-4583-8ba6-1e3b5739e7a1": {
+    "id": "71fdd773-88bd-4583-8ba6-1e3b5739e7a1",
+    "question": "Who's the highest paid nba player 2017?",
+    "conditions": [
+      {
+        "condition": "Supermax contracts signed in 2017 take effect in the 2017-18 season, and the highest-paid players are often determined by seasonal salary  .NBA player earnings are typically measured by contract amounts, and Stephen Curry signed a record-breaking contract in 2017  .",
+        "answer": "Supermax contracts signed in 2017 take effect in the 2017-18 season, which is when the highest-paid players are often determined by seasonal salary. Stephen Curry's record-breaking contract in 2017 significantly impacts this calculation.",
+        "citations": [
+          "Fragment 15",
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "LeBron James has the highest career earnings and was also a very high earner in 2017  .Although multiple supermax contracts were signed in 2017, not all took effect in that year  .",
+        "answer": "LeBron James has the highest career earnings, and he was also a high earner in 2017. Despite multiple supermax contracts being signed in 2017, not all of them took effect until the following seasons.",
+        "citations": [
+          "Fragment 16",
+          "Fragment 20"
+        ]
+      },
+      {
+        "condition": "Other supermax contracts, like Russell Westbrook’s, were signed in 2017 but took effect later, so 2017 income calculations focus on contracts that took effect that year  .",
+        "answer": "Other supermax contracts, like Russell Westbrook's, were signed in 2017 but did not take full effect until later seasons. Therefore, the 2017 income calculations for these players focus on the portion of their contracts that took effect during that year.",
+        "citations": [
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.321228524482212,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.3870329621896249,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.20304633396357477,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "7272943c-ec6c-4135-a634-a8d4311f235b": {
+    "id": "7272943c-ec6c-4135-a634-a8d4311f235b",
+    "question": "How many state parks are there in virginia?",
+    "conditions": [
+      {
+        "condition": "Virginia has a state park system.  Virginia manages multiple state parks.  ",
+        "answer": "[The Virginia state park system now oversees 43 parks. The Department of Conservation and Recreation manages the Virginia state parks.]",
+        "citations": [
+          "Fragment 1",
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "Virginia has state parks, managed by a specific department.  Different sources provide varying counts of state parks in Virginia.  ",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6167091103428823,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0,
+        "citation_score": 0
+      }
+    ]
+  },
+  "735346de-7f40-4001-aa28-a60047311d37": {
+    "id": "735346de-7f40-4001-aa28-a60047311d37",
+    "question": "When did alabama became a right to work state?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "736a57c3-4db6-406f-b9c9-b3f428fe0d27": {
+    "id": "736a57c3-4db6-406f-b9c9-b3f428fe0d27",
+    "question": "What's the most points scored in an nba game?",
+    "conditions": [
+      {
+        "condition": "In NBA games, points can be accumulated through field goals or free throws, and the team with the most points wins. Points in NBA games can be increased through overtime periods. ",
+        "answer": "[In NBA games, points can be accumulated through field goals or free throws, and the team with the most points wins. Points in NBA games can be increased through overtime periods.]",
+        "citations": [
+          "Fragment 5"
+        ]
+      },
+      {
+        "condition": "In NBA games, the highest score can refer to the combined total points of both teams in a single game. Such total scoring records usually occur in intense games. ",
+        "answer": "[The highest score in an NBA game refers to the combined total points of both teams in a single game. Such total scoring records usually occur in intense games.]",
+        "citations": [
+          "Fragment 9",
+          "Fragment 14"
+        ]
+      },
+      {
+        "condition": "Single-game scoring records may vary depending on the venue or type of game. ",
+        "answer": "[Single-game scoring records may vary depending on the venue or type of game.]",
+        "citations": [
+          "Fragment 3",
+          "Fragment 15"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.11056710349639647,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.1832996272075731,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.2038097784635177,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "739753da-89b9-4e39-8ecf-f57d63e8ae8c": {
+    "id": "739753da-89b9-4e39-8ecf-f57d63e8ae8c",
+    "question": "Who sings wake me up when it's all over?",
+    "conditions": [
+      {
+        "condition": "Aloe Blacc is an American soul singer  \nAvicii is a Swedish DJ and record producer  ",
+        "answer": "",
+        "citations": []
+      },
+      {
+        "condition": "The song is the lead single from Avicii's debut studio album \"True\"  \nThe lyrics of the song were written by Aloe Blacc  ",
+        "answer": "[Detailed answer] Aloe Blacc performed the song on 'The Voice', which is not mentioned in Fragment 20, but it does state that the song was covered by the cast of the musical drama series Star. Therefore, we cannot confirm that it was performed by Aloe Blacc on 'The Voice'. Regarding Avicii's debut studio album 'True', this information is not provided in the given fragments. The lyrics being written by Aloe Blacc also cannot be confirmed from the provided fragments.",
+        "citations": [
+          "Fragment 19"
+        ]
+      },
+      {
+        "condition": "Alicia Keys and Britton Buchanan performed the song on \"The Voice\"  ",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.07865877171989409,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.3222676251409038,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0,
+        "citation_score": 0
+      }
+    ]
+  },
+  "73a10e9a-9523-42e9-85f8-e93f3b79e09a": {
+    "id": "73a10e9a-9523-42e9-85f8-e93f3b79e09a",
+    "question": "Who is the singer of main tera boyfriend?",
+    "conditions": [
+      {
+        "condition": "\"Main Tera Boyfriend\" is a dance song sung by multiple artists, including Arijit Singh and Neha Kakkar.  \nMeet Bros also contributed to some parts of the song.  ",
+        "answer": {
+          "singer": "Arijit Singh, Neha Kakkar, Meet Bros"
+        },
+        "citations": [
+          "Fragment 1",
+          "Fragment 5"
+        ]
+      },
+      {
+        "condition": "\"Main Tera Boyfriend\" is a revamped version of J Star's original song \"Na Na Na Na.\"  \nJ Star claimed that T-Series recreated his song without permission.  ",
+        "answer": {
+          "original_song": "Na Na Na Na",
+          "accused_party": "T-Series",
+          "accuser": "J Star"
+        },
+        "citations": [
+          "Fragment 2",
+          "Fragment 3"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5053595294620248,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.05754022650435492,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "74228481-552e-440f-8949-c097efcf0f54": {
+    "id": "74228481-552e-440f-8949-c097efcf0f54",
+    "question": "Where was 'top of the lake' filmed?",
+    "conditions": [
+      {
+        "condition": "\"Top of the Lake\" is a TV series primarily set in the South Island of New Zealand, with filming covering various lakes and mountainous regions.  The filming took place mainly in several notable locations in New Zealand.  ",
+        "answer": "Top of the Lake was filmed in Queenstown, Glenorchy, and Moke Lake on the South Island of New Zealand.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2",
+          "Fragment 4",
+          "Fragment 5",
+          "Fragment 7"
+        ]
+      },
+      {
+        "condition": "The Paradise area was used as the setting, but the actual filming took place in Glenorchy.  ",
+        "answer": "The Paradise area was used as a setting for the series, with actual filming taking place in Glenorchy.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 4",
+          "Fragment 5"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.4958019892652102,
+        "citation_score": 0.5714285714285714
+      },
+      {
+        "answer_score": 0.846633631081778,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "744e4bde-ece0-4760-9c2b-74058c750014": {
+    "id": "744e4bde-ece0-4760-9c2b-74058c750014",
+    "question": "Who sang still crazy after all these years?",
+    "conditions": [
+      {
+        "condition": "“Still Crazy After All These Years” is a song written and performed by Paul Simon, and it is the title track of his fourth studio album  \tThe song became a hit after its release, entering the top 40 of the Billboard Hot 100 in the United States  ",
+        "answer": "Paul Simon wrote and performed 'Still Crazy After All These Years', which is the title track of his fourth studio album. The song achieved commercial success, reaching the top 40 of the Billboard Hot 100 in the United States.",
+        "citations": [
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "Still Crazy After All These Years” has been covered by several artists   \tKaren Carpenter is one of these artists who recorded the song on her solo album  ",
+        "answer": "'Still Crazy After All These Years' has been covered by several artists, including Karen Carpenter, who recorded the song on her solo album.",
+        "citations": [
+          "Fragment 17",
+          "Fragment 17"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6302628349036714,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.4441992903207191,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "76197026-6336-497c-8851-efd74f3684ea": {
+    "id": "76197026-6336-497c-8851-efd74f3684ea",
+    "question": "Who plays eun jae in hello my twenties?",
+    "conditions": [
+      {
+        "condition": "“Hello, My Twenties!” is a South Korean television series, and Park Eun-bin is one of the main cast members.  Park Eun-bin is widely recognized for her role in this series.  ",
+        "answer": "[Park Eun-bin is a main cast member of the South Korean television series 'Hello, My Twenties!' and is widely recognized for her role in this series.]",
+        "citations": [
+          "Fragment 15"
+        ]
+      },
+      {
+        "condition": "Park Hye-soo was originally set to play “Yoo Eun-jae,” but she stepped down due to scheduling conflicts, and Ji Woo replaced her.   “Yoo Eun-jae” is a key character in the series.  ",
+        "answer": "[Park Hye-soo stepped down from playing Yoo Eun-jae due to scheduling conflicts, and Ji Woo replaced her in the series 'Hello, My Twenties!']",
+        "citations": [
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.3098234578068458,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.3052947911518351,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "7832c0f4-3e4e-4d36-aebb-aa01f4d6ede4": {
+    "id": "7832c0f4-3e4e-4d36-aebb-aa01f4d6ede4",
+    "question": "Who gets mandy pregnant in season 2 of shameless?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "796d836e-85de-466d-b62b-f7f0e83f0769": {
+    "id": "796d836e-85de-466d-b62b-f7f0e83f0769",
+    "question": "Who plays patrick in 10 things i hate about you?",
+    "conditions": [
+      {
+        "condition": "The film \"10 Things I Hate About You\" is a 1999 teen romantic comedy that tells the story of a high school student, Cameron, who tries to get a \"bad boy\" Patrick to date Kat so that he can date Kat's sister, Bianca.  ",
+        "answer": "The film '10 Things I Hate About You' is a 1999 teen romantic comedy that revolves around a high school student, Cameron, trying to get a 'bad boy' Patrick to date Kat so he can date Kat's sister, Bianca.",
+        "citations": [
+          "Fragment 1"
+        ]
+      },
+      {
+        "condition": "In 2009, ABC Family produced a television sitcom based on the film \"10 Things I Hate About You.\"  ",
+        "answer": "In 2009, ABC Family produced a television sitcom titled '10 Things I Hate About You' which is based on the 1999 film of the same name.",
+        "citations": [
+          "Fragment 14",
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.23506733012759704,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.08638776275655476,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "7bd89255-f96f-4517-896a-62dc941e0377": {
+    "id": "7bd89255-f96f-4517-896a-62dc941e0377",
+    "question": "Where did the pilgrims originally plan to land in north america?",
+    "conditions": [
+      {
+        "condition": "The Pilgrims initially set out for the Colony of Virginia  ",
+        "answer": "[The Pilgrims initially set out for the Colony of Virginia]",
+        "citations": [
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "The Pilgrims’ journey was intended for religious freedom and settlement  ",
+        "answer": "[The Pilgrims' journey was intended for religious freedom and settlement]",
+        "citations": [
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.31402592191244244,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.1777299861174691,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "7c5574af-4787-45c6-aad5-7ca7b37a8d98": {
+    "id": "7c5574af-4787-45c6-aad5-7ca7b37a8d98",
+    "question": "Where is three billboards outside of ebbing missouri filmed?",
+    "conditions": [
+      {
+        "condition": "The film’s story takes place in a fictional town in Missouri  The theme of the movie is closely tied to the development of its plot  ",
+        "answer": "The film’s story takes place in a fictional town in Missouri, which is central to the plot development.",
+        "citations": [
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "The movie used real billboards as a background element  The plot was inspired by real events, although fictionalized in the film  ",
+        "answer": "The movie used real billboards as a background element and was inspired by real events, though fictionalized in the film.",
+        "citations": [
+          "Fragment 17",
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "The film involved constructing specific scenes and sets  While the story is fictional, the filming locations are real  ",
+        "answer": "The film involved constructing specific scenes and sets, which are real locations where filming took place.",
+        "citations": [
+          "Fragment 14",
+          "Fragment 17"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.20255315442325283,
+        "citation_score": 0.25
+      },
+      {
+        "answer_score": 0.237754065704796,
+        "citation_score": 0.25
+      },
+      {
+        "answer_score": 0.1920436274046519,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "8162f38e-6ae1-40b6-aa90-450af10f56c6": {
+    "id": "8162f38e-6ae1-40b6-aa90-450af10f56c6",
+    "question": "Who tried to evaluate attitude through the social distance?",
+    "conditions": [
+      {
+        "condition": "The concept of social distance is applied to the study of relations across racial/ethnic groups, and modern research into social distance originates from the theory of Georg Simmel  \nRobert Park instructed his student to create a tool to quantify social distance, and Simmel’s concept of social distance influenced Robert Park’s studies  ",
+        "answer": "Emory Bogardus was tasked by Robert Park to create a quantifiable measure of social distance, which influenced the study of relations across racial/ethnic groups. The concept originated from Georg Simmel's theory.",
+        "citations": [
+          "Fragment 6"
+        ]
+      },
+      {
+        "condition": "Social distance involves the degrees of understanding and feelings people have towards each other  \nSocial distance is considered an important variable in third-person effect research  ",
+        "answer": "Social distance involves the degrees of understanding and feelings people have towards each other and is considered an important variable in third-person effect research.",
+        "citations": [
+          "Fragment 10",
+          "Fragment 13"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5531257876936457,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.19248371725136024,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "85315d2e-1cb3-4b02-9531-e074b7b2e5d9": {
+    "id": "85315d2e-1cb3-4b02-9531-e074b7b2e5d9",
+    "question": "How many states in india are under congress?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "88906876-9428-4a09-b82f-49daa125499e": {
+    "id": "88906876-9428-4a09-b82f-49daa125499e",
+    "question": "When was i can only imagine first sang?",
+    "conditions": [
+      {
+        "condition": "\"I Can Only Imagine\" is a Christian song created by MercyMe, first recorded in 1999 on their independent album The Worship Project.  \nThe song was inspired by Millard's reflections on his father's death.  \nThe song was first performed live at a summer camp in 1999.  ",
+        "answer": "MercyMe first recorded 'I Can Only Imagine' in 1999 on their independent album The Worship Project, inspired by Millard's reflections on his father's death. The song was first performed live at a summer camp in 1999.",
+        "citations": [
+          "Fragment 17",
+          "Fragment 19"
+        ]
+      },
+      {
+        "condition": "\"I Can Only Imagine\" was officially released as a single by MercyMe in 2001 and quickly gained success.  ",
+        "answer": "'I Can Only Imagine' was officially released as a single by MercyMe in 2001 and quickly gained success.",
+        "citations": [
+          "Fragment 17",
+          "Fragment 18"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6429423865311251,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.4562909786360355,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "8af1a4db-e24e-4cc8-8288-7d807af476a8": {
+    "id": "8af1a4db-e24e-4cc8-8288-7d807af476a8",
+    "question": "Who wrote the first five books of moses?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "90677caf-7794-42e9-99f1-33ce55d35544": {
+    "id": "90677caf-7794-42e9-99f1-33ce55d35544",
+    "question": "Most points by nhl player in one game?",
+    "conditions": [
+      {
+        "condition": "The record for the highest points in a single NHL game is a significant and well-known record. This record is typically set by players with exceptional offensive abilities, often facing relatively weak defenses. When discussing single-game scoring records, goals and assists are often distinguished, as goals scored and total points are frequently recorded separately in NHL history.",
+        "answer": {
+          "record Holder": "Darryl Sittler",
+          "points Scored": "10",
+          "game Date": "February 7, 1976",
+          "opponent": "Boston Bruins"
+        },
+        "citations": [
+          "Fragment 13",
+          "Fragment 15"
+        ]
+      },
+      {
+        "condition": "High-scoring performances by defensemen in a single NHL game are relatively rare.  Only a few defensemen in NHL history have scored more than 8 points in a single game.  ",
+        "answer": {
+          "defensive Players": [
+            "Bill Kyle",
+            "Richard Kromm"
+          ],
+          "points Scored": "3",
+          "game Date": "1950–51",
+          "record Holder": "best single season points per game average"
+        },
+        "citations": [
+          "Fragment 18"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.4625599910885662,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0.10909795201744119,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "906f7771-dcd0-40ee-ba39-147981e49ca3": {
+    "id": "906f7771-dcd0-40ee-ba39-147981e49ca3",
+    "question": "Where did peanut butter and jelly time come from?",
+    "conditions": [
+      {
+        "condition": "The question may be asking about the origin of the 'Peanut Butter Jelly Time' internet meme rather than the history of the sandwich.   The meme became widely popular due to the Buckwheat Boyz, who were credited for creating it.  ",
+        "answer": "The 'Peanut Butter Jelly Time' internet meme, created by the Buckwheat Boyz, gained widespread popularity in the early 2010s.",
+        "citations": [
+          "Fragment X"
+        ]
+      },
+      {
+        "condition": "The question may be asking about the historical context of peanut butter and jelly as a food combination rather than the meme.   The earliest known reference to the peanut butter and jelly sandwich appeared in 1901.   The combination became popular as peanut butter prices dropped and sliced bread became common.  ",
+        "answer": "The combination of peanut butter and jelly as a food has historical roots dating back to at least 1901, becoming popular with the accessibility of sliced bread and decreasing peanut butter prices.",
+        "citations": [
+          "Fragment Y",
+          "Fragment 13"
+        ]
+      },
+      {
+        "condition": "The question may be asking about the cultural significance and widespread adoption of the peanut butter and jelly sandwich.   The sandwich became especially popular in the U.S., with many children consuming it regularly.   By World War II, it was included in soldiers' rations, further spreading its popularity.  ",
+        "answer": "The peanut butter and jelly sandwich became culturally significant in the U.S., especially among children, with its inclusion in soldiers' rations during World War II enhancing its widespread adoption.",
+        "citations": [
+          "Fragment X",
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6780823243129256,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.4950812732905782,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.7300812296849254,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "91790853-7087-4f78-a2e0-637a62bb390e": {
+    "id": "91790853-7087-4f78-a2e0-637a62bb390e",
+    "question": "When does the fifty shades of grey come out?",
+    "conditions": [
+      {
+        "condition": "The question may be asking about the release date of the Fifty Shades of Grey movie rather than the book or other forms of release.  The movie premiered at the Berlin International Film Festival and was then released on IMAX screens in the U.S.  The release date might have been strategically chosen to coincide with Valentine’s Day to boost box office sales.  ",
+        "answer": "The movie Fifty Shades of Grey was released on IMAX screens across the U.S. on February 13, 2015.",
+        "citations": [
+          "Fragment 20"
+        ]
+      },
+      {
+        "condition": "The question may be asking about the home video or digital release of the movie rather than the theatrical release.  The movie released its DVD and Blu-ray versions a few months after its theatrical release.  ",
+        "answer": "The movie Fifty Shades of Grey's home video and digital release occurred a few months after its theatrical release on IMAX screens in the U.S. on February 13, 2015.",
+        "citations": [
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6165014353523937,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.39396035431378384,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "9244e67f-13fb-4003-81c1-36c3db5666ea": {
+    "id": "9244e67f-13fb-4003-81c1-36c3db5666ea",
+    "question": "The movement of food in food pipe is called?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "976dc597-55c9-4710-afd7-874023a4b30f": {
+    "id": "976dc597-55c9-4710-afd7-874023a4b30f",
+    "question": "What did king john do to kenilworth castle?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "97f86686-8896-48d2-b206-e91011e07e7c": {
+    "id": "97f86686-8896-48d2-b206-e91011e07e7c",
+    "question": "Who is fruma sarah in fiddler on the roof?",
+    "conditions": [
+      {
+        "condition": "In the stage play \"Fiddler on the Roof,\" the character Fruma-Sarah is portrayed by multiple actors.  Fruma-Sarah is the deceased wife of Lazar Wolf (the butcher).  ",
+        "answer": "In the stage play 'Fiddler on the Roof,' Fruma-Sarah is portrayed by multiple actors throughout different performances.",
+        "citations": [
+          "Fragment X"
+        ]
+      },
+      {
+        "condition": "The character of Fruma-Sarah may have different portrayals in various versions and interpretations of the play.  Fruma-Sarah was represented as a 12-foot puppet in one touring production.  ",
+        "answer": "The character of Fruma-Sarah in various versions and interpretations of the play, including one where she was represented as a 12-foot puppet in a touring production.",
+        "citations": [
+          "Fragment Y"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.2222700156135788,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.427010415704636,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "98cec07d-fca7-483e-a2ab-ff7dd67641a4": {
+    "id": "98cec07d-fca7-483e-a2ab-ff7dd67641a4",
+    "question": "Who sings the song for stuck in the middle?",
+    "conditions": [
+      {
+        "condition": "Clea is an English girl group, and they have a song titled \"Stuck in the Middle.\"  The song was performed on several shows and appeared on their albums.  ",
+        "answer": "[Detailed answer]",
+        "citations": [
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "Another song titled \"Stuck in the Middle\" appears on the international version of Inner Circle's album \"Bad to the Bone.\"  Inner Circle is a band from Jamaica.  ",
+        "answer": "[Detailed answer]",
+        "citations": [
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "Naja Rosa and Anders Holm also wrote and performed a song titled \"Stuck in the Middle.\"  ",
+        "answer": "[Detailed answer]",
+        "citations": [
+          "Fragment X",
+          "Fragment Y"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.14257101316285564,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.21596680850954453,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.2011545617536822,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "98f10086-8248-45ba-bcb0-0c272da92ab5": {
+    "id": "98f10086-8248-45ba-bcb0-0c272da92ab5",
+    "question": "When was the first piece of music made?",
+    "conditions": [
+      {
+        "condition": "Music may predate the invention of language or tools and could have originated from rhythmic actions or sounds produced by early humans.  Paleolithic humans might have created the earliest forms of music by clapping stones or using other tools.  ",
+        "answer": "The earliest forms of music may indeed predate the invention of language or tools. Paleolithic humans likely created music through rhythmic actions, like clapping stones or using tools.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2"
+        ]
+      },
+      {
+        "condition": "The human voice might be the earliest \"instrument,\" and early humans may have used sounds for communication, possibly before the advent of language.  Musical forms might have originated from early human vocal expressions, such as humming or making sounds.  ",
+        "answer": "The human voice is considered one of the earliest 'instruments.' Early humans used vocal expressions such as humming and sounds for communication, which might have been precursors to music.",
+        "citations": [
+          "Fragment 3",
+          "Fragment 4"
+        ]
+      },
+      {
+        "condition": "Early music records might originate from specific cultural or religious ceremonies.  Ancient Chinese ceremonial music might provide one of the earliest records of musical forms.  ",
+        "answer": "Early music records are often associated with cultural or religious ceremonies. Ancient Chinese ceremonial music is a notable example of one of the earliest recorded forms of musical traditions.",
+        "citations": [
+          "Fragment 5",
+          "Fragment 6"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.4640988756736407,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.32423384702903174,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.3324822670967791,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "9ac65678-6542-4b70-9050-aabe78210cba": {
+    "id": "9ac65678-6542-4b70-9050-aabe78210cba",
+    "question": "Who is hosting the next world cup 2022?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "9dc00106-e535-4a5b-9c1b-2445510e637e": {
+    "id": "9dc00106-e535-4a5b-9c1b-2445510e637e",
+    "question": "When does tell me a story air on cbs?",
+    "conditions": [
+      {
+        "condition": "\"Air on CBS\" might be understood as referring to the original air dates on CBS All Access  .\"Tell Me a Story\" was canceled on CBS All Access in May 2020  .",
+        "answer": "[Tell Me a Story was canceled on CBS All Access in May 2020]",
+        "citations": [
+          "Fragment 12"
+        ]
+      },
+      {
+        "condition": "\"Air on CBS\" might be understood as referring to the reruns on The CW television network  .The CW, a subsidiary of CBS, acquired the broadcast rights to the series  .",
+        "answer": "[The CW, a subsidiary of CBS, acquired the broadcast rights to the series]",
+        "citations": [
+          "Fragment 3"
+        ]
+      },
+      {
+        "condition": "\"Air on CBS\" might be understood as referring to the premiere or rerun dates on CBS or its affiliated networks  .The show originally aired on CBS All Access but was rerun on The CW after its cancellation in 2020  .",
+        "answer": "[Tell Me a Story was rerun on The CW after its cancellation in 2020]",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.19035101693234865,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.002931223060909119,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.22689414213699952,
+        "citation_score": 0.6666666666666665
+      }
+    ]
+  },
+  "9f475a64-5007-45ae-a714-4a3cc9b23119": {
+    "id": "9f475a64-5007-45ae-a714-4a3cc9b23119",
+    "question": "When did the french join revolution on colonists side?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "a057a20f-7cfb-4997-8226-e7fc32353e18": {
+    "id": "a057a20f-7cfb-4997-8226-e7fc32353e18",
+    "question": "Who was the last person hanged in england?",
+    "conditions": [
+      {
+        "condition": "The last hanging in the United Kingdom took place in 1964.  Two convicts were executed simultaneously at different prisons.  Hanging as a form of execution was abolished in the UK in 1965.  The last two individuals executed were sentenced to hanging for murder.  ",
+        "answer": "The last person hanged in England was Gwynne Owen Evans.",
+        "citations": [
+          "Fragment 2",
+          "Fragment 7"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.36691929727473127,
+        "citation_score": 0.16666666666666663
+      }
+    ]
+  },
+  "a1886099-161d-46de-aa0e-2f035ca9d7f6": {
+    "id": "a1886099-161d-46de-aa0e-2f035ca9d7f6",
+    "question": "Most clean sheets in la liga all time?",
+    "conditions": [
+      {
+        "condition": "Different goalkeepers in La Liga history have accumulated a significant number of clean sheets while playing for various teams.  ",
+        "answer": "[Different goalkeepers in La Liga history have accumulated a significant number of clean sheets while playing for various teams.]",
+        "citations": [
+          "Fragment 3",
+          "Fragment 12"
+        ]
+      },
+      {
+        "condition": "Some goalkeepers have set club records in specific seasons and made significant contributions to the number of clean sheets.  ",
+        "answer": "[Some goalkeepers have set club records in specific seasons and made significant contributions to the number of clean sheets.]",
+        "citations": [
+          "Fragment 13",
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.10909795144560605,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.08218393962292722,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "a86b2b18-f378-4c3b-81ab-5724ec467bc1": {
+    "id": "a86b2b18-f378-4c3b-81ab-5724ec467bc1",
+    "question": "What do you use to test for lipids?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "a988b042-8823-4e41-aae4-a09c74515350": {
+    "id": "a988b042-8823-4e41-aae4-a09c74515350",
+    "question": "When was the immorality act repealed in south africa?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "aa853cd0-1f9c-4522-91dd-9e4aec136c65": {
+    "id": "aa853cd0-1f9c-4522-91dd-9e4aec136c65",
+    "question": "How many grammy awards does whitney houston have?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "ab83078a-9388-4b08-94b4-7acb87b2d286": {
+    "id": "ab83078a-9388-4b08-94b4-7acb87b2d286",
+    "question": "Who played the riddler in the original batman series?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "abf9faee-8033-47f7-ad8a-118003d7080d": {
+    "id": "abf9faee-8033-47f7-ad8a-118003d7080d",
+    "question": "When did the first cellular phone come out?",
+    "conditions": [
+      {
+        "condition": "Before 1973, mobile phones were mainly installed in vehicles, and portable handheld devices did not appear until 1973.  \nThe concept of cellular technology was proposed as early as 1947, but portable handheld devices were not developed until 1973.  \nThe development of mobile phones went through multiple stages, including advancements in 0G and 1G technologies.  ",
+        "answer": "The concept of cellular technology was proposed in 1947, but it wasn't until 1973 that portable handheld devices were developed.",
+        "citations": [
+          "Fragment 11",
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "Early mobile phones primarily used analog signals, and the technology was still immature and limited in application.  \nThe commercialization of mobile phones truly impacted the mass market and drove technological development.  \nJapan and the Nordic countries launched the world's first automated cellular networks between 1979 and 1981, paving the way for widespread adoption of mobile phones.  ",
+        "answer": "Early mobile phones primarily used analog signals, and the technology was still in its infancy with limited applications. The commercialization of mobile phones later impacted the mass market significantly.",
+        "citations": [
+          "Fragment 12",
+          "Fragment 13"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.3598136716296194,
+        "citation_score": 0.125
+      },
+      {
+        "answer_score": 0.2029464791571011,
+        "citation_score": 0.16666666666666663
+      }
+    ]
+  },
+  "ad2af71a-5c96-41a7-8271-85b69cc4d715": {
+    "id": "ad2af71a-5c96-41a7-8271-85b69cc4d715",
+    "question": "How many episode in seven deadly sins season 2?",
+    "conditions": [
+      {
+        "condition": "Netflix’s labeling of seasons for “The Seven Deadly Sins” may differ from the official version.  \nNetflix has labeled the “Signs of Holy War” arc as “Season 2,” even though this content is not a full season.  ",
+        "answer": "Netflix has labeled the 'Signs of Holy War' arc as 'Season 2,' even though it is not a full season.",
+        "citations": [
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "The official season breakdown might differ from Netflix’s labeling.  \n“Season 2” in the official season breakdown usually refers to a full season’s content.  ",
+        "answer": "The official season breakdown treats 'Season 2' as a full season's content, but Netflix's labeling may differ.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.4181915374691229,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.21324527157168793,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "ad49bb44-dca1-48ba-8b61-529fc9629a2c": {
+    "id": "ad49bb44-dca1-48ba-8b61-529fc9629a2c",
+    "question": "Why did the st louis cardinals move to arizona?",
+    "conditions": [
+      {
+        "condition": "The team’s mediocre performance in St. Louis and declining fan support  The Busch Memorial Stadium, used by the team, was 21 years old and aging  ",
+        "answer": [
+          "The team’s mediocre performance in St. Louis and declining fan support were due to the aging Busch Memorial Stadium, which was 21 years old at the time."
+        ],
+        "citations": [
+          "Fragment 20"
+        ]
+      },
+      {
+        "condition": "Since moving to St. Louis in 1960, the team had generally performed poorly, making the playoffs only three times  The team missed the playoffs in its final season in St. Louis  ",
+        "answer": [
+          "Since moving to St. Louis in 1960, the team had performed poorly, making the playoffs only three times, and they missed the playoffs in their final season there."
+        ],
+        "citations": [
+          "Fragment 16",
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "During the 28 years in St. Louis, the team made the playoffs only three times and never won a game  Phoenix was chosen as the new home for the team, with temporary games at Arizona State University’s Sun Devil Stadium  ",
+        "answer": [
+          "During the 28 years in St. Louis, the team made the playoffs only three times and never won a game. Phoenix was chosen as the new home for the team, with temporary games at Arizona State University’s Sun Devil Stadium."
+        ],
+        "citations": [
+          "Fragment 16",
+          "Fragment 17"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.24558401395929833,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.2320821300824607,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.30887500324151335,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "b1a62c50-5b12-436c-9ee5-aebe0c3d0315": {
+    "id": "b1a62c50-5b12-436c-9ee5-aebe0c3d0315",
+    "question": "What is the name of zobo in english?",
+    "conditions": [
+      {
+        "condition": "Zobo is the name of a plant, and this plant has a standard English name.  \nThe term Zobo is popular in Northern Nigeria and often refers to a drink made from the plant.  ",
+        "answer": "The standard English name for the Zobo plant is Roselle (Hibiscus sabdariffa).",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2"
+        ]
+      },
+      {
+        "condition": "Zobo might be a nickname for a person rather than the name of a plant or drink.  ",
+        "answer": "Zobo can also be a nickname for a person, as seen in the context of Abdulkadir Mohamed Adan.",
+        "citations": [
+          "Fragment 5"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.544127454214918,
+        "citation_score": 0.6666666666666665
+      },
+      {
+        "answer_score": 0.22690591778098496,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "b2eec074-eb08-4fb0-a6c8-1b34aea0d468": {
+    "id": "b2eec074-eb08-4fb0-a6c8-1b34aea0d468",
+    "question": "How many houses are in the british parliament?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "b5f6e5a2-5fdf-492d-b6d1-78b02b2f08b0": {
+    "id": "b5f6e5a2-5fdf-492d-b6d1-78b02b2f08b0",
+    "question": "How much does it cost to raise the costa concordia?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "b7fe976f-66b9-4d84-8e94-901c139b8f1d": {
+    "id": "b7fe976f-66b9-4d84-8e94-901c139b8f1d",
+    "question": "Who released the rock opera inspired country album tommy bluegrass opera?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "b8cec7f8-9b42-4fc6-ab5c-3742a8638d8f": {
+    "id": "b8cec7f8-9b42-4fc6-ab5c-3742a8638d8f",
+    "question": "What did modern conservatives in the 1980s want to reduce?",
+    "conditions": [
+      {
+        "condition": "President Reagan in the 1980s emphasized reducing government intervention and expanding the role of the free market through fiscal conservative policies. Conservatives in the 1980s sought to promote economic freedom by reducing the expansion of federal power.",
+        "answer": "[During President Reagan's tenure, fiscal conservative policies were implemented to reduce government intervention and expand the role of the free market. This was achieved by lowering tax brackets, cutting capital gains tax, increasing defense spending, and controlling inflation.]",
+        "citations": [
+          "Fragment 13"
+        ]
+      },
+      {
+        "condition": "Conservatives have traditionally emphasized reducing government spending and social welfare programs to control the size of government. This goal was continued through Reagan's policies in the 1980s.",
+        "answer": "[Conservative policies in the 1980s aimed at reducing government spending and social welfare programs as a means to control the size of government. This goal was reflected in Reagan's efforts to cut domestic spending despite his unsuccessful attempts to achieve this through legislation.]",
+        "citations": [
+          "Fragment 13"
+        ]
+      },
+      {
+        "condition": "Conservative policies in the 1980s particularly emphasized privatization and a free-market economy. In the UK and Canada, these policies were also seen as key to reducing the role of government.",
+        "answer": "[Reagan's conservative policies emphasized privatization and free-market economy, which were also seen as key to reducing government's role in the UK and Canada.]",
+        "citations": [
+          "Fragment 13",
+          "Fragment 19"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.48309456583386867,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.7242338468742207,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.3935371995894609,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "b8df6124-4104-46b4-8a2d-b964337a42ff": {
+    "id": "b8df6124-4104-46b4-8a2d-b964337a42ff",
+    "question": "When did they start filming guardians of the galaxy?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "bca1c7e1-cadd-4abf-abb0-56a9b94bd8dd": {
+    "id": "bca1c7e1-cadd-4abf-abb0-56a9b94bd8dd",
+    "question": "Who sang i fooled around and fell in love?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "bd08a736-555d-4371-afae-360827dc49ed": {
+    "id": "bd08a736-555d-4371-afae-360827dc49ed",
+    "question": "Who sings the song stuck in the middle with you?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "bdcbc0f9-2076-44d8-964e-0fabaf0a3233": {
+    "id": "bdcbc0f9-2076-44d8-964e-0fabaf0a3233",
+    "question": "Age 21 became the uniform legal drinking age across the us in?",
+    "conditions": [
+      {
+        "condition": "The legal drinking age in various states was not uniform before the NMDAA, with some states having lower ages than 21.  The NMDAA passed in 1984 required states to raise the drinking age to 21 or lose federal highway funds.  ",
+        "answer": "The legal drinking age in various states was not uniform before the NMDAA, with some states having lower ages than 21. The NMDAA passed in 1984 required states to raise the drinking age to 21 or lose federal highway funds.",
+        "citations": [
+          "Fragment 15",
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "In the early 1970s, most states lowered their legal drinking age to 18 or 19 in response to the lowering of the voting age.  The NMDAA passed in 1984 set a federal standard requiring all states to comply.  ",
+        "answer": "In the early 1970s, most states lowered their legal drinking age to 18 or 19 in response to the lowering of the voting age. The NMDAA passed in 1984 set a federal standard requiring all states to comply.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.356294028200726,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.33936235694098166,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "bf01cf5c-e6a2-4d14-a78b-90530db7c11c": {
+    "id": "bf01cf5c-e6a2-4d14-a78b-90530db7c11c",
+    "question": "When does pokemon ultra sun and moon come out?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "bf07d993-618c-4545-9753-3fb6f351bda4": {
+    "id": "bf07d993-618c-4545-9753-3fb6f351bda4",
+    "question": "Who wins at the end of friday night lights?",
+    "conditions": [
+      {
+        "condition": "The final score is not explicitly shown at the end of season 5. Vince and other team members are shown with championship rings at the end of season 5. ",
+        "answer": "",
+        "citations": []
+      },
+      {
+        "condition": "The Permian team faces off against Dallas Carter in the state championship, with the game being very competitive. Despite their efforts, the Permian team loses in the final moments. ",
+        "answer": "",
+        "citations": []
+      },
+      {
+        "condition": "The final score of the game in season 1 is not explicitly shown. The Dillon Panthers perform well and eventually win the game. ",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.20484129945106527,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.04097382593660144,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.30993788668870403,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "bf9ba6c3-e32c-4b54-9041-b186611e9f35": {
+    "id": "bf9ba6c3-e32c-4b54-9041-b186611e9f35",
+    "question": "The creation of the senate was based on the?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "c4e94bf1-372e-4bbf-9495-19c79b4be307": {
+    "id": "c4e94bf1-372e-4bbf-9495-19c79b4be307",
+    "question": "Who wrote give me a home among the gum trees?",
+    "conditions": [
+      {
+        "condition": "“Give Me a Home Among the Gumtrees” is a well-known Australian song with a long history in Australia.  The song was first performed in Wally Johnson and Bob Brown’s comedy act.  ",
+        "answer": "[Give Me a Home Among the Gumtrees is a well-known Australian song with a long history in Australia. The song was first performed in Wally Johnson and Bob Brown’s comedy act.]",
+        "citations": [
+          "Fragment X",
+          "Fragment Y"
+        ]
+      },
+      {
+        "condition": "“Give Me a Home Among the Gumtrees” has been covered by many artists, including the famous Australian country singer John Williamson.  Some people mistakenly believe that John Williamson is the original author of the song.  ",
+        "answer": "[Give Me a Home Among the Gumtrees has been covered by many artists, including the famous Australian country singer John Williamson. Some people mistakenly believe that John Williamson is the original author of the song.]",
+        "citations": [
+          "Fragment X",
+          "Fragment Y"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.30646279805142546,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.3084646625052417,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "c51c0020-43a9-4cd3-b019-a905a8f7f9cb": {
+    "id": "c51c0020-43a9-4cd3-b019-a905a8f7f9cb",
+    "question": "Where is the minnehaha academy located in minneapolis?",
+    "conditions": [
+      {
+        "condition": "Minnehaha Academy is a Christian private school located in Minneapolis, with North and South Campuses  The school’s North and South Campuses are located in different neighborhoods and streets  ",
+        "answer": "Minnehaha Academy is a Christian private school located in Minneapolis, with North and South Campuses. The North Campus, serving grades 9 through 12, is located along West River Road in the Howe neighborhood, while the South Campus, for preschool through 8th graders, is also on West River Road but serves different neighborhoods.",
+        "citations": [
+          "Fragment 2",
+          "Fragment 4"
+        ]
+      },
+      {
+        "condition": "Minnehaha Academy has been located on the banks of the Mississippi River in Minneapolis since 1913   The school has multiple campuses distributed along West River Road  ",
+        "answer": "Minnehaha Academy has been located on the banks of the Mississippi River in Minneapolis since 1913, with multiple campuses distributed along West River Road.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2"
+        ]
+      },
+      {
+        "condition": "Minnehaha Academy was established in 1913 and now has multiple campuses serving different grade levels  The school has a broad influence in Minneapolis and offers education at multiple locations  ",
+        "answer": "Established in 1913, Minnehaha Academy now has multiple campuses serving different grade levels and has a broad influence in Minneapolis, offering education at various locations.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5345410331157251,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.5014257222464409,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0.2455840139771071,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "c538255b-da06-4f3c-a62e-3974124a7340": {
+    "id": "c538255b-da06-4f3c-a62e-3974124a7340",
+    "question": "When did mccrory's go out of business?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "c7805bc6-b819-4511-af36-0099545d247b": {
+    "id": "c7805bc6-b819-4511-af36-0099545d247b",
+    "question": "What is the name of the banjo player in deliverance?",
+    "conditions": [
+      {
+        "condition": "In the movie “Deliverance,” there is a character who participates in a famous musical duel scene as a banjo player.  \nThe character’s name mentioned in the film is Lonnie, who is the young banjo player in the movie.  ",
+        "answer": [
+          "Lonnie",
+          "the young banjo player"
+        ],
+        "citations": [
+          "Fragment 1"
+        ]
+      },
+      {
+        "condition": "The soundtrack of “Deliverance” includes a classic piece titled “Dueling Banjos,” which significantly contributes to the movie’s impact.  \nEric Weissberg is the actual banjo player who performed “Dueling Banjos” for the movie’s soundtrack.  ",
+        "answer": [
+          "Dueling Banjos"
+        ],
+        "citations": [
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "The musical duel scene in “Deliverance” is an iconic segment showcasing a banjo versus guitar duel.  \nBilly Redden played the young banjo player in the movie, but he did not actually play the banjo; the music was performed by someone else.  ",
+        "answer": [
+          "banjo versus guitar duel"
+        ],
+        "citations": [
+          "Fragment 1"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.46233779268388125,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.0790452680432842,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.0,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "c79bb8be-7783-4fcb-b3ce-4445932ea4b3": {
+    "id": "c79bb8be-7783-4fcb-b3ce-4445932ea4b3",
+    "question": "Who sings you've got a friend in me in toy story 2?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "cabada8e-de0f-45dc-8f28-f6fb690c68bb": {
+    "id": "cabada8e-de0f-45dc-8f28-f6fb690c68bb",
+    "question": "Who led the first voyage to circumnavigate the globe?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "cb2f567e-0e9d-466e-9d5c-d75134ee5a27": {
+    "id": "cb2f567e-0e9d-466e-9d5c-d75134ee5a27",
+    "question": "When did construction start on the sydney harbour bridge?",
+    "conditions": [
+      {
+        "condition": "A Royal Commission in 1909 reported on the potential for the bridge, and the groundbreaking ceremony took place on July 28, 1923. However, at this time, the work was mainly focused on foundational preparations, not large-scale construction. World War I delayed progress, and major construction activities began later.",
+        "answer": "[Detailed answer]",
+        "citations": [
+          "Fragment 2"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.21378747948519342,
+        "citation_score": 0.2
+      }
+    ]
+  },
+  "cbc8b155-ccdd-4ff9-96c7-13a9866d0655": {
+    "id": "cbc8b155-ccdd-4ff9-96c7-13a9866d0655",
+    "question": "What season of greys anatomy was the plane crash?",
+    "conditions": [
+      {
+        "condition": "The plane crash occurred in the season 8 finale, marking a pivotal moment in the series. Several main characters were severely injured, and Lexie Grey tragically died. Season 9 focuses on how the characters cope with the aftermath of the disaster. This event is revisited in later seasons, particularly in season 11, as survivors continue to deal with the emotional trauma.",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.01975298254407381,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "cbfaaf03-c53a-4f0c-97de-5b24547041a0": {
+    "id": "cbfaaf03-c53a-4f0c-97de-5b24547041a0",
+    "question": "Microsoft live movie maker is an example of free?",
+    "conditions": [
+      {
+        "condition": "Windows Movie Maker, and later Windows Live Movie Maker, were non-linear video editing software provided by Microsoft. Initially, Windows Movie Maker was included in Windows for free, and later versions, such as Windows Live Movie Maker, were offered as standalone products through the Windows Live Essentials suite, which was available for free. However, these versions removed or changed some features from earlier versions.",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.23093939607099587,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "cc6f721e-9cc3-434e-b171-33fc98a7f05d": {
+    "id": "cc6f721e-9cc3-434e-b171-33fc98a7f05d",
+    "question": "Who was england's prime minister during ww1?",
+    "conditions": [
+      {
+        "condition": "The change of British Prime Ministers during World War I, leadership roles at different stages, and the impact on war management",
+        "answer": "During World War I, there was a significant change in British Prime Ministers. Initially, H.H. Asquith formed the coalition government in 1915 but faced challenges in managing the war effectively. He was replaced by David Lloyd George, who played a crucial role in the management of the war, leading to its victory.",
+        "citations": [
+          "Fragment 15",
+          "Fragment 17"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5964667427412625,
+        "citation_score": 0.125
+      }
+    ]
+  },
+  "cd3c6f35-aaad-47bc-ab0b-fd64b8c9806f": {
+    "id": "cd3c6f35-aaad-47bc-ab0b-fd64b8c9806f",
+    "question": "Who were the original twins in everybody loves raymond?",
+    "conditions": [
+      {
+        "condition": "In the pilot episode, Raymond and Debra’s twin sons were initially named Gregory and Matthew, based on Ray Romano’s real-life twin sons’ names  .Ray Romano found it inconvenient for all his television children to have the same names as his real children, so he decided to change the twins’ names to Geoffrey and Michael in subsequent episodes  .",
+        "answer": "Ray Romano initially named his twin sons Gregory and Matthew, but later changed their names to Geoffrey and Michael in subsequent episodes.",
+        "citations": [
+          "Fragment X",
+          "Fragment Y"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6465062400261111,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "cd5d84eb-826b-4334-a4ae-f14d3056e486": {
+    "id": "cd5d84eb-826b-4334-a4ae-f14d3056e486",
+    "question": "When does the dispicable me 3 come out?",
+    "conditions": [
+      {
+        "condition": "\"Come out\" can be understood as the movie's debut, specifically its premiere.  Premieres often take place at major film festivals and may precede the official theatrical release.  ",
+        "answer": "Despicable Me 3 had its debut at the Annecy International Animated Film Festival on June 14, 2017.",
+        "citations": [
+          "Fragment 2"
+        ]
+      },
+      {
+        "condition": "\"Come out\" can be understood as the movie's official theatrical release date, which is when audiences can first watch the movie in theaters.  Movies often have different release dates in different countries.  ",
+        "answer": "Despicable Me 3 was theatrically released in the United States on June 30, 2017.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 4"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5958019892652102,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.6493284894123742,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "cdc95d4a-2a80-4f97-b181-ee2afc337af1": {
+    "id": "cdc95d4a-2a80-4f97-b181-ee2afc337af1",
+    "question": "Who got eliminated in india's next superstar on 1st april 2018?",
+    "conditions": [
+      {
+        "condition": "“India’s Next Superstars” is a talent search reality show judged by Karan Johar and Rohit Shetty.  The show sometimes has non-elimination weeks, meaning no contestants are eliminated in certain episodes.  ",
+        "answer": "There was no elimination on the episode that aired on 1st April 2018.",
+        "citations": [
+          "Fragment 1"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5907031835633217,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "cf7102ef-b5da-41c4-9031-65ab0a9a2108": {
+    "id": "cf7102ef-b5da-41c4-9031-65ab0a9a2108",
+    "question": "Where did the free settlers settle in australia?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "cff450c5-58d7-4399-9fc5-3f7f131d166e": {
+    "id": "cff450c5-58d7-4399-9fc5-3f7f131d166e",
+    "question": "Who played kelly on the drew carey show?",
+    "conditions": [
+      {
+        "condition": "The character Kelly is related to the main storyline of The Drew Carey Show and appears in the later seasons  Characters in The Drew Carey Show are usually played by regular cast members  ",
+        "answer": "[The character Kelly is not mentioned in The Drew Carey Show's main storyline, and she does not appear in the later seasons. Characters in The Drew Carey Show are usually played by regular cast members.]",
+        "citations": [
+          "Fragment 13",
+          "Fragment 14",
+          "Fragment 15"
+        ]
+      },
+      {
+        "condition": "Crossover episodes in The Drew Carey Show may involve characters from other TV series  These crossover episodes might include a character named Kelly, who is not a regular on the show  \n",
+        "answer": "[There is no mention of crossover episodes involving a character named Kelly from other TV series in The Drew Carey Show.]",
+        "citations": [
+          "Fragment 16",
+          "Fragment 17",
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "“Kelly” might refer to a character or name from other TV shows, not The Drew Carey Show  Similar character names in other shows might cause confusion  ",
+        "answer": "[The name 'Kelly' is not specific to The Drew Carey Show. It refers to a character or name from other TV shows like '90210' and 'Sex in the City', which might cause confusion.]",
+        "citations": [
+          "Fragment 16",
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.08638776287748967,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.0,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.22087950630550673,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "d0cb61c1-362b-443f-9a9d-31705a7d5a0a": {
+    "id": "d0cb61c1-362b-443f-9a9d-31705a7d5a0a",
+    "question": "What was the number one song on october 2 1975?",
+    "conditions": [
+      {
+        "condition": "The Billboard Hot 100 number one song on October 2, 1975, was 'Rhinestone Cowboy' by Glen Campbell, which dominated the U.S. charts during that time  .",
+        "answer": {
+          "detailed_answer": "The Billboard Hot 100 number one song on October 2, 1975, was 'Rhinestone Cowboy' by Glen Campbell."
+        },
+        "citations": [
+          "Fragment 12"
+        ]
+      },
+      {
+        "condition": "'Love Will Keep Us Together' by Captain & Tennille was one of the best-selling singles of 1975, although it was not number one on October 2, 1975. It had topped the chart earlier in the year  .",
+        "answer": {
+          "detailed_answer": "'Love Will Keep Us Together' by Captain & Tennille was one of the best-selling singles of 1975, although it did not hold the number one position on October 2, 1975."
+        },
+        "citations": [
+          "Fragment 12"
+        ]
+      },
+      {
+        "condition": "In the UK Singles Chart of October 1975, David Essex's 'Hold Me Close' reached number one and remained there for three weeks  .",
+        "answer": {
+          "detailed_answer": "In the UK Singles Chart of October 1975, David Essex's 'Hold Me Close' reached number one and remained there for three weeks."
+        },
+        "citations": [
+          "Fragment 12"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.9552457764421458,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.33931333564444316,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.6468682263527527,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "d1626654-c1f9-4305-82ac-e13287e13e77": {
+    "id": "d1626654-c1f9-4305-82ac-e13287e13e77",
+    "question": "Where was in the dark tv series filmed?",
+    "conditions": [
+      {
+        "condition": "The question pertains to the American version of the \"In the Dark\" TV series.  The asker is interested in the actual filming location, not the story setting.  ",
+        "answer": "The American TV series 'In the Dark' was filmed in Toronto, Ontario, Canada, as well as Cambridge, Ontario, Canada.",
+        "citations": [
+          "Fragment 1"
+        ]
+      },
+      {
+        "condition": "The asker might not have a clear distinction between the American and British versions.  The TV series in question might involve multiple filming locations.  ",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6501995367452605,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0,
+        "citation_score": 0
+      }
+    ]
+  },
+  "d175c91d-2209-4fcf-87d5-7d71b6b0b96d": {
+    "id": "d175c91d-2209-4fcf-87d5-7d71b6b0b96d",
+    "question": "Who plays andromeda in clash of the titans?",
+    "conditions": [
+      {
+        "condition": "The question’s reference to “Clash of the Titans” specifically refers to the 2010 version of the film  Andromeda is a significant character in the 2010 movie  ",
+        "answer": "Andromeda is indeed a significant character in the 2010 film 'Clash of the Titans'.",
+        "citations": [
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "The questioner might be referring to the sequel Wrath of the Titans (2012)  Alexa Davalos could not reprise her role as Andromeda due to scheduling conflicts  ",
+        "answer": "Alexa Davalos could not reprise her role as Andromeda due to scheduling conflicts, and several actresses were considered for the role before Rosamund Pike was ultimately cast.",
+        "citations": [
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "Several actresses were considered for the role, ultimately played by Rosamund Pike  \n“Plays” might refer to multiple actors who have portrayed Andromeda across different films  ",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.21480472068607354,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.2506732211797894,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0,
+        "citation_score": 0
+      }
+    ]
+  },
+  "d33532a0-56d8-4fb9-b618-0bcefe778bdf": {
+    "id": "d33532a0-56d8-4fb9-b618-0bcefe778bdf",
+    "question": "When was the bellagio in las vegas built?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "d3affc85-7ef3-4adc-9526-66fb3b498ae1": {
+    "id": "d3affc85-7ef3-4adc-9526-66fb3b498ae1",
+    "question": "Who performed at the champions league final 2018?",
+    "conditions": [
+      {
+        "condition": "The opening ceremony of the 2018 UEFA Champions League final featured performances by two prominent musical acts. First, a well-known British female pop singer, whose style blends pop and electronic dance music, headlined the event. Notably, during her performance, she invited a famous Jamaican rapper as a special guest, and the two performed a collaborative hit song together. Additionally, the UEFA Champions League Anthem, a traditional part of the pre-match ceremony, was performed by a Croatian cello duo renowned for their ability to reimagine both classical and modern music. These performances added a rich cultural atmosphere to the final event.",
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.004420505994118542,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "d430e42e-fd95-4157-9cff-53194405c10c": {
+    "id": "d430e42e-fd95-4157-9cff-53194405c10c",
+    "question": "What is the purpose of a traffic circle?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "d4c2406c-1022-41d6-a6bd-1804822e7bd5": {
+    "id": "d4c2406c-1022-41d6-a6bd-1804822e7bd5",
+    "question": "Who's won the most premierships in afl?",
+    "conditions": [
+      {
+        "condition": "The VFL/AFL is the premier professional football league in Australia, and the number of championships won by clubs is a key measure of success. Historical statistics indicate that multiple clubs are tied for the most championships, influenced by their performances in both the VFL/AFL Grand Finals and, to some extent, their history in the VFA/VFL.",
+        "answer": "Collingwood, Essendon, and Carlton have won the most VFL/AFL premierships, with 16 each.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 4",
+          "Fragment 8",
+          "Fragment 11"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.47355536818293426,
+        "citation_score": 0.6666666666666665
+      }
+    ]
+  },
+  "d4f1296c-edc1-4305-9120-d56ef5c11f4f": {
+    "id": "d4f1296c-edc1-4305-9120-d56ef5c11f4f",
+    "question": "Who sponsored the first season of the tv cartoon show the flintstones?",
+    "conditions": [
+      {
+        "condition": "“The Flintstones” is an American animated sitcom produced by Hanna-Barbera, originally aired on ABC  \nIn the 1960s, TV shows were often supported by commercial sponsors, and characters often appeared in ads for the sponsors’ products  ",
+        "answer": "[The Flintstones is an American animated sitcom produced by Hanna-Barbera, originally aired on ABC. In the 1960s, TV shows were often supported by commercial sponsors, and characters often appeared in ads for the sponsors’ products]",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.19204362499414723,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "d55a7f2c-6cf6-405f-8f36-354aa21c63a4": {
+    "id": "d55a7f2c-6cf6-405f-8f36-354aa21c63a4",
+    "question": "Number of branches of oriental bank of commerce in india?",
+    "conditions": [
+      {
+        "condition": "Oriental Bank of Commerce (OBC) merged with United Bank of India into Punjab National Bank in April 2020; before the merger, it had several branches in India  Before the merger, OBC had 2,390 branches and 2,625 ATMs in India  ",
+        "answer": "Before merging with United Bank of India into Punjab National Bank in April 2020, Oriental Bank of Commerce (OBC) had 2,390 branches in India.",
+        "citations": [
+          "Fragment 1"
+        ]
+      },
+      {
+        "condition": "In 2004, OBC acquired Global Trust Bank (GTB), adding 103 branches  After the acquisition, OBC's total number of branches increased to 1,092  ",
+        "answer": "In 2004, after acquiring Global Trust Bank (GTB), the total number of branches for Oriental Bank of Commerce (OBC) increased to 1,092.",
+        "citations": [
+          "Fragment 2"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.6848332433278121,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0.4303825884366866,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "d5a487c9-45cb-494c-bc1a-e521e6357fd0": {
+    "id": "d5a487c9-45cb-494c-bc1a-e521e6357fd0",
+    "question": "What are the lines parallel to the equator called?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "d64a10f6-332e-4b6d-8c6b-fc5beadc070e": {
+    "id": "d64a10f6-332e-4b6d-8c6b-fc5beadc070e",
+    "question": "Who played the leprechaun in the movies leprechaun?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "d64c10c1-931d-4185-8ac8-282aba916fb5": {
+    "id": "d64c10c1-931d-4185-8ac8-282aba916fb5",
+    "question": "Who is the original artist of sound of silence?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "d6a5b220-df1f-4bd0-837a-92f4d70af059": {
+    "id": "d6a5b220-df1f-4bd0-837a-92f4d70af059",
+    "question": "Who figured out a way to determine the type of blood?",
+    "conditions": [
+      {
+        "condition": "Karl Landsteiner is the scientist who discovered the ABO blood group system, laying the foundation for modern blood type classification  \nLandsteiner’s research provided a crucial basis for the development of transfusion medicine and forensic medicine  ",
+        "answer": "Karl Landsteiner is indeed the scientist who discovered the ABO blood group system, which laid the foundation for modern blood type classification. His research significantly contributed to the development of transfusion medicine and forensic medicine.",
+        "citations": [
+          "Fragment 15",
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "Jan Janský independently conducted research separate from Landsteiner’s and classified blood types into four groups in 1907  \nJanský’s classification system was widely used in the former Soviet Union  ",
+        "answer": "Jan Janský conducted independent research from Landsteiner's, classifying blood types into four groups in 1907. His classification system was widely used in the former Soviet Union.",
+        "citations": [
+          "Fragment 20"
+        ]
+      },
+      {
+        "condition": "The genetic explanation and discovery of blood type subtypes were developments based on Landsteiner’s initial research  ",
+        "answer": "The genetic explanation and discovery of blood type subtypes were based on Landsteiner's initial research, which expanded upon his foundational work on ABO blood types.",
+        "citations": [
+          "Fragment 19"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5737333980551995,
+        "citation_score": 0.25
+      },
+      {
+        "answer_score": 0.6,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.2606376423735595,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "d93a1dd7-3841-4c8f-8b7e-19e2a9a7d8fb": {
+    "id": "d93a1dd7-3841-4c8f-8b7e-19e2a9a7d8fb",
+    "question": "Who has scored most goals in international football?",
+    "conditions": [
+      {
+        "condition": "“International football” is understood to include all types of international matches, such as friendlies, Euro Cup, Copa América, etc.  “Most goals” refers to the total number of goals scored in international matches across an entire career  ",
+        "answer": "The total number of goals scored in international matches across an entire career. For instance, Gareth Bale has a significant career record that includes multiple goals in various international matches.",
+        "citations": [
+          "Fragment 15"
+        ]
+      },
+      {
+        "condition": "“International football” is narrowly understood as referring only to the World Cup  “Most goals” is interpreted as the record for the most cumulative goals in World Cup history  ",
+        "answer": "The cumulative goals scored in the FIFA World Cup throughout a player's career. Jürgen Klinsmann, for example, has an impressive record of 11 goals across two FIFA World Cups.",
+        "citations": [
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "“Most goals” can refer to the record for goals scored in a single tournament, not just the total number of goals  When focusing on performance in a single event, records from specific tournaments may be more significant than overall records  ",
+        "answer": "The highest number of goals scored in a single tournament. An example is Germany's Gerd Müller, who scored ten goals in the 1970 FIFA World Cup, making it the third-most ever in a tournament.",
+        "citations": [
+          "Fragment 18"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.10437402673035463,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.13573938837604588,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.15225685933188873,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "d98017d8-93f1-480d-be72-19d01f9ffa37": {
+    "id": "d98017d8-93f1-480d-be72-19d01f9ffa37",
+    "question": "When did they put the 3 point line in?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "da012308-131f-4778-acef-e48b5a837731": {
+    "id": "da012308-131f-4778-acef-e48b5a837731",
+    "question": "Who played brad carlton on young and the restless?",
+    "conditions": [
+      {
+        "condition": "Brad Carlton is a character in The Young and the Restless and has been portrayed by a long-term actor  The character's entire lifespan on the show was played by the same actor  ",
+        "answer": "Brad Carlton is a character in The Young and the Restless and has been primarily portrayed by Don Diamont, with a brief replacement by Russell Todd in 1993.",
+        "citations": [
+          "Fragment 15",
+          "Fragment 16"
+        ]
+      },
+      {
+        "condition": "Brad Carlton is a significant character primarily portrayed by Don Diamont, with a brief replacement  In 1993, Russell Todd briefly replaced Don Diamont in playing the role  ",
+        "answer": "Don Diamont has been the primary actor for Brad Carlton on The Young and the Restless, with a brief replacement by Russell Todd in 1993.",
+        "citations": [
+          "Fragment 15",
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.49523479054063124,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.7752552341060535,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "dcd3531c-2a71-469e-845f-4225632cc855": {
+    "id": "dcd3531c-2a71-469e-845f-4225632cc855",
+    "question": "Who produced toni braxton just be a man about it?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "dd5a9066-2706-4549-ad9e-ad0d034375dc": {
+    "id": "dd5a9066-2706-4549-ad9e-ad0d034375dc",
+    "question": "Who wrote the lyrics to in the ghetto?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "ddf2b3b8-3411-4b9e-9e0d-04c761eca997": {
+    "id": "ddf2b3b8-3411-4b9e-9e0d-04c761eca997",
+    "question": "Who sings i'll be seeing you in the notebook?",
+    "conditions": [
+      {
+        "condition": "\"The Notebook\" is a romantic movie based on a love story.  \"I'll Be Seeing You\" is a classic song frequently featured in movies and music albums.  ",
+        "answer": "In The Notebook, the song 'I'll Be Seeing You' is sung by an ensemble, likely performed live during the film.",
+        "citations": [
+          "Fragment 1"
+        ]
+      },
+      {
+        "condition": "\"I'll Be Seeing You\" has multiple versions recorded and performed by different artists.  These versions have been used in various films or contexts.  ",
+        "answer": "'I'll Be Seeing You' has been covered by various artists including Brenda Lee, Poni-Tails, Etta Jones, and more. It is a classic song with multiple versions.",
+        "citations": [
+          "Fragment 8",
+          "Fragment 9",
+          "Fragment 18"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.38453020990282416,
+        "citation_score": 0.33333333333333326
+      },
+      {
+        "answer_score": 0.26063764245924187,
+        "citation_score": 0.33333333333333326
+      }
+    ]
+  },
+  "e18845b7-42b6-438b-a7cb-ca9d31774291": {
+    "id": "e18845b7-42b6-438b-a7cb-ca9d31774291",
+    "question": "When was crude oil first discovered in nigeria?",
+    "conditions": [
+      {
+        "condition": "Shell was granted an exploration license in Nigeria in 1938  Crude oil was first discovered at Araromi Sea-side in 1908  ",
+        "answer": [
+          "Shell was granted an exploration license in Nigeria in 1938",
+          "Crude oil was first discovered at Araromi Sea-side in 1908"
+        ],
+        "citations": [
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "Oil exploration in Nigeria began in 1906 under the Nigeria Bitumen Corporation  The exploration work was halted before World War I due to technological and financial constraints  ",
+        "answer": [
+          "Oil exploration in Nigeria began in 1906 under the Nigeria Bitumen Corporation",
+          "The exploration work was halted before World War I due to technological and financial constraints"
+        ],
+        "citations": [
+          "Fragment 20"
+        ]
+      },
+      {
+        "condition": "Oil exploration activities were restarted by Shell in 1937  Early exploration efforts failed to find commercially viable oil fields  ",
+        "answer": [
+          "Oil exploration activities were restarted by Shell in 1937",
+          "Early exploration efforts failed to find commercially viable oil fields"
+        ],
+        "citations": [
+          "Fragment 15"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.33156116964492705,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.2268941425302234,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.17772998490573558,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "e3eac2bd-6ee0-42b5-89cb-fb619199fefe": {
+    "id": "e3eac2bd-6ee0-42b5-89cb-fb619199fefe",
+    "question": "Who is the girl in zz top legs video?",
+    "conditions": [
+      {
+        "condition": "ZZ Top’s “Legs” music video typically features multiple female characters, including the main clerk and supporting roles  Kymberly Herrin has appeared in other ZZ Top videos before  ",
+        "answer": "ZZ Top’s ‘Legs’ music video features multiple female characters, including the main clerk and supporting roles such as Kymberly Herrin. She has appeared in other ZZ Top videos before.",
+        "citations": [
+          "Fragment 18"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5437982185800151,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "e4196f02-8217-4c50-8aa4-8ffacf4c45c6": {
+    "id": "e4196f02-8217-4c50-8aa4-8ffacf4c45c6",
+    "question": "When did the voortrekkers arrive in south africa?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "e74d0681-174c-445d-8430-af4bb3381453": {
+    "id": "e74d0681-174c-445d-8430-af4bb3381453",
+    "question": "What led to the downfall of the incan empire?",
+    "conditions": [
+      {
+        "condition": "The Spanish conquest was the direct cause of the Inca Empire’s downfall, but the empire might have already been in decline before this. The Inca Empire reached its peak in the 15th century and began a rapid decline in the 1530s. ",
+        "answer": "The Spanish conquest was a significant cause of the Inca Empire's downfall, but internal factors like the civil war between Atahualpa and Huáscar may have already weakened the empire.",
+        "citations": [
+          "Fragment 16",
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "The Spanish utilized internal conflicts within the Inca Empire, such as the civil war between Atahualpa and Huáscar. The Inca civilization expanded and consolidated its territory through conquest and peaceful assimilation. ",
+        "answer": "The Spanish exploited internal conflicts within the Inca Empire, such as the civil war, to further their conquest. The Incas had used both conquest and peaceful assimilation in expanding their territory.",
+        "citations": [
+          "Fragment 16",
+          "Fragment 14"
+        ]
+      },
+      {
+        "condition": "The social and cultural fabric of the Inca Empire was disrupted by the Spanish, with Spanish culture imposed on the native population. The spread of diseases brought by the Spanish led to a significant population decline in the Inca Empire, further weakening its ability to resist. ",
+        "answer": "The Spanish conquest disrupted the social and cultural fabric of the Inca Empire. Diseases brought by the Spanish, including smallpox, caused significant population decline, weakening the empire's resistance.",
+        "citations": [
+          "Fragment 16",
+          "Fragment 17",
+          "Fragment 20"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.4689422711877939,
+        "citation_score": 0.25
+      },
+      {
+        "answer_score": 0.3702659901296924,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.49353720440283694,
+        "citation_score": 0.25
+      }
+    ]
+  },
+  "e7cd54fd-e152-4ee7-a28b-fc083faa5916": {
+    "id": "e7cd54fd-e152-4ee7-a28b-fc083faa5916",
+    "question": "When does spring break start in the us?",
+    "conditions": [
+      {
+        "condition": "Spring break in the US varies by region and school system, typically occurring between March and April  Most schools schedule spring break sometime between late March and early April  ",
+        "answer": "typically occurring between late March and early April",
+        "citations": [
+          "Fragment 1",
+          "Fragment 2",
+          "Fragment 14"
+        ]
+      },
+      {
+        "condition": "Spring break in US universities and K-12 schools can last one to two weeks, depending on term dates and Easter holiday  \tSpring break is typically part of the US academic year, occurring during the spring semester  ",
+        "answer": "one to two weeks, depending on term dates and Easter holiday",
+        "citations": [
+          "Fragment 2",
+          "Fragment 14",
+          "Fragment 15"
+        ]
+      },
+      {
+        "condition": "School holidays in the US often include Easter holidays, and spring break may coincide with Easter  \tDifferent academic calendar arrangements across regions may cause spring break to occur at various times  ",
+        "answer": "often include Easter holidays, and spring break may coincide with Easter",
+        "citations": [
+          "Fragment 1",
+          "Fragment 6",
+          "Fragment 10"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.45078001048836913,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.4359427525433479,
+        "citation_score": 0.5
+      },
+      {
+        "answer_score": 0.3727920506607086,
+        "citation_score": 0.5
+      }
+    ]
+  },
+  "e8dd526c-c2ad-4fd6-a211-4eaadde97d79": {
+    "id": "e8dd526c-c2ad-4fd6-a211-4eaadde97d79",
+    "question": "When was i'll be home for christmas released?",
+    "conditions": [
+      {
+        "condition": "\"I'll Be Home for Christmas\" is a Christmas song written by lyricist Kim Gannon and composer Walter Kent  The song was originally written to honor soldiers overseas longing to be home for Christmas  ",
+        "answer": "I'll Be Home for Christmas was released in 1943.",
+        "citations": [
+          "Fragment X"
+        ]
+      },
+      {
+        "condition": "\"I'll Be Home for Christmas\" might refer not only to the song but also to the film with the same title  The film gained some attention at the time of release, despite its poor box office performance  ",
+        "answer": "The film 'I'll Be Home for Christmas' gained some attention at the time of its release, despite its poor box office performance.",
+        "citations": [
+          "Fragment Y"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.45339874697931853,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.20499992770940292,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "ea1acc44-3419-4794-98d0-7032ac3dfc80": {
+    "id": "ea1acc44-3419-4794-98d0-7032ac3dfc80",
+    "question": "Who is in charge of the hollywood walk of fame?",
+    "conditions": [
+      {
+        "condition": "The Hollywood Walk of Fame is a historic landmark that requires maintenance and protection  \nThe management responsibilities of the Walk of Fame are centralized under one organization  ",
+        "answer": [
+          "The Hollywood Walk of Fame is a historic landmark that requires maintenance and protection. The management responsibilities of the Walk of Fame are centralized under one organization."
+        ],
+        "citations": [
+          "Fragment 14"
+        ]
+      },
+      {
+        "condition": "The management of the Walk involves various specific tasks, particularly in selecting honorees  \nThese specific tasks are handled by a committee appointed by the Hollywood Chamber of Commerce  ",
+        "answer": [
+          "The management of the Walk involves various specific tasks, particularly in selecting honorees. These specific tasks are handled by a committee appointed by the Hollywood Chamber of Commerce."
+        ],
+        "citations": [
+          "Fragment 15",
+          "Fragment 17"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.2320821300824607,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.4435584018761631,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "ebe88b52-9d49-4b0f-a3e1-c6277a5496d4": {
+    "id": "ebe88b52-9d49-4b0f-a3e1-c6277a5496d4",
+    "question": "Who presides over the joint session of the indian parliament?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "ec349202-3005-4746-b7d7-3dc6e6efbc9b": {
+    "id": "ec349202-3005-4746-b7d7-3dc6e6efbc9b",
+    "question": "Who is opening for shania twain in ottawa?",
+    "conditions": [
+      {
+        "condition": "Shania Twain is currently on her Queen of Me Tour. The tour includes several cities in Canada. Shania Twain has collaborated with other artists in previous tours, like The Doobie Brothers and Dan + Shay. [Fragment 5, 12] Ottawa has been a significant stop in her previous tours.",
+        "answer": "The information provided does not specify who is opening for Shania Twain in Ottawa on the Queen of Me Tour.",
+        "citations": []
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.46034971339953257,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "f40c6023-9abc-4335-aba1-c33d2c31c4b3": {
+    "id": "f40c6023-9abc-4335-aba1-c33d2c31c4b3",
+    "question": "Who's won the most world series in baseball?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "f7029aef-a250-4eee-b9ce-1b57eba8df0f": {
+    "id": "f7029aef-a250-4eee-b9ce-1b57eba8df0f",
+    "question": "When does the 12th day of christmas begin?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "f727dbb2-359b-48fa-b1ec-47b756307a89": {
+    "id": "f727dbb2-359b-48fa-b1ec-47b756307a89",
+    "question": "When is the paschal candle lit in church?",
+    "conditions": [
+      {
+        "condition": "The Paschal candle symbolizes the light of Christ and is lit during specific religious ceremonies  \nThe Paschal candle remains lit throughout the Easter season and is extinguished on Pentecost Sunday  ",
+        "answer": "The Paschal candle is lit during the Easter Vigil on Holy Saturday night, symbolizing the Resurrection of Christ. It remains lit throughout the entire Easter season, until it is extinguished on Pentecost Sunday.",
+        "citations": [
+          "Fragment 2",
+          "Fragment 13",
+          "Fragment 14"
+        ]
+      },
+      {
+        "condition": "The Paschal candle symbolizes light and life, and is first lit during the new fire ceremony on Easter Vigil  \nThe Paschal candle remains lit throughout the Easter season, placed in a prominent position to remind the congregation that Christ is “light and life”  ",
+        "answer": "The Paschal candle symbolizes light and life. It is first lit during the new fire ceremony on Easter Vigil, symbolizing Christ's Resurrection, and remains lit throughout the Easter season to remind the congregation of Christ's presence.",
+        "citations": [
+          "Fragment 4",
+          "Fragment 13",
+          "Fragment 16"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.8377540675848257,
+        "citation_score": 0.4
+      },
+      {
+        "answer_score": 0.537323737610487,
+        "citation_score": 0.4
+      }
+    ]
+  },
+  "f7bad795-22eb-4308-be32-4b785382002c": {
+    "id": "f7bad795-22eb-4308-be32-4b785382002c",
+    "question": "Who won the sprint 15km men’s cross country skiing event in sochi in 2014?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "f9056f6a-092a-4c71-a4dd-d9dd9d584563": {
+    "id": "f9056f6a-092a-4c71-a4dd-d9dd9d584563",
+    "question": "When was the first apple i phone made?",
+    "conditions": [
+      {
+        "condition": "The term “making” could be interpreted as the point in time when the concept of the iPhone was first translated into actual development work.Apple began the development of the first iPhone in 2005.",
+        "answer": "The term 'making' could be interpreted as the point in time when the concept of the iPhone was first translated into actual development work. Apple began the development of the first iPhone in 2005.",
+        "citations": [
+          "Fragment 17"
+        ]
+      },
+      {
+        "condition": "“Making” could refer to the date when the product was first completed and released to the public.The iPhone was first released to the public in 2007.",
+        "answer": "'Making' could refer to the date when the product was first completed and released to the public. The iPhone was first released to the public in 2007.",
+        "citations": [
+          "Fragment 18"
+        ]
+      },
+      {
+        "condition": "“Making” could also be interpreted as the time when the first working prototype or test version was developed, rather than when it was officially released.Apple developed a test version of the iPhone in 2004, but it was never released.",
+        "answer": "'Making' could also be interpreted as the time when the first working prototype or test version was developed, rather than when it was officially released. Apple developed a test version of the iPhone in 2004, but it was never released.",
+        "citations": [
+          "Fragment 17"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5604141594562996,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.45387058096527816,
+        "citation_score": 0.0
+      },
+      {
+        "answer_score": 0.3816349859973536,
+        "citation_score": 1.0
+      }
+    ]
+  },
+  "fada565b-84fe-4d79-8c92-e9db423ccf98": {
+    "id": "fada565b-84fe-4d79-8c92-e9db423ccf98",
+    "question": "Who sings i love rock 'n' roll?",
+    "conditions": [
+      {
+        "condition": "“I Love Rock ‘n’ Roll” was originally created by Arrows in 1975 and has been covered by multiple artists  .The 1981 version by Joan Jett & the Blackhearts is the most famous cover, reaching number one on the Billboard Hot 100  .\n",
+        "answer": "The original creators of 'I Love Rock ‘n’ Roll' were the British rock band Arrows, and it has been covered by multiple artists. The most famous cover is the 1981 version by Joan Jett & the Blackhearts.",
+        "citations": [
+          "Fragment 3",
+          "Fragment 4"
+        ]
+      },
+      {
+        "condition": "The Jesus and Mary Chain is a Scottish alternative rock band that covered “I Love Rock ‘n’ Roll” in 1998  .This version reached number 38 on the UK singles chart  .",
+        "answer": "'I Love Rock ‘n’ Roll' was covered by the Scottish alternative rock band The Jesus and Mary Chain in 1998, reaching number 38 on the UK singles chart.",
+        "citations": [
+          "Fragment 1",
+          "Fragment 9"
+        ]
+      },
+      {
+        "condition": "“I Love Rock ‘n’ Roll” is a classic rock song that has been covered multiple times  .Britney Spears also covered the song in 2002 and performed it in her movie Crossroads  .",
+        "answer": "'I Love Rock ‘n’ Roll' is a classic rock song that has been covered multiple times, including by Britney Spears in 2002, who also performed it in her movie Crossroads.",
+        "citations": [
+          "Fragment 3",
+          "Fragment 10"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.5922801795361745,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.36811018448470006,
+        "citation_score": 1.0
+      },
+      {
+        "answer_score": 0.46233779233431604,
+        "citation_score": 0.0
+      }
+    ]
+  },
+  "fbce7055-e88e-4363-9962-cd01f078784a": {
+    "id": "fbce7055-e88e-4363-9962-cd01f078784a",
+    "question": "When did the queen became queen of england?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "fe873642-6c6d-447e-b28c-ea034a0a77dc": {
+    "id": "fe873642-6c6d-447e-b28c-ea034a0a77dc",
+    "question": "Who wrote the theory and practice of oligarchical collectivism?",
+    "conditions": [],
+    "evaluations": []
+  },
+  "fefee53a-55bd-4bf7-9106-d0508010e2ce": {
+    "id": "fefee53a-55bd-4bf7-9106-d0508010e2ce",
+    "question": "Who made it through the divisional finals world of dance?",
+    "conditions": [
+      {
+        "condition": "In the Divisional Final, each division's remaining acts compete head-to-head. The highest-scoring act in each division becomes the division champion and advances to the World Final. Judges may also choose one additional act as a wildcard to advance to the World Final. Each judge acts as a mentor for one of the divisions, guiding the acts through their performances.",
+        "answer": [
+          "The highest-scoring act in each division becomes the division champion and advances to the World Final. Judges also choose one additional act as a wildcard to advance to the World Final."
+        ],
+        "citations": [
+          "Fragment 2",
+          "Fragment 6",
+          "Fragment 7"
+        ]
+      }
+    ],
+    "evaluations": [
+      {
+        "answer_score": 0.2400948918556614,
+        "citation_score": 0.6
+      }
+    ]
+  }
+}

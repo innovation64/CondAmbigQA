@@ -1,0 +1,27 @@
+{
+  "llama3.1": {
+    "average_answer_score": 0.13325340172254477,
+    "average_citation_score": 0.0660163507989595,
+    "average_answer_count": 1.929032258064516
+  },
+  "mistral": {
+    "average_answer_score": 0.15308477978199686,
+    "average_citation_score": 0.05139556623931624,
+    "average_answer_count": 2.08
+  },
+  "qwen2.5": {
+    "average_answer_score": 0.1282107967841071,
+    "average_citation_score": 0.04580485073185803,
+    "average_answer_count": 2.055
+  },
+  "gemma2": {
+    "average_answer_score": 0.13007610007726184,
+    "average_citation_score": 0.06369047619047619,
+    "average_answer_count": 2.0707070707070705
+  },
+  "glm4": {
+    "average_answer_score": 0.15176696115649604,
+    "average_citation_score": 0.08375635502774867,
+    "average_answer_count": 2.0761421319796955
+  }
+}
