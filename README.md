@@ -41,7 +41,7 @@ dataset = load_dataset("Apocalypse-AGI-DAO/CondAmbigQA")
   title={CondAmbigQA: A Benchmark and Dataset for Conditional Ambiguous Question Answering},
   author={Li, Zongxi and Li, Yang and Xie, Haoran and Qin, S. Joe},
   journal={arXiv preprint arXiv:2502.01523},
-  year={2024}
+  year={2025}
 }
 ```
 
