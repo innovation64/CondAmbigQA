@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 400">
   <!-- Background -->
-  <rect width="1200" height="300" fill="#1a1a1a"/>
+  <rect width="1800" height="400" fill="#1a1a1a"/>
   
   <!-- Left Logo -->
-  <g transform="translate(100, 50)">
+  <g transform="translate(200, 100) scale(1.5)">
     <!-- Question mark shape -->
     <path d="M 50 150 A 50 50 0 1 1 150 150 L 100 200" 
           stroke="#4285f4" 
@@ -19,11 +19,11 @@
   </g>
   
   <!-- Text -->
-  <g transform="translate(300, 120)">
+  <g transform="translate(500, 200)">
     <!-- CondAmbigQA -->
     <text x="0" y="0" 
           font-family="Arial, sans-serif" 
-          font-size="80" 
+          font-size="120" 
           font-weight="bold" 
           fill="white">
       CondAmbigQA
@@ -31,7 +31,7 @@
     <!-- Subtitle -->
     <text x="0" y="80" 
           font-family="Arial, sans-serif" 
-          font-size="40" 
+          font-size="50" 
           fill="#cccccc">
       A Conditional Ambiguous Question Answering Benchmark
     </text>
