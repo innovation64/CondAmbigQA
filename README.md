@@ -48,4 +48,3 @@ dataset = load_dataset("Apocalypse-AGI-DAO/CondAmbigQA")
 ## 📬 Contact 
 
 - Email: zongxili@ln.edu.hk
-- Join our community: [Discord](#) | [Slack](#) | [WeChat](#)
