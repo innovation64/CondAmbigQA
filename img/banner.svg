@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#1a1a1a"/>
+  
+  <!-- Left Logo -->
+  <g transform="translate(100, 50)">
+    <!-- Question mark shape -->
+    <path d="M 50 150 A 50 50 0 1 1 150 150 L 100 200" 
+          stroke="#4285f4" 
+          fill="none" 
+          stroke-width="12"/>
+    <!-- Condition lines -->
+    <line x1="50" y1="100" x2="150" y2="100" 
+          stroke="#34a853" 
+          stroke-width="12"/>
+    <line x1="50" y1="150" x2="150" y2="150" 
+          stroke="#ea4335" 
+          stroke-width="12"/>
+  </g>
+  
+  <!-- Text -->
+  <g transform="translate(300, 120)">
+    <!-- CondAmbigQA -->
+    <text x="0" y="0" 
+          font-family="Arial, sans-serif" 
+          font-size="80" 
+          font-weight="bold" 
+          fill="white">
+      CondAmbigQA
+    </text>
+    <!-- Subtitle -->
+    <text x="0" y="80" 
+          font-family="Arial, sans-serif" 
+          font-size="40" 
+          fill="#cccccc">
+      A Conditional Ambiguous Question Answering Benchmark
+    </text>
+  </g>
+</svg>

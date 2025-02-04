@@ -62,17 +62,67 @@ def analyze_model_results(models: List, results_dir: str = 'intermediate_results
 
     return pd.DataFrame(analysis_data)
 
+# def setup_plot_style():
+#     """Set up consistent plot styling with custom colors"""
+#     plt.style.use('default')
+#     sns.set_theme(style="whitegrid", font_scale=1.2)
+#     plt.rcParams.update({
+#         'font.family': 'sans-serif',
+#         'font.sans-serif': ['Arial'],
+#         'axes.grid': True,
+#         'grid.alpha': 0.3
+#     })
+#     # 定义一组亮度相近但色调不同的颜色
+#     return {
+#         'model_colors': {
+#             'model1': '#6FC087',    # 绿色
+#             'model2': '#6FB5E2',    # 蓝色
+#             'model3': '#E27A6F',    # 红色
+#             'model4': '#DFA76F',    # 橙色
+#             'model5': '#916FE2',    # 紫色
+#         }
+#     }
+
 def setup_plot_style():
-    """Set up consistent plot styling with custom colors"""
+    """Set up consistent plot styling with custom colors and enhanced typography"""
     plt.style.use('default')
-    sns.set_theme(style="whitegrid", font_scale=1.2)
+    
+    # 增加字体缩放比例以使所有文字更大
+    sns.set_theme(style="whitegrid", font_scale=1.5)  # 从1.2增加到1.5
+    
+    # 更新默认参数配置
     plt.rcParams.update({
+        # 字体设置
         'font.family': 'sans-serif',
         'font.sans-serif': ['Arial'],
+        'font.size': 14,  # 基础字体大小
+        
+        # 标题设置
+        'figure.titlesize': 18,    # 图表标题字体大小
+        'axes.titlesize': 16,      # 轴标题字体大小
+        'axes.labelsize': 14,      # 轴标签字体大小
+        
+        # 图例和刻度标签设置
+        'legend.fontsize': 12,     # 图例字体大小
+        'xtick.labelsize': 12,     # x轴刻度标签字体大小
+        'ytick.labelsize': 12,     # y轴刻度标签字体大小
+        
+        # 网格线设置
         'axes.grid': True,
-        'grid.alpha': 0.3
+        'grid.alpha': 0.3,
+        
+        # 图表大小设置
+        'figure.figsize': [15, 6],  # 默认图表大小
+        'figure.dpi': 100,          # 显示分辨率
+        'savefig.dpi': 300,         # 保存分辨率
+        
+        # 其他样式设置
+        'axes.linewidth': 1.2,      # 轴线宽度
+        'grid.linewidth': 0.8,      # 网格线宽度
+        'lines.linewidth': 2.0,     # 默认线条宽度
     })
-    # 定义一组亮度相近但色调不同的颜色
+    
+    # 定义更多不重复的颜色，保持亮度相近但色调不同
     return {
         'model_colors': {
             'model1': '#6FC087',    # 绿色
@@ -80,6 +130,16 @@ def setup_plot_style():
             'model3': '#E27A6F',    # 红色
             'model4': '#DFA76F',    # 橙色
             'model5': '#916FE2',    # 紫色
+            'model6': '#E26FB5',    # 粉色
+            'model7': '#A7CF6F',    # 黄绿色
+            'model8': '#6FE2B5',    # 青色
+            'model9': '#CF6FA7',    # 玫瑰色
+            'model10': '#B56FE2',   # 深紫色
+            'model11': '#E2CF6F',   # 金色
+            'model12': '#6FCFE2',   # 天蓝色
+            'model13': '#CFE26F',   # 柠檬色
+            'model14': '#E2956F',   # 珊瑚色
+            'model15': '#6F87E2'    # 靛蓝色
         }
     }
 

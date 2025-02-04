@@ -1,4 +1,4 @@
-# ![CondAmbigQA](https://your-banner-image-url.png)
+# ![CondAmbigQA](./img/banner.svg)
 
 🏠 [Homepage](https://github.com/innovation64/CondAmbigQA) | 📝 [Paper](https://arxiv.org/abs/2502.01523) | 🤗 [Dataset](https://huggingface.co/datasets/Apocalypse-AGI-DAO/CondAmbigQA) | 📊 [Results](#results) | 🌏 [中文](./README_zh.md)
 
