@@ -5,248 +5,234 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from pathlib import Path
 from typing import List, Dict
 from models import get_models
 
-def setup_logging():
-    """Configure logging settings"""
-    output_dir = "analysis_results"
-    os.makedirs(output_dir, exist_ok=True)
-    
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s",
-        handlers=[
-            logging.FileHandler(os.path.join(output_dir, "analysis.log")),
-            logging.StreamHandler(),
-        ],
-    )
+class MetricsAnalyzer:
+    def __init__(self, output_dir: str = "analysis_results"):
+        """Initialize analyzer with output directory"""
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.results_df = None
+        self.models = get_models()
+        
+        # Setup logging
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s - %(levelname)s - %(message)s",
+            handlers=[
+                logging.FileHandler(self.output_dir / "analysis.log"),
+                logging.StreamHandler(),
+            ],
+        )
 
-def load_json(filepath: str) -> Dict:
-    """Load content from a JSON file"""
-    try:
-        with open(filepath, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        logging.error(f"File {filepath} not found.")
-        return {}
-    except json.JSONDecodeError:
-        logging.error(f"File {filepath} is not valid JSON format.")
-        return {}
+    def load_data(self, results_dir: str = 'intermediate_results') -> pd.DataFrame:
+        """Load and process results data"""
+        analysis_data = []
+        results_dir = Path(results_dir)
 
-def analyze_model_results(models: List, results_dir: str = 'intermediate_results') -> pd.DataFrame:
-    """Analyze results for each metric"""
-    analysis_data = []
-
-    for model in models:
-        filepath = os.path.join(results_dir, f"intermediate_results_{model.name}_main_experiment.json")
-        model_results = load_json(filepath)
-        if not model_results or model.name not in model_results:
-            logging.warning(f"Results for model {model.name} are missing or invalid.")
-            continue
-
-        for example in model_results[model.name]:
-            evaluations = example.get("evaluations", [])
-            if not evaluations:
+        for model in self.models:
+            filepath = results_dir / f"intermediate_results_{model.name}_main_experiment.json"
+            model_results = self._load_json(filepath)
+            
+            if not model_results or model.name not in model_results:
+                logging.warning(f"Results for model {model.name} are missing or invalid.")
                 continue
             
-            for eval in evaluations:
-                analysis_data.append({
-                    'Model': model.name,
-                    'Example ID': example.get('id'),
-                    'Condition Score': eval.get('condition_evaluation', {}).get('score', 0),
-                    'Answer Score': eval.get('answer_evaluation', {}).get('score', 0),
-                    'Citation Score': eval.get('citation_evaluation', {}).get('score', 0),
-                    'Answer Count': len(example.get("conditions", []))
-                })
+            for example in model_results[model.name]:
+                evaluations = example.get("evaluations", [])
+                if not evaluations:
+                    continue
+                
+                for eval in evaluations:
+                    analysis_data.append({
+                        'Model': model.name,
+                        'Example ID': example.get('id'),
+                        'Condition Score': eval.get('condition_evaluation', {}).get('score', 0),
+                        'Answer Score': eval.get('answer_evaluation', {}).get('score', 0),
+                        'Citation Score': eval.get('citation_evaluation', {}).get('score', 0),
+                        'Answer Count': len(example.get("conditions", []))
+                    })
 
-    return pd.DataFrame(analysis_data)
+        self.results_df = pd.DataFrame(analysis_data)
+        return self.results_df
 
-# def setup_plot_style():
-#     """Set up consistent plot styling with custom colors"""
-#     plt.style.use('default')
-#     sns.set_theme(style="whitegrid", font_scale=1.2)
-#     plt.rcParams.update({
-#         'font.family': 'sans-serif',
-#         'font.sans-serif': ['Arial'],
-#         'axes.grid': True,
-#         'grid.alpha': 0.3
-#     })
-#     # 定义一组亮度相近但色调不同的颜色
-#     return {
-#         'model_colors': {
-#             'model1': '#6FC087',    # 绿色
-#             'model2': '#6FB5E2',    # 蓝色
-#             'model3': '#E27A6F',    # 红色
-#             'model4': '#DFA76F',    # 橙色
-#             'model5': '#916FE2',    # 紫色
-#         }
-#     }
+    def _load_json(self, filepath: Path) -> Dict:
+        """Load content from a JSON file"""
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except FileNotFoundError:
+            logging.error(f"File {filepath} not found.")
+            return {}
+        except json.JSONDecodeError:
+            logging.error(f"File {filepath} is not valid JSON format.")
+            return {}
 
-def setup_plot_style():
-    """Set up consistent plot styling with custom colors and enhanced typography"""
-    plt.style.use('default')
-    
-    # 增加字体缩放比例以使所有文字更大
-    sns.set_theme(style="whitegrid", font_scale=1.5)  # 从1.2增加到1.5
-    
-    # 更新默认参数配置
-    plt.rcParams.update({
-        # 字体设置
-        'font.family': 'sans-serif',
-        'font.sans-serif': ['Arial'],
-        'font.size': 14,  # 基础字体大小
-        
-        # 标题设置
-        'figure.titlesize': 18,    # 图表标题字体大小
-        'axes.titlesize': 16,      # 轴标题字体大小
-        'axes.labelsize': 14,      # 轴标签字体大小
-        
-        # 图例和刻度标签设置
-        'legend.fontsize': 12,     # 图例字体大小
-        'xtick.labelsize': 12,     # x轴刻度标签字体大小
-        'ytick.labelsize': 12,     # y轴刻度标签字体大小
-        
-        # 网格线设置
-        'axes.grid': True,
-        'grid.alpha': 0.3,
-        
-        # 图表大小设置
-        'figure.figsize': [15, 6],  # 默认图表大小
-        'figure.dpi': 100,          # 显示分辨率
-        'savefig.dpi': 300,         # 保存分辨率
-        
-        # 其他样式设置
-        'axes.linewidth': 1.2,      # 轴线宽度
-        'grid.linewidth': 0.8,      # 网格线宽度
-        'lines.linewidth': 2.0,     # 默认线条宽度
-    })
-    
-    # 定义更多不重复的颜色，保持亮度相近但色调不同
-    return {
-        'model_colors': {
-            'model1': '#6FC087',    # 绿色
-            'model2': '#6FB5E2',    # 蓝色
-            'model3': '#E27A6F',    # 红色
-            'model4': '#DFA76F',    # 橙色
-            'model5': '#916FE2',    # 紫色
-            'model6': '#E26FB5',    # 粉色
-            'model7': '#A7CF6F',    # 黄绿色
-            'model8': '#6FE2B5',    # 青色
-            'model9': '#CF6FA7',    # 玫瑰色
-            'model10': '#B56FE2',   # 深紫色
-            'model11': '#E2CF6F',   # 金色
-            'model12': '#6FCFE2',   # 天蓝色
-            'model13': '#CFE26F',   # 柠檬色
-            'model14': '#E2956F',   # 珊瑚色
-            'model15': '#6F87E2'    # 靛蓝色
+    def plot_combined_distributions(self, metrics: List[str]):
+        """Plot distribution curves for all metrics with enlarged fonts"""
+        if self.results_df is None:
+            logging.error("No data loaded. Please load data first.")
+            return
+            
+        # Color scheme for different models
+        model_colors = {
+            'gemma2': '#2ecc71',    # Green
+            'gpt-4o': '#3498db',    # Blue 
+            'glm4': '#e74c3c',      # Red
+            'llama3.1': '#f1c40f',  # Yellow
+            'mistral': '#9b59b6',   # Purple
+            'qwen2.5': '#1abc9c',   # Teal
+            'glm-4-plus': '#e67e22'    # Orange
         }
-    }
-
-def plot_combined_distributions(df: pd.DataFrame, metrics: List[str], output_dir: str):
-    """Plot distribution curves for all metrics in a single figure"""
-    colors = setup_plot_style()['model_colors']
-    
-    fig, axes = plt.subplots(1, 3, figsize=(15, 5))
-    fig.suptitle('Score Distributions by Metric', fontsize=14, y=1.02)
-    
-    # Only plot Condition, Answer, and Citation scores (exclude Answer Count)
-    plot_metrics = [m for m in metrics if m != 'Answer Count']
-    
-    for idx, metric in enumerate(plot_metrics):
-        ax = axes[idx]
-        for i, model in enumerate(df['Model'].unique()):
-            model_data = df[df['Model'] == model][metric]
-            # 循环使用颜色
-            color = list(colors.values())[i % len(colors)]
-            sns.kdeplot(
-                data=model_data,
-                label=model,
-                ax=ax,
-                color=color
+        
+        # Increase figure size for better readability
+        fig, axes = plt.subplots(1, 3, figsize=(22.5, 6))  # Increased from (15, 5)
+        
+        # Increase main title size and adjust position
+        fig.suptitle('Score Distributions by Metric', fontsize=20, y=1.05)
+        
+        plot_metrics = [m for m in metrics if m != 'Answer Count']
+        
+        for idx, metric in enumerate(plot_metrics):
+            ax = axes[idx]
+            for model in self.results_df['Model'].unique():
+                model_data = self.results_df[self.results_df['Model'] == model][metric]
+                sns.kdeplot(
+                    data=model_data,
+                    label=model,
+                    ax=ax,
+                    color=model_colors[model],
+                    linewidth=2  # Increase line width for better visibility
+                )
+            
+            # Increase font sizes for title and labels
+            ax.set_title(metric, fontsize=16, pad=15)
+            ax.set_xlabel('Score', fontsize=14, labelpad=10)
+            ax.set_ylabel('Density', fontsize=14, labelpad=10)
+            
+            # Increase tick label sizes
+            ax.tick_params(axis='both', which='major', labelsize=12, pad=8)
+            
+            # Adjust legend
+            ax.legend(
+                loc='upper right', 
+                fontsize=12,  # Increased legend font size
+                framealpha=0.8,
+                bbox_to_anchor=(1.0, 1.0)  # Slightly adjust legend position
             )
+            
+            # Add grid with adjusted style
+            ax.grid(True, linestyle='--', alpha=0.2)
+            
+            # Optional: Adjust axis limits for better visualization
+            ax.set_xlim(0, 1)
+            # ax.set_xlim(left=ax.get_xlim()[0], right=ax.get_xlim()[1])
+            ax.set_ylim(bottom=0)  # Force density plot to start from 0
         
-        ax.set_title(metric)
-        ax.set_xlabel('Score')
-        ax.set_ylabel('Density')
+        # Adjust layout with more space
+        plt.tight_layout(rect=[0, 0, 1, 0.95], w_pad=0.5)
         
-        # 将图例放在子图内部的右上角
-        ax.legend(loc='upper right',      # 放在右上角
-                 fontsize='small',        # 较小的字体
-                 framealpha=0.8)          # 半透明背景
-    
-    plt.tight_layout()
-    
-    plt.savefig(os.path.join(output_dir, 'combined_distributions.png'),
-                dpi=300, bbox_inches='tight')
-    plt.close()
+        # Save plot with high resolution
+        save_path = self.output_dir / 'combined_distributions.png'
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+        plt.close()
 
-def plot_score_bars(df: pd.DataFrame, metric: str, output_dir: str):
-    """Plot bar chart for a metric with custom colors"""
-    colors = setup_plot_style()['model_colors']
-    
-    # Calculate mean and standard error
-    stats = df.groupby('Model')[metric].agg(['mean', 'std']).round(3)
-    stats['se'] = stats['std'] / np.sqrt(df.groupby('Model').size())
-    
-    plt.figure(figsize=(10, 6))
-    ax = plt.gca()
-    
-    # Create bar plot with different colors for each model
-    bars = plt.bar(stats.index, stats['mean'], 
-                  yerr=stats['se'], 
-                  capsize=5,
-                  color=[list(colors.values())[i % len(colors)] for i in range(len(stats.index))])
-    
-    # Add value labels on top of each bar
-    for bar in bars:
-        height = bar.get_height()
-        plt.text(bar.get_x() + bar.get_width()/2., height,
-                f'{height:.2f}',
-                ha='center', va='bottom')
-    
-    plt.title(f'Average {metric} by Model')
-    plt.xlabel('Model')
-    plt.ylabel(metric)
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, f'{metric.lower().replace(" ", "_")}_bars.png'),
-                dpi=300, bbox_inches='tight')
-    plt.close()
-    
-    # Save statistics
-    stats.to_csv(os.path.join(output_dir, f'{metric.lower().replace(" ", "_")}_stats.csv'))
+    def plot_score_bars(self, metric: str):
+        """
+        Plot bar chart for a metric showing mean values with error bars
+        
+        Args:
+            metric (str): Name of the metric column to plot
+        """
+        if self.results_df is None:
+            logging.error("No data loaded. Please load data first.")
+            return
+            
+        plt.figure(figsize=(7.5, 6))
+        
+        # Define color scheme for different models
+        model_colors = {
+            'gemma2': '#2ecc71',    # Green
+            'gpt-4o': '#3498db',    # Blue 
+            'glm4': '#e74c3c',      # Red
+            'llama3.1': '#f1c40f',  # Yellow
+            'mistral': '#9b59b6',   # Purple
+            'qwen2.5': '#1abc9c',   # Teal
+            'glm-4-plus': '#e67e22'    # Orange
+        }
+        
+        # Create barplot using seaborn with fixed deprecation warning
+        ax = sns.barplot(
+            data=self.results_df,
+            x='Model',
+            y=metric,
+            hue='Model',            # Assign hue to avoid deprecation
+            legend=False,           # Hide redundant legend
+            estimator=np.mean,
+            errorbar=('ci', 68),    # Equivalent to standard error
+            palette=model_colors,
+            alpha=0.9,
+            width=0.6 
+        )
+        
+        # Set title and labels
+        ax.set_title(f'Average {metric} by Model', fontsize=16, pad=15)
+        ax.set_xlabel('Model', fontsize=16)
+        ax.set_ylabel(metric, fontsize=16)
+        
+        # Configure tick labels
+        ax.tick_params(axis='x', rotation=45,labelsize=14)
+        ax.tick_params(axis='y', labelsize=14)
+        
+        # Add grid
+        ax.grid(True, linestyle='--', alpha=0.2, color='gray')
+        ax.set_axisbelow(True)
+        
+        # Add value labels on bars
+        for i in ax.containers:
+            ax.bar_label(i, fmt='%.2f', fontsize=14)
+        
+        plt.tight_layout()
+        
+        # Save plot
+        save_path = self.output_dir / f'{metric.lower().replace(" ", "_")}_bars.png'
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+        plt.close()
+        
+        # Save statistics
+        stats = self.results_df.groupby('Model')[metric].agg(['mean', 'std']).round(3)
+        stats.to_csv(self.output_dir / f'{metric.lower().replace(" ", "_")}_stats.csv')
+    def run_analysis(self):
+        """Run the complete analysis pipeline"""
+        logging.info("Starting metric analysis...")
+        
+        if not self.models:
+            logging.error("No models loaded. Please check get_models function.")
+            return
+
+        # Load and process data
+        self.load_data()
+        if self.results_df is None or self.results_df.empty:
+            logging.error("No results data available for analysis.")
+            return
+
+        # Define metrics to analyze
+        metrics = ['Condition Score', 'Answer Score', 'Citation Score', 'Answer Count']
+        
+        # Generate plots
+        self.plot_combined_distributions(metrics)
+        for metric in metrics:
+            logging.info(f"Analyzing {metric}...")
+            self.plot_score_bars(metric)
+        
+        logging.info(f"Analysis completed. Results saved in {self.output_dir}")
+
 def main():
-    """Main function to run analysis and visualization"""
-    output_dir = "analysis_results"
-    os.makedirs(output_dir, exist_ok=True)
-    
-    setup_logging()
-    logging.info("Starting metric analysis...")
-    
-    models = get_models()
-    if not models:
-        logging.error("No models loaded. Please check get_models function.")
-        return
-
-    # Get results data
-    results_df = analyze_model_results(models)
-    if results_df.empty:
-        logging.error("No results data available for analysis.")
-        return
-
-    # Define metrics
-    metrics = ['Condition Score', 'Answer Score', 'Citation Score', 'Answer Count']
-    
-    # Plot combined distribution curves
-    plot_combined_distributions(results_df, metrics, output_dir)
-    
-    # Plot individual bar charts
-    for metric in metrics:
-        logging.info(f"Analyzing {metric}...")
-        plot_score_bars(results_df, metric, output_dir)
-    
-    logging.info("Analysis completed. Results saved in 'analysis_results' directory.")
+    """Main execution function"""
+    analyzer = MetricsAnalyzer(output_dir="analysis_results")
+    analyzer.run_analysis()
 
 if __name__ == "__main__":
     main()

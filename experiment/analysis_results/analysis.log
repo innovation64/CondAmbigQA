@@ -1,4 +1,0 @@
-2024-10-30 19:34:00,176 - INFO - Starting metric analysis...
-2024-10-30 19:34:00,176 - ERROR - File intermediate_results/intermediate_results_llama3.1_main_experiment.json not found.
-2024-10-30 19:34:00,176 - WARNING - Results for model llama3.1 are missing or invalid.
-2024-10-30 19:34:00,179 - ERROR - No results data available for analysis.
