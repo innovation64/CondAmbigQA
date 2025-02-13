@@ -8,168 +8,212 @@ from typing import Dict, List, Tuple
 
 class AblationAnalyzer:
     def __init__(self, output_dir: str = "output"):
-        self.baseline_results = {}
-        self.compare_results = {}
-        self.intermediate_results = {}
-        self.baseline_scores = {}
-        self.compare_scores = {}
+        self.condition_results = {}
+        self.no_condition_results = {}
+        self.main_results = {}
+        self.condition_scores = {}
+        self.no_condition_scores = {}
+        self.main_scores = {}
         self.output_dir = Path(output_dir)
+        
+        # Create output directory if it doesn't exist
         self.output_dir.mkdir(parents=True, exist_ok=True)
         
-    def load_data(self, data_dir: str = ".", intermediate_dir: str = "intermediate_results"):
-        """Load results from baseline and comparison experiments"""
+    def load_data(self, data_dir: str = ".", main_results_dir: str = "intermediate_results"):
+        """
+        Load results from all experiments
+        Args:
+            data_dir: Directory containing ablation experiment results
+            main_results_dir: Directory containing main experiment results
+        """
         data_path = Path(data_dir)
-        intermediate_path = Path(intermediate_dir)
+        main_path = Path(main_results_dir)
         
-        # Load scores
+        # Load ablation experiment scores
         with open(data_path / "model_scores.json", "r") as f:
-            self.baseline_scores = json.load(f)
-        with open(data_path / "model_scores_compare.json", "r") as f:
-            self.compare_scores = json.load(f)
+            self.condition_scores = json.load(f)
+        with open(data_path / "model_scores_ablation.json", "r") as f:
+            self.no_condition_scores = json.load(f)
             
-        # Model names from the baseline scores
-        model_names = ['llama3.1', 'mistral', 'qwen2.5', 'gemma2', 'glm4']
-            
-        # Load detailed results for each model
-        for model_name in model_names:
+        # Process main experiment results
+        for model_name in self.condition_scores.keys():
+            # Load ablation results
             try:
-                # Load baseline and compare results
-                baseline_file = f"results_{model_name}.json"
-                compare_file = f"results_{model_name}_compare.json"
-                intermediate_file = f"intermediate_results_{model_name}_main_experiment.json"
-                
-                with open(data_path / baseline_file, "r") as f:
-                    self.baseline_results[model_name] = json.load(f)
-                with open(data_path / compare_file, "r") as f:
-                    self.compare_results[model_name] = json.load(f)
-                
-                # Try to load intermediate results if they exist
-                try:
-                    with open(intermediate_path / intermediate_file, "r") as f:
-                        self.intermediate_results[model_name] = json.load(f)
-                except FileNotFoundError:
-                    print(f"Warning: Could not find intermediate results for {model_name}")
-                    
-            except FileNotFoundError as e:
-                print(f"Warning: Could not find results for {model_name}: {e}")
+                with open(data_path / f"results_{model_name}.json", "r") as f:
+                    self.condition_results[model_name] = json.load(f)
+                with open(data_path / f"results_{model_name}_ablation.json", "r") as f:
+                    self.no_condition_results[model_name] = json.load(f)
+            except FileNotFoundError:
+                print(f"Warning: Could not find ablation results for {model_name}")
 
+            # Load main experiment results
+            try:
+                main_file = main_path / f"intermediate_results_{model_name}_main_experiment.json"
+                with open(main_file, "r") as f:
+                    main_data = json.load(f)
+                    self.main_results[model_name] = main_data[model_name]
+                    
+                    # Calculate average scores for main experiment
+                    answer_scores = []
+                    citation_scores = []
+                    
+                    for example in main_data[model_name]:
+                        for eval in example.get("evaluations", []):
+                            answer_scores.append(eval.get("answer_evaluation", {}).get("score", 0))
+                            citation_scores.append(eval.get("citation_evaluation", {}).get("score", 0))
+                    
+                    self.main_scores[model_name] = {
+                        "average_answer_score": np.mean(answer_scores),
+                        "average_citation_score": np.mean(citation_scores)
+                    }
+            except FileNotFoundError:
+                print(f"Warning: Could not find main results for {model_name}")
+                
     def prepare_comparison_data(self) -> pd.DataFrame:
         """Prepare data for comparison visualization"""
         data = []
         
-        for model in self.baseline_scores.keys():
-            # Baseline (Main Experiment)
-            data.append({
-                'model': model,
-                'setting': 'Main Experiment',
-                'answer_score': self.baseline_scores[model]['average_answer_score'],
-                'citation_score': self.baseline_scores[model]['average_citation_score']
-            })
-            
-            # Without Conditions
-            data.append({
-                'model': model,
-                'setting': 'Without Conditions',
-                'answer_score': self.compare_scores[model]['average_answer_score'],
-                'citation_score': self.compare_scores[model]['average_citation_score']
-            })
-            
-            # With Conditions (from intermediate results if available)
-            if model in self.intermediate_results:
-                intermediate_scores = self._calculate_intermediate_scores(model)
+        for model in self.condition_scores.keys():
+            # Only add data if model exists in all experiments
+            if model in self.main_scores:
+                # With conditions
                 data.append({
                     'model': model,
                     'setting': 'With Conditions',
-                    'answer_score': intermediate_scores['answer_score'],
-                    'citation_score': intermediate_scores['citation_score']
+                    'answer_score': self.condition_scores[model]['average_answer_score'],
+                    'citation_score': self.condition_scores[model]['average_citation_score']
+                })
+                
+                # Without conditions
+                data.append({
+                    'model': model,
+                    'setting': 'Without Conditions',
+                    'answer_score': self.no_condition_scores[model]['average_answer_score'],
+                    'citation_score': self.no_condition_scores[model]['average_citation_score']
+                })
+                
+                # Main experiment
+                data.append({
+                    'model': model,
+                    'setting': 'Main Experiment',
+                    'answer_score': self.main_scores[model]['average_answer_score'],
+                    'citation_score': self.main_scores[model]['average_citation_score']
                 })
             
         return pd.DataFrame(data)
 
-    def _calculate_intermediate_scores(self, model_name: str) -> Dict:
-        """Calculate scores from intermediate results"""
-        results = self.intermediate_results.get(model_name, {})
-        if not results:
-            return {'answer_score': 0, 'citation_score': 0}
-            
-        answer_scores = []
-        citation_scores = []
-        
-        # Extract scores based on the structure of intermediate results
-        # You may need to adjust this based on the actual structure
-        for example in results.values():
-            if isinstance(example, dict):
-                if 'answer_score' in example:
-                    answer_scores.append(example['answer_score'])
-                if 'citation_score' in example:
-                    citation_scores.append(example['citation_score'])
-                
-        return {
-            'answer_score': np.mean(answer_scores) if answer_scores else 0,
-            'citation_score': np.mean(citation_scores) if citation_scores else 0
-        }
-
     def plot_comparison(self):
-        """Create comparison visualizations matching the paper figure style"""
+        """Create comparison visualizations with classic style"""
         df = self.prepare_comparison_data()
         
-        # Set figure size and style
-        plt.style.use('seaborn')
-        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 5))
+        # Set figure style
+        plt.style.use('classic')
         
-        # Custom colors matching the paper
+        # Create figure
+        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 6))
+        
+        # Custom colors
         colors = ['#2ecc71', '#e74c3c', '#3498db']  # green, red, blue
         
-        # Plot answer scores
-        sns.barplot(data=df, x='model', y='answer_score', hue='setting', 
-                   ax=ax1, palette=colors, width=0.8)
-        ax1.set_title('Answer Score Comparison', fontsize=12)
-        ax1.set_xlabel('Model', fontsize=10)
-        ax1.set_ylabel('Average Answer Score', fontsize=10)
-        ax1.tick_params(axis='x', rotation=45)
-        ax1.grid(True, linestyle='--', alpha=0.3)
+        # Reorder the settings to put Main Experiment in the middle
+        df['setting'] = pd.Categorical(df['setting'], 
+                                    categories=['With Conditions', 'Main Experiment', 'Without Conditions'],
+                                    ordered=True)
         
-        # Add value labels on the bars
-        for container in ax1.containers:
-            ax1.bar_label(container, fmt='%.2f', padding=3)
+        # Plot answer scores
+        g1 = sns.barplot(
+            data=df,
+            x='model',
+            y='answer_score',
+            hue='setting',
+            ax=ax1,
+            width=0.8,
+            palette=colors,
+            saturation=0.8,
+            edgecolor='none'
+        )
+        
+        # Customize answer score plot
+        g1.set_title('Answer Score Comparison', pad=20, fontsize=14,y=1.12)
+        g1.set_xlabel('Model', fontsize=12)
+        g1.set_ylabel('Average Answer Score', fontsize=12)
+        
+        # Add grid
+        # # ax1.yaxis.grid(True, linestyle='--', alpha=0.7)
+        # ax1.xaxis.grid(True, linestyle=':', alpha=0.7)
+        # ax1.set_axisbelow(True)
+        
+        # Add value labels
+        for container in g1.containers:
+            g1.bar_label(container, fmt='%.2f', padding=3)
+        
+        # Rotate x labels
+        plt.setp(g1.get_xticklabels(), rotation=45, ha='right')
+        
+        # Adjust legend
+        g1.legend(title=None, bbox_to_anchor=(-0.011, 1.17), loc='upper left', ncol=3)
         
         # Plot citation scores
-        sns.barplot(data=df, x='model', y='citation_score', hue='setting',
-                   ax=ax2, palette=colors, width=0.8)
-        ax2.set_title('Citation Score Comparison', fontsize=12)
-        ax2.set_xlabel('Model', fontsize=10)
-        ax2.set_ylabel('Average Citation Score', fontsize=10)
-        ax2.tick_params(axis='x', rotation=45)
-        ax2.grid(True, linestyle='--', alpha=0.3)
+        g2 = sns.barplot(
+            data=df,
+            x='model',
+            y='citation_score',
+            hue='setting',
+            ax=ax2,
+            width=0.8,
+            palette=colors,
+            saturation=0.8,
+            edgecolor='none'
+        )
         
-        # Add value labels on the bars
-        for container in ax2.containers:
-            ax2.bar_label(container, fmt='%.2f', padding=3)
+        # Customize citation score plot
+        g2.set_title('Citation Score Comparison', pad=20, fontsize=14,y=1.12)
+        g2.set_xlabel('Model', fontsize=12)
+        g2.set_ylabel('Average Citation Score', fontsize=12)
+        
+        # Add grid
+        # ax2.yaxis.grid(True, linestyle='--', alpha=0.7)
+        # ax2.set_axisbelow(True)
+        
+        # Add value labels
+        for container in g2.containers:
+            g2.bar_label(container, fmt='%.2f', padding=3)
+        
+        # Rotate x labels
+        plt.setp(g2.get_xticklabels(), rotation=45, ha='right')
+        
+        # Adjust legend
+        g2.legend(title=None, bbox_to_anchor=(-0.011, 1.17), loc='upper left', ncol=3)
         
         # Adjust layout
-        plt.suptitle('CondAmbigQA: Conditional Ambiguous Question Answering', 
-                    fontsize=14, y=1.05)
         plt.tight_layout()
         
-        # Save figure
-        save_path = self.output_dir / "model_performance_comparison.png"
+        # Set spines visible
+        for ax in [ax1, ax2]:
+            ax.spines['top'].set_visible(True)
+            ax.spines['right'].set_visible(True)
+            ax.grid()
+        
+        # Save plot
+        save_path = self.output_dir / "experiment_comparison.png"
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
         plt.close()
-        
         return save_path
 
 def main():
-    analyzer = AblationAnalyzer(output_dir="condambigqa_analysis")
+    # Create analyzer instance
+    analyzer = AblationAnalyzer(output_dir="analysis_output")
     
-    # Load data from both directories
+    # Load data from both experiments
     analyzer.load_data(
         data_dir=".", 
-        intermediate_dir="intermediate_results"
+        main_results_dir="intermediate_results"
     )
     
-    # Generate visualization
-    plot_path = analyzer.plot_comparison()
-    print(f"Analysis completed. Plot saved to: {plot_path}")
+    # Generate and save visualization
+    comparison_plot_path = analyzer.plot_comparison()
+    
+    print(f"Analysis completed. Visualization saved to: {comparison_plot_path}")
 
 if __name__ == "__main__":
     main()
