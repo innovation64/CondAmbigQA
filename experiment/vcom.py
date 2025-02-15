@@ -79,7 +79,7 @@ class AblationAnalyzer:
                 # With conditions
                 data.append({
                     'model': model,
-                    'setting': 'With Conditions',
+                    'setting': 'Answering with Ground Truth Conditions',
                     'answer_score': self.condition_scores[model]['average_answer_score'],
                     'citation_score': self.condition_scores[model]['average_citation_score']
                 })
@@ -87,7 +87,7 @@ class AblationAnalyzer:
                 # Without conditions
                 data.append({
                     'model': model,
-                    'setting': 'Without Conditions',
+                    'setting': 'Answering without Conditions',
                     'answer_score': self.no_condition_scores[model]['average_answer_score'],
                     'citation_score': self.no_condition_scores[model]['average_citation_score']
                 })
@@ -95,7 +95,7 @@ class AblationAnalyzer:
                 # Main experiment
                 data.append({
                     'model': model,
-                    'setting': 'Main Experiment',
+                    'setting': 'Answering with Model-generated Conditions',
                     'answer_score': self.main_scores[model]['average_answer_score'],
                     'citation_score': self.main_scores[model]['average_citation_score']
                 })
@@ -110,17 +110,17 @@ class AblationAnalyzer:
         plt.style.use('classic')
         
         # Create figure
-        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 6))
+        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(24, 6))
         
-        # Custom colors
-        colors = ['#2ecc71', '#e74c3c', '#3498db']  # green, red, blue
+        # Custom color palette (list of colors for different models)
+        color_palette = sns.color_palette("Set2", n_colors=len(df['model'].unique()))  # Example Set2 palette
         
         # Reorder the settings to put Main Experiment in the middle
         df['setting'] = pd.Categorical(df['setting'], 
-                                    categories=['With Conditions', 'Main Experiment', 'Without Conditions'],
+                                    categories=['Answering with Ground Truth Conditions', 'Answering with Model-generated Conditions', 'Answering without Conditions'],
                                     ordered=True)
         
-        # Plot answer scores
+        # Plot answer scores (first plot)
         g1 = sns.barplot(
             data=df,
             x='model',
@@ -128,32 +128,28 @@ class AblationAnalyzer:
             hue='setting',
             ax=ax1,
             width=0.8,
-            palette=colors,
+            palette=color_palette,
             saturation=0.8,
             edgecolor='none'
         )
         
         # Customize answer score plot
-        g1.set_title('Answer Score Comparison', pad=20, fontsize=14,y=1.12)
+        ax1.set_ylim(bottom=0, top=0.45)  
+        g1.set_title('Answer Score Comparison', fontsize=24,pad=-20)
         g1.set_xlabel('Model', fontsize=12)
         g1.set_ylabel('Average Answer Score', fontsize=12)
-        
-        # Add grid
-        # # ax1.yaxis.grid(True, linestyle='--', alpha=0.7)
-        # ax1.xaxis.grid(True, linestyle=':', alpha=0.7)
-        # ax1.set_axisbelow(True)
         
         # Add value labels
         for container in g1.containers:
             g1.bar_label(container, fmt='%.2f', padding=3)
         
         # Rotate x labels
-        plt.setp(g1.get_xticklabels(), rotation=45, ha='right')
+        plt.setp(g1.get_xticklabels(), ha='center',x = 1.05,fontsize=22)
         
-        # Adjust legend
-        g1.legend(title=None, bbox_to_anchor=(-0.011, 1.17), loc='upper left', ncol=3)
+        # Hide legend for the first plot
+        g1.legend_.set_visible(False)
         
-        # Plot citation scores
+        # Plot citation scores (second plot)
         g2 = sns.barplot(
             data=df,
             x='model',
@@ -161,29 +157,29 @@ class AblationAnalyzer:
             hue='setting',
             ax=ax2,
             width=0.8,
-            palette=colors,
+            palette=color_palette,
             saturation=0.8,
             edgecolor='none'
         )
         
         # Customize citation score plot
-        g2.set_title('Citation Score Comparison', pad=20, fontsize=14,y=1.12)
+        ax2.set_ylim(bottom=0, top=0.3) 
+        g2.set_title('Citation Score Comparison', fontsize=24,pad=-20)
         g2.set_xlabel('Model', fontsize=12)
         g2.set_ylabel('Average Citation Score', fontsize=12)
-        
-        # Add grid
-        # ax2.yaxis.grid(True, linestyle='--', alpha=0.7)
-        # ax2.set_axisbelow(True)
-        
+        g2.legend_.set_visible(False)
         # Add value labels
         for container in g2.containers:
             g2.bar_label(container, fmt='%.2f', padding=3)
         
         # Rotate x labels
-        plt.setp(g2.get_xticklabels(), rotation=45, ha='right')
+        plt.setp(g2.get_xticklabels(), ha='center',x=1.05,fontsize=22)
         
-        # Adjust legend
-        g2.legend(title=None, bbox_to_anchor=(-0.011, 1.17), loc='upper left', ncol=3)
+        # Adjust legend for the second plot
+        # g2.legend(title=None, bbox_to_anchor=(-1.011, 1.17), loc='upper left', ncol=3,fontsize=22)
+        # Add a shared legend in the center
+        handles, labels = g1.get_legend_handles_labels()  # Get handles and labels from the first plot
+        fig.legend(handles, labels, loc='center', bbox_to_anchor=(0.5, 1.05),ncol=3, fontsize=22)
         
         # Adjust layout
         plt.tight_layout()
@@ -192,17 +188,18 @@ class AblationAnalyzer:
         for ax in [ax1, ax2]:
             ax.spines['top'].set_visible(True)
             ax.spines['right'].set_visible(True)
-            ax.grid()
+            # ax.grid()
+            ax.grid(False)
         
-        # Save plot
-        save_path = self.output_dir / "experiment_comparison.png"
-        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+        # Save plot as PDF
+        save_path = self.output_dir / "experiment_comparison.pdf"
+        plt.savefig(save_path, dpi=300, bbox_inches='tight', format='pdf')
         plt.close()
         return save_path
 
 def main():
     # Create analyzer instance
-    analyzer = AblationAnalyzer(output_dir="analysis_output")
+    analyzer = AblationAnalyzer(output_dir="analysis_outputa")
     
     # Load data from both experiments
     analyzer.load_data(

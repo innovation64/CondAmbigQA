@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import List, Dict
 from models import get_models
 import seaborn as sns
+
 class MetricsAnalyzer:
     def __init__(self, output_dir: str = "analysis_results"):
         """Initialize analyzer with output directory"""
@@ -89,7 +90,7 @@ class MetricsAnalyzer:
         fig, axes = plt.subplots(3, 1, figsize=(12, 18.5))  # Adjusted to vertical layout (3 rows, 1 column)
         
         # Increase main title size and adjust position
-        fig.suptitle('Score Distributions by Metric', fontsize=20, y=0.95)
+        fig.suptitle('Score Distributions by Metric', fontsize=26, y=0.95)
         
         plot_metrics = [m for m in metrics if m != 'Answer Count']
         
@@ -102,33 +103,43 @@ class MetricsAnalyzer:
                 # Set line style to dashed for 'glm-4-plus' and 'gpt-4o'
                 linestyle = 'dashed' if model in ['glm-4-plus', 'gpt-4o'] else 'solid'
                 
+                # Increase line width and plot the distribution
                 sns.kdeplot(
                     data=model_data,
                     label=model,
                     ax=ax,
                     color=model_colors[model],
-                    linewidth=2,
+                    linewidth=3,  # Bold lines for better visibility
                     linestyle=linestyle  # Apply dashed line style for the specified models
                 )
             
             # Increase font sizes for title and labels
-            ax.set_title(metric, fontsize=16, pad=15)
-            ax.set_xlabel('Score', fontsize=14, labelpad=10)
-            ax.set_ylabel('Density', fontsize=14, labelpad=10)
+            # ax.set_title(metric, fontsize=24)
+            # ax.title.set_position([0.5, 0.05])
+            ax.text(0.4, 0.95, metric,  # x=0.05, y=0.95 表示在图的左上角
+                    fontsize=24,
+                    transform=ax.transAxes,  # 使用轴的相对坐标系统
+                    verticalalignment='top',
+                    bbox=dict(facecolor='white', alpha=0.8, edgecolor='none', pad=3.0))
+            ax.set_xlabel('Score', fontsize=18, labelpad=10)
+            ax.set_ylabel('Density', fontsize=18, labelpad=10)
             
-            # Increase tick label sizes
-            ax.tick_params(axis='both', which='major', labelsize=12, pad=8)
+            # Adjust tick label sizes (both x and y axes)
+            ax.tick_params(axis='both', which='major', labelsize=16, pad=8)
             
             # Adjust legend
-            ax.legend(
-                loc='upper right', 
-                fontsize=12,  # Increased legend font size
-                framealpha=0.8,
-                bbox_to_anchor=(1.0, 1.0)  # Slightly adjust legend position
-            )
+            if idx < 2:
+                ax.legend().set_visible(False)  # Hide legend for the first two plots
+            else:
+                ax.legend(
+                    loc='upper right', 
+                    fontsize=22,  # Enlarged legend font size for the last plot
+                    framealpha=0.8,
+                    bbox_to_anchor=(1.0, 1.0)  # Slightly adjust legend position
+                )
             
             # Add grid with adjusted style
-            ax.grid(True, linestyle='--', alpha=0.2)
+            # ax.grid(True, linestyle='--', alpha=0.2)
             
             # Optional: Adjust axis limits for better visualization
             ax.set_xlim(0, 1)
@@ -137,11 +148,10 @@ class MetricsAnalyzer:
         # Adjust layout with more space
         plt.tight_layout(rect=[0, 0, 1, 0.95], w_pad=0.5)
         
-        # Save plot with high resolution
-        save_path = self.output_dir / 'combined_distributions_vertical.png'
+        # Save plot as PDF with high resolution
+        save_path = self.output_dir / 'combined_distributions_vertical.pdf'
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
         plt.close()
-
     def plot_combined_bars(self, metrics: List[str]):
         """
         Plot a combined bar chart for all metrics showing mean values with error bars.
@@ -161,6 +171,7 @@ class MetricsAnalyzer:
         models = sorted(self.results_df["Model"].unique())
         x = np.arange(len(models))  # 位置
         bar_width = 0.18  # 设置柱状图宽度
+
         # 对于四个柱状图，采用对称偏移：
         offsets = {
             "Condition Score": -1.5 * bar_width,
@@ -169,16 +180,18 @@ class MetricsAnalyzer:
             "Answer Count": 1.5 * bar_width
         }
 
-        # 定义颜色（左侧指标各自颜色，右侧指标单独一种颜色）
-        colors_left = {
-            "Condition Score": "#2ecc71", 
-            "Answer Score": "#3498db", 
-            "Citation Score": "#e74c3c"
+        # 定义左侧指标的统一颜色及各自的填充图案（例如：星号、叉号、圆圈）
+        left_color = "#3498db"
+        hatch_patterns = {
+            "Condition Score": "++",  # 星号
+            "Answer Score": "///",     # 叉号
+            "Citation Score": ".."    # 圆圈
         }
+        # 定义右侧指标颜色
         color_right = {"Answer Count": "#f39c12"}
 
         # 创建图表和双坐标轴
-        fig, ax1 = plt.subplots(figsize=(16, 12))  # Increased the figure size further
+        fig, ax1 = plt.subplots(figsize=(16, 12))
         ax2 = ax1.twinx()
 
         # 绘制左轴指标的柱状图
@@ -187,12 +200,12 @@ class MetricsAnalyzer:
             grouped = self.results_df.groupby("Model")[metric].agg(["mean", "std"]).reindex(models)
             positions = x + offsets[metric]  # 根据偏移量调整每个柱的位置
             bars = ax1.bar(positions, grouped["mean"], bar_width,
-                        color=colors_left[metric], alpha=0.8, label=metric, capsize=5)
-
+                        color=left_color, alpha=0.8, label=metric, capsize=5,
+                        hatch=hatch_patterns.get(metric, ""))
             # 为柱状图添加值标签
             for bar in bars:
                 height = bar.get_height()
-                ax1.text(bar.get_x() + bar.get_width() / 2, height,  # Increased vertical spacing
+                ax1.text(bar.get_x() + bar.get_width() / 2, height,
                         f'{height:.2f}', ha='center', va='bottom', fontsize=16)
 
         # 绘制右轴指标“Answer Count”
@@ -200,37 +213,131 @@ class MetricsAnalyzer:
         positions_rc = x + offsets[right_metric]
         bars_rc = ax2.bar(positions_rc, grouped_rc["mean"], bar_width,
                         color=color_right[right_metric], alpha=0.8, label=right_metric, capsize=5)
-
         # 为“Answer Count”柱状图添加值标签
         for bar in bars_rc:
             height = bar.get_height()
-            ax2.text(bar.get_x() + bar.get_width() / 2, height,  # Increased vertical spacing
+            ax2.text(bar.get_x() + bar.get_width() / 2, height,
                     f'{height:.2f}', ha='center', va='bottom', fontsize=16)
 
-        # 设置x轴刻度
-        ax1.set_ylim(0, 0.4)
-        ax2.set_ylim(0, 4)  
+        # 设置x轴刻度及坐标轴标签
+        ax1.set_ylim(0, 0.45)
+        ax2.set_ylim(0, 4.5)  
         ax1.set_xticks(x)
-        ax1.set_xticklabels(models, fontsize=16, rotation=45, ha="right")  # Adjust x-axis labels
+        ax1.set_xticklabels(models, fontsize=26, ha="center", x=1.05) 
+        ax1.tick_params(axis='y', labelsize=22) 
+        ax2.tick_params(axis='y', labelsize=22)
         ax1.set_xlabel("Model", fontsize=18)
         ax1.set_ylabel("Score", fontsize=18)
         ax2.set_ylabel("Answer Count", fontsize=18)
-        ax1.set_title("Average Scores by Model and Metric", fontsize=20)
+        ax1.set_title("Average Scores on CondAmbigQA, Model and Metric", fontsize=26)
 
         # 合并图例（由于柱状图分别在左右轴上，需要手动合并图例）
         handles1, labels1 = ax1.get_legend_handles_labels()
         handles2, labels2 = ax2.get_legend_handles_labels()
         all_handles = handles1 + handles2
         all_labels = labels1 + labels2
-        ax1.legend(all_handles, all_labels, loc='upper left', fontsize=16)
+        ax1.legend(all_handles, all_labels, loc='upper left', fontsize=22)
 
         # 调整图表布局，避免重叠
-        plt.tight_layout(pad=5.0, rect=[0, 0, 1, 0.96])  # Increased padding and adjusted layout
+        plt.tight_layout(pad=5.0, rect=[0, 0, 1, 0.96])
 
-        # 保存图表
-        save_path = self.output_dir / 'combined_metrics_bars_larger_with_values_adjusted.png'
+        # Save plot as PDF with high resolution
+        save_path = self.output_dir / 'combined_metrics_bars_larger_with_values_adjusted.pdf'
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
         plt.close()
+
+    # def plot_combined_bars(self, metrics: List[str]):
+    #     """
+    #     Plot a combined bar chart for all metrics showing mean values with error bars.
+
+    #     Args:
+    #         metrics (List[str]): List of metric names to plot.
+    #     """
+    #     if self.results_df is None:
+    #         logging.error("No data loaded. Please load data first.")
+    #         return
+
+    #     # 将指标分为左轴指标与右轴指标
+    #     left_metrics = [m for m in metrics if m != "Answer Count"]
+    #     right_metric = "Answer Count"
+
+    #     # 获取所有模型（保持顺序一致）
+    #     models = sorted(self.results_df["Model"].unique())
+    #     x = np.arange(len(models))  # 位置
+    #     bar_width = 0.18  # 设置柱状图宽度
+    #     # 对于四个柱状图，采用对称偏移：
+    #     offsets = {
+    #         "Condition Score": -1.5 * bar_width,
+    #         "Answer Score": -0.5 * bar_width,
+    #         "Citation Score": 0.5 * bar_width,
+    #         "Answer Count": 1.5 * bar_width
+    #     }
+
+    #     # 定义颜色（左侧指标各自颜色，右侧指标单独一种颜色）
+    #     colors_left = {
+    #         "Condition Score": "#2ecc71", 
+    #         "Answer Score": "#3498db", 
+    #         "Citation Score": "#e74c3c"
+    #     }
+    #     color_right = {"Answer Count": "#f39c12"}
+
+    #     # 创建图表和双坐标轴
+    #     fig, ax1 = plt.subplots(figsize=(16, 12))  # Increased the figure size further
+    #     ax2 = ax1.twinx()
+
+    #     # 绘制左轴指标的柱状图
+    #     for metric in left_metrics:
+    #         # 按模型分组计算均值和标准差
+    #         grouped = self.results_df.groupby("Model")[metric].agg(["mean", "std"]).reindex(models)
+    #         positions = x + offsets[metric]  # 根据偏移量调整每个柱的位置
+    #         bars = ax1.bar(positions, grouped["mean"], bar_width,
+    #                     color=colors_left[metric], alpha=0.8, label=metric, capsize=5)
+
+    #         # 为柱状图添加值标签
+    #         for bar in bars:
+    #             height = bar.get_height()
+    #             ax1.text(bar.get_x() + bar.get_width() / 2, height,  # Increased vertical spacing
+    #                     f'{height:.2f}', ha='center', va='bottom', fontsize=16)
+
+    #     # 绘制右轴指标“Answer Count”
+    #     grouped_rc = self.results_df.groupby("Model")[right_metric].agg(["mean", "std"]).reindex(models)
+    #     positions_rc = x + offsets[right_metric]
+    #     bars_rc = ax2.bar(positions_rc, grouped_rc["mean"], bar_width,
+    #                     color=color_right[right_metric], alpha=0.8, label=right_metric, capsize=5)
+
+    #     # 为“Answer Count”柱状图添加值标签
+    #     for bar in bars_rc:
+    #         height = bar.get_height()
+    #         ax2.text(bar.get_x() + bar.get_width() / 2, height,  # Increased vertical spacing
+    #                 f'{height:.2f}', ha='center', va='bottom', fontsize=16)
+
+    #     # 设置x轴刻度
+    #     ax1.set_ylim(0, 0.45)
+    #     ax2.set_ylim(0, 4.5)  
+    #     ax1.set_xticks(x)
+    #     ax1.set_xticklabels(models, fontsize=26, ha="center", x=1.05) 
+    #     ax1.tick_params(axis='y', labelsize=22) 
+    #     ax2.tick_params(axis='y', labelsize=22)  # Adjust the font size of the y-axis tick labels (numbers)# Adjust x-axis labels
+    #     ax1.set_xlabel("Model", fontsize=18)
+    #     ax1.set_ylabel("Score", fontsize=18)
+    #     ax2.set_ylabel("Answer Count", fontsize=18)
+    #     ax1.set_title("Average Scores on CondAmbigQA, Model and Metric", fontsize=26)
+
+    #     # 合并图例（由于柱状图分别在左右轴上，需要手动合并图例）
+    #     handles1, labels1 = ax1.get_legend_handles_labels()
+    #     handles2, labels2 = ax2.get_legend_handles_labels()
+    #     all_handles = handles1 + handles2
+    #     all_labels = labels1 + labels2
+    #     ax1.legend(all_handles, all_labels, loc='upper left', fontsize=22)
+        
+
+    #     # 调整图表布局，避免重叠
+    #     plt.tight_layout(pad=5.0, rect=[0, 0, 1, 0.96])  # Increased padding and adjusted layout
+
+    #     # Save plot as PDF with high resolution
+    #     save_path = self.output_dir / 'combined_metrics_bars_larger_with_values_adjusted.pdf'
+    #     plt.savefig(save_path, dpi=300, bbox_inches='tight')
+    #     plt.close()
 
     def run_analysis(self):
         """Run the complete analysis pipeline"""
