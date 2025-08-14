@@ -1,0 +1,34 @@
+{
+  "glm-4-plus": {
+    "average_answer_score": 0.31162167273106595,
+    "average_citation_score": 0.0
+  },
+  "gpt-4o": {
+    "average_answer_score": 0.34661057211867563,
+    "average_citation_score": 0.0
+  },
+  "mistral": {
+    "average_answer_score": 0.23457190765911207,
+    "average_citation_score": 0.0
+  },
+  "gemma2": {
+    "average_answer_score": 0.29020012060142764,
+    "average_citation_score": 0.0
+  },
+  "deepseek-r1:7b": {
+    "average_answer_score": 0.14799615026627572,
+    "average_citation_score": 0.0
+  },
+  "llama3.1:8b": {
+    "average_answer_score": 0.21761722693609376,
+    "average_citation_score": 0.0
+  },
+  "qwen2.5:latest": {
+    "average_answer_score": 0.24397466514771154,
+    "average_citation_score": 0.0
+  },
+  "glm4:latest": {
+    "average_answer_score": 0.20884726822042973,
+    "average_citation_score": 0.0
+  }
+}

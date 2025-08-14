@@ -1,0 +1,9 @@
+{
+  "gpt-4o": {
+    "average_answer_score": 0.541251576986667,
+    "average_citation_score": 0.7705838876570583,
+    "average_combined_score": -Infinity,
+    "num_examples": 2000,
+    "num_evaluations": 2255
+  }
+}

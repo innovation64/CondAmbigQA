@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+conversation_logs/
+
+# Data files (too large for git)
+*.json
+!example_*.json
+!sample_*.json
+
+# Batch processing
+batch_files/
+batch_results/
+batches/
+outputs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+interim_*
+annotated_*
+merged_*
+filtered_*
+enhanced_*
+
+# System files
+.DS_Store
+Thumbs.db
+STOP.txt

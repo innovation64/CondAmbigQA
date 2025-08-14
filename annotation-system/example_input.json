@@ -1,0 +1,30 @@
+[
+  {
+    "id": "example_001",
+    "question": "How long is a rainbow six siege game?",
+    "ctxs": [
+      {
+        "title": "Tom Clancy's Rainbow Six Siege - Gameplay",
+        "text": "When the round begins in an online match, the attackers choose one of several spawn points from which to launch their attack while defenders do the same from which to defend from. A one-minute preparatory period will then commence wherein the attackers are then given control over mecanum-wheeled drones to scout the map. Matches last only four minutes for a casual and three minutes for a ranked."
+      },
+      {
+        "title": "Rainbow Six Siege - Game Modes",
+        "text": "The game features multiple game modes, including Hostage, Bomb, and Secure Area. Each mode requires different strategies and can affect the overall match duration. Ranked matches are typically more competitive and have shorter round times compared to casual matches."
+      }
+    ]
+  },
+  {
+    "id": "example_002",
+    "question": "What is the capital of Australia?",
+    "ctxs": [
+      {
+        "title": "Australia - Government",
+        "text": "Canberra is the capital city of Australia. Founded following the federation of the colonies of Australia as the seat of government for the new nation, it is Australia's largest inland city."
+      },
+      {
+        "title": "Australian Cities",
+        "text": "While Sydney is the most populous city in Australia and is often mistakenly thought to be the capital, the actual capital is Canberra, which was purposefully built to serve as the nation's capital."
+      }
+    ]
+  }
+]
